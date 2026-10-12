@@ -1,0 +1,3790 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--928837cf--aemcoder.aem.live/",
+ "at": "2026-10-11T18:44:55.443Z",
+ "shots": "stardust/.work/chrome/header-build-live",
+ "widths": {
+  "360": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Go to homepage",
+     "key": "go to homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "#mainNav-netlifyLogo",
+     "href": "https://main--928837cf--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      18,
+      13,
+      90,
+      37
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#main-nav-compact-search",
+     "expanded": null,
+     "rect": [
+      174,
+      10,
+      36,
+      40
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Go to docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Go to support forums",
+          "href": "https://answers.netlify.com/"
+         },
+         {
+          "text": "Contact support",
+          "href": "https://www.netlify.com/support/"
+         },
+         {
+          "text": "Request a demo",
+          "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+         }
+        ],
+        "headings": [
+         "Help",
+         "Actions"
+        ],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear",
+         "Ask Netlify AI Get instant answers, powered by AI",
+         "Toggle theme"
+        ],
+        "options": 0,
+        "rect": [
+         19,
+         166,
+         322,
+         512
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "open-search",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "dialog.n-search-modal"
+        },
+        {
+         "kind": "animation",
+         "prop": "open-search-backdrop",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "dialog.n-search-modal"
+        },
+        {
+         "kind": "animation",
+         "prop": "appear-container",
+         "ms": 120,
+         "delay": 140,
+         "easing": "linear",
+         "target": "div.n-search-container"
+        }
+       ],
+       "shot": "360-001-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Go to docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Go to support forums",
+          "href": "https://answers.netlify.com/"
+         },
+         {
+          "text": "Contact support",
+          "href": "https://www.netlify.com/support/"
+         },
+         {
+          "text": "Request a demo",
+          "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+         }
+        ],
+        "headings": [
+         "Help",
+         "Actions"
+        ],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear",
+         "Ask Netlify AI Get instant answers, powered by AI",
+         "Toggle theme"
+        ],
+        "options": 0,
+        "rect": [
+         19,
+         166,
+         322,
+         512
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "open-search",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "dialog.n-search-modal"
+        },
+        {
+         "kind": "animation",
+         "prop": "open-search-backdrop",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "dialog.n-search-modal"
+        }
+       ],
+       "shot": "360-002-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(1)>label",
+       "expanded": null,
+       "rect": [
+        19,
+        183,
+        32,
+        16
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Search...",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#site-search-input",
+       "expanded": null,
+       "rect": [
+        51,
+        167,
+        208,
+        48
+       ],
+       "actions": {},
+       "search": {
+        "probe": "site",
+        "typeahead": {
+         "links": 1,
+         "options": 0
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Clear",
+       "key": "clear",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        283,
+        181,
+        34,
+        21
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Ask Netlify AI Get instant answers, powered by AI",
+       "key": "ask netlify ai get instant answers powered by ai",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(2)>div>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        27,
+        224,
+        306,
+        69
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Search",
+           "How do I deploy an app to Netlify using AI?",
+           "How does Netlify simplify my CI/CD pipeline?",
+           "How does Netlify help improve my site’s Core Web Vitals?",
+           "What are the benefits of using Netlify with a headless CMS?",
+           "What are the benefits of hosting on Netlify’s edge network?",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           19,
+           186,
+           322,
+           472
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 150,
+           "delay": 200,
+           "easing": "ease-in-out",
+           "target": "dialog.n-search-modal"
+          },
+          {
+           "kind": "animation",
+           "prop": "fade-in-up",
+           "ms": 500,
+           "delay": 100,
+           "easing": "linear",
+           "target": "li.n-ask-question-list-item"
+          },
+          {
+           "kind": "animation",
+           "prop": "appear-container",
+           "ms": 120,
+           "delay": 140,
+           "easing": "linear",
+           "target": "div.n-ask-chat-container"
+          }
+         ],
+         "shot": "360-003-Ask-Netlify-AI-Get-instant-answers-power.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Search",
+           "How do I deploy an app to Netlify using AI?",
+           "How does Netlify simplify my CI/CD pipeline?",
+           "How does Netlify help improve my site’s Core Web Vitals?",
+           "What are the benefits of using Netlify with a headless CMS?",
+           "What are the benefits of hosting on Netlify’s edge network?",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           19,
+           186,
+           322,
+           472
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 150,
+           "delay": 200,
+           "easing": "ease-in-out",
+           "target": "dialog.n-search-modal"
+          },
+          {
+           "kind": "animation",
+           "prop": "fade-in-up",
+           "ms": 500,
+           "delay": 100,
+           "easing": "linear",
+           "target": "li.n-ask-question-list-item"
+          },
+          {
+           "kind": "animation",
+           "prop": "appear-container",
+           "ms": 120,
+           "delay": 140,
+           "easing": "linear",
+           "target": "div.n-ask-chat-container"
+          }
+         ],
+         "shot": "360-004-Ask-Netlify-AI-Get-instant-answers-power.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Search",
+         "key": "search",
+         "role": "toggle",
+         "kind": "search",
+         "sel": "#site-search>div>div:nth-of-type(4)>button",
+         "expanded": null,
+         "rect": [
+          35,
+          202,
+          109,
+          42
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 8,
+           "panel": {
+            "links": [
+             {
+              "text": "Go to docs",
+              "href": "https://docs.netlify.com/"
+             },
+             {
+              "text": "Go to support forums",
+              "href": "https://answers.netlify.com/"
+             },
+             {
+              "text": "Contact support",
+              "href": "https://www.netlify.com/support/"
+             },
+             {
+              "text": "Request a demo",
+              "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+             }
+            ],
+            "headings": [
+             "Help",
+             "Actions"
+            ],
+            "images": 0,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "Clear",
+             "Ask Netlify AI Get instant answers, powered by AI",
+             "Toggle theme"
+            ],
+            "options": 0,
+            "rect": [
+             19,
+             166,
+             322,
+             512
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "width",
+             "ms": 150,
+             "delay": 200,
+             "easing": "ease-in-out",
+             "target": "dialog.n-search-modal"
+            },
+            {
+             "kind": "animation",
+             "prop": "appear-container",
+             "ms": 120,
+             "delay": 140,
+             "easing": "linear",
+             "target": "div.n-search-container"
+            }
+           ],
+           "shot": "360-005-Search-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 8,
+           "panel": {
+            "links": [
+             {
+              "text": "Go to docs",
+              "href": "https://docs.netlify.com/"
+             },
+             {
+              "text": "Go to support forums",
+              "href": "https://answers.netlify.com/"
+             },
+             {
+              "text": "Contact support",
+              "href": "https://www.netlify.com/support/"
+             },
+             {
+              "text": "Request a demo",
+              "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+             }
+            ],
+            "headings": [
+             "Help",
+             "Actions"
+            ],
+            "images": 0,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "Clear",
+             "Ask Netlify AI Get instant answers, powered by AI",
+             "Toggle theme"
+            ],
+            "options": 0,
+            "rect": [
+             19,
+             166,
+             322,
+             512
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "width",
+             "ms": 150,
+             "delay": 200,
+             "easing": "ease-in-out",
+             "target": "dialog.n-search-modal"
+            },
+            {
+             "kind": "animation",
+             "prop": "appear-container",
+             "ms": 120,
+             "delay": 140,
+             "easing": "linear",
+             "target": "div.n-search-container"
+            }
+           ],
+           "shot": "360-006-Search-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        },
+        {
+         "name": "How do I deploy an app to Netlify using AI?",
+         "key": "how do i deploy an app to netlify using ai",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          23,
+          302,
+          290,
+          58
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "How does Netlify simplify my CI/CD pipeline?",
+         "key": "how does netlify simplify my cicd pipeline",
+         "role": "toggle",
+         "kind": "account",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(2)>button",
+         "expanded": null,
+         "rect": [
+          23,
+          360,
+          290,
+          58
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "How does Netlify help improve my site’s Core Web Vitals?",
+         "key": "how does netlify help improve my sites core web vitals",
+         "role": "toggle",
+         "kind": "account",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(3)>button",
+         "expanded": null,
+         "rect": [
+          23,
+          418,
+          290,
+          58
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "What are the benefits of using Netlify with a headless CMS?",
+         "key": "what are the benefits of using netlify with a headless cms",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(4)>button",
+         "expanded": null,
+         "rect": [
+          23,
+          476,
+          290,
+          58
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "What are the benefits of hosting on Netlify’s edge network?",
+         "key": "what are the benefits of hosting on netlifys edge network",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(5)>button",
+         "expanded": null,
+         "rect": [
+          23,
+          534,
+          290,
+          58
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "Ask a question...",
+         "key": "ask a question",
+         "role": "input",
+         "kind": "search",
+         "sel": "#site-search>div>div:nth-of-type(4)>form>input",
+         "expanded": null,
+         "rect": [
+          19,
+          609,
+          102,
+          48
+         ],
+         "actions": {},
+         "search": {
+          "probe": "site",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        },
+        {
+         "name": "Send message",
+         "key": "send message",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>form>button",
+         "expanded": null,
+         "rect": [
+          295,
+          614,
+          38,
+          38
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        }
+       ]
+      },
+      {
+       "name": "Toggle theme",
+       "key": "toggle theme",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(2)>div>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        27,
+        564,
+        306,
+        49
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Log in",
+     "key": "log in",
+     "role": "link",
+     "kind": "account",
+     "sel": "#main-nav-compact-login",
+     "href": "https://app.netlify.com/login",
+     "expanded": null,
+     "rect": [
+      222,
+      10,
+      68,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle main menu",
+     "key": "toggle main menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#main-nav-compact-hamburger",
+     "expanded": "false",
+     "rect": [
+      314,
+      12,
+      36,
+      36
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Explore the platform",
+          "href": "https://www.netlify.com/platform/"
+         },
+         {
+          "text": "Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         },
+         {
+          "text": "Deploy Previews",
+          "href": "https://www.netlify.com/platform/core/deploy-previews/"
+         },
+         {
+          "text": "AI Gateway",
+          "href": "https://www.netlify.com/platform/ai-gateway/"
+         },
+         {
+          "text": "Functions",
+          "href": "https://www.netlify.com/platform/functions/"
+         },
+         {
+          "text": "Database",
+          "href": "https://www.netlify.com/platform/database/"
+         },
+         {
+          "text": "Observability",
+          "href": "https://www.netlify.com/platform/observability/"
+         },
+         {
+          "text": "Security",
+          "href": "https://www.netlify.com/security/"
+         },
+         {
+          "text": "Edge network",
+          "href": "https://www.netlify.com/platform/core/edge/"
+         },
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Enterprise",
+          "href": "https://www.netlify.com/enterprise/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "Agent experience",
+          "href": "https://www.netlify.com/agent-experience/"
+         },
+         {
+          "text": "Prototypes",
+          "href": "https://www.netlify.com/solutions/prototypes/"
+         },
+         {
+          "text": "Internal apps",
+          "href": "https://www.netlify.com/solutions/internal-apps/"
+         },
+         {
+          "text": "Coding agents",
+          "href": "https://www.netlify.com/solutions/code-agents/"
+         },
+         {
+          "text": "Ecommerce",
+          "href": "https://www.netlify.com/solutions/ecommerce/"
+         },
+         {
+          "text": "Marketing sites",
+          "href": "https://www.netlify.com/solutions/marketing-sites/"
+         },
+         {
+          "text": "Web apps",
+          "href": "https://www.netlify.com/for/web-applications/"
+         },
+         {
+          "text": "Chat with a Netlify expert",
+          "href": "https://www.netlify.com/enterprise/contact/?attr=homepage&ref=&id=nav-solutions-chat-with-netlify-expert"
+         },
+         {
+          "text": "Docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Developer guides",
+          "href": "https://developers.netlify.com/"
+         },
+         {
+          "text": "Templates",
+          "href": "https://www.netlify.com/integrations/templates/"
+         },
+         {
+          "text": "Integrations",
+          "href": "https://www.netlify.com/integrations/"
+         },
+         {
+          "text": "Build with AI",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Claude",
+          "href": "https://www.netlify.com/with/claude/"
+         },
+         {
+          "text": "Codex",
+          "href": "https://www.netlify.com/with/codex/"
+         },
+         {
+          "text": "Cursor",
+          "href": "https://cursor.com/marketplace/netlify"
+         },
+         {
+          "text": "+ More",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Astro",
+          "href": "https://docs.netlify.com/frameworks/astro/"
+         },
+         {
+          "text": "TanStack",
+          "href": "https://docs.netlify.com/frameworks/tanstack-start/"
+         },
+         {
+          "text": "Next.js",
+          "href": "https://www.netlify.com/with/nextjs/"
+         },
+         {
+          "text": "Wordpress",
+          "href": "https://www.netlify.com/with/wordpress/"
+         },
+         {
+          "text": "React",
+          "href": "https://www.netlify.com/with/react/"
+         },
+         {
+          "text": "+ More",
+          "href": "https://www.netlify.com/integrations/frameworks/"
+         },
+         {
+          "text": "Try Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.netlify.com/blog/"
+         },
+         {
+          "text": "Changelog",
+          "href": "https://www.netlify.com/changelog/"
+         },
+         {
+          "text": "Knowledge Base",
+          "href": "https://www.netlify.com/knowledge-base/"
+         },
+         {
+          "text": "Community",
+          "href": "https://www.netlify.com/community/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.netlify.com/events/"
+         },
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "All resources",
+          "href": "https://www.netlify.com/resources/"
+         },
+         {
+          "text": "Pricing",
+          "href": "https://www.netlify.com/pricing/"
+         },
+         {
+          "text": "Contact",
+          "href": "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-contact"
+         },
+         {
+          "text": "Sign up",
+          "href": "https://app.netlify.com/signup"
+         }
+        ],
+        "headings": [
+         "The Netlify Platform",
+         "Key Features",
+         "Why Netlify?",
+         "Use Cases",
+         "Where to start",
+         "Agents",
+         "Frameworks"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Toggle platform submenu",
+         "Toggle solutions submenu",
+         "Toggle developers submenu",
+         "Toggle resources submenu"
+        ],
+        "options": 0,
+        "rect": [
+         18,
+         0,
+         324,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "360-007-Toggle-main-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Explore the platform",
+          "href": "https://www.netlify.com/platform/"
+         },
+         {
+          "text": "Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         },
+         {
+          "text": "Deploy Previews",
+          "href": "https://www.netlify.com/platform/core/deploy-previews/"
+         },
+         {
+          "text": "AI Gateway",
+          "href": "https://www.netlify.com/platform/ai-gateway/"
+         },
+         {
+          "text": "Functions",
+          "href": "https://www.netlify.com/platform/functions/"
+         },
+         {
+          "text": "Database",
+          "href": "https://www.netlify.com/platform/database/"
+         },
+         {
+          "text": "Observability",
+          "href": "https://www.netlify.com/platform/observability/"
+         },
+         {
+          "text": "Security",
+          "href": "https://www.netlify.com/security/"
+         },
+         {
+          "text": "Edge network",
+          "href": "https://www.netlify.com/platform/core/edge/"
+         },
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Enterprise",
+          "href": "https://www.netlify.com/enterprise/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "Agent experience",
+          "href": "https://www.netlify.com/agent-experience/"
+         },
+         {
+          "text": "Prototypes",
+          "href": "https://www.netlify.com/solutions/prototypes/"
+         },
+         {
+          "text": "Internal apps",
+          "href": "https://www.netlify.com/solutions/internal-apps/"
+         },
+         {
+          "text": "Coding agents",
+          "href": "https://www.netlify.com/solutions/code-agents/"
+         },
+         {
+          "text": "Ecommerce",
+          "href": "https://www.netlify.com/solutions/ecommerce/"
+         },
+         {
+          "text": "Marketing sites",
+          "href": "https://www.netlify.com/solutions/marketing-sites/"
+         },
+         {
+          "text": "Web apps",
+          "href": "https://www.netlify.com/for/web-applications/"
+         },
+         {
+          "text": "Chat with a Netlify expert",
+          "href": "https://www.netlify.com/enterprise/contact/?attr=homepage&ref=&id=nav-solutions-chat-with-netlify-expert"
+         },
+         {
+          "text": "Docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Developer guides",
+          "href": "https://developers.netlify.com/"
+         },
+         {
+          "text": "Templates",
+          "href": "https://www.netlify.com/integrations/templates/"
+         },
+         {
+          "text": "Integrations",
+          "href": "https://www.netlify.com/integrations/"
+         },
+         {
+          "text": "Build with AI",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Claude",
+          "href": "https://www.netlify.com/with/claude/"
+         },
+         {
+          "text": "Codex",
+          "href": "https://www.netlify.com/with/codex/"
+         },
+         {
+          "text": "Cursor",
+          "href": "https://cursor.com/marketplace/netlify"
+         },
+         {
+          "text": "+ More",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Astro",
+          "href": "https://docs.netlify.com/frameworks/astro/"
+         },
+         {
+          "text": "TanStack",
+          "href": "https://docs.netlify.com/frameworks/tanstack-start/"
+         },
+         {
+          "text": "Next.js",
+          "href": "https://www.netlify.com/with/nextjs/"
+         },
+         {
+          "text": "Wordpress",
+          "href": "https://www.netlify.com/with/wordpress/"
+         },
+         {
+          "text": "React",
+          "href": "https://www.netlify.com/with/react/"
+         },
+         {
+          "text": "+ More",
+          "href": "https://www.netlify.com/integrations/frameworks/"
+         },
+         {
+          "text": "Try Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.netlify.com/blog/"
+         },
+         {
+          "text": "Changelog",
+          "href": "https://www.netlify.com/changelog/"
+         },
+         {
+          "text": "Knowledge Base",
+          "href": "https://www.netlify.com/knowledge-base/"
+         },
+         {
+          "text": "Community",
+          "href": "https://www.netlify.com/community/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.netlify.com/events/"
+         },
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "All resources",
+          "href": "https://www.netlify.com/resources/"
+         },
+         {
+          "text": "Pricing",
+          "href": "https://www.netlify.com/pricing/"
+         },
+         {
+          "text": "Contact",
+          "href": "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-contact"
+         },
+         {
+          "text": "Sign up",
+          "href": "https://app.netlify.com/signup"
+         }
+        ],
+        "headings": [
+         "The Netlify Platform",
+         "Key Features",
+         "Why Netlify?",
+         "Use Cases",
+         "Where to start",
+         "Agents",
+         "Frameworks"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Toggle platform submenu",
+         "Toggle solutions submenu",
+         "Toggle developers submenu",
+         "Toggle resources submenu"
+        ],
+        "options": 0,
+        "rect": [
+         18,
+         0,
+         324,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "360-008-Toggle-main-menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Toggle platform submenu",
+       "key": "toggle platform submenu",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>li:nth-of-type(1)>button",
+       "expanded": "true",
+       "rect": [
+        18,
+        61,
+        324,
+        40
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 11
+        },
+        "key": {
+         "opened": false,
+         "hides": 11
+        }
+       }
+      },
+      {
+       "name": "Toggle solutions submenu",
+       "key": "toggle solutions submenu",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>li:nth-of-type(2)>button",
+       "expanded": "true",
+       "rect": [
+        18,
+        630,
+        324,
+        40
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 13
+        },
+        "key": {
+         "opened": false,
+         "hides": 13
+        }
+       }
+      },
+      {
+       "name": "Toggle developers submenu",
+       "key": "toggle developers submenu",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>li:nth-of-type(3)>button",
+       "expanded": "true",
+       "rect": [
+        18,
+        1217,
+        324,
+        40
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 27
+        },
+        "key": {
+         "opened": false,
+         "hides": 36
+        }
+       }
+      },
+      {
+       "name": "Toggle resources submenu",
+       "key": "toggle resources submenu",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#main-menu>li:nth-of-type(4)>button",
+       "expanded": "true",
+       "rect": [
+        18,
+        2046,
+        324,
+        40
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 36
+        },
+        "key": {
+         "opened": false,
+         "hides": 39
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 61,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 61,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 61,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 61,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 8,
+   "truncated": null,
+   "loads": 16
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Go to homepage",
+     "key": "go to homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "#mainNav-netlifyLogo",
+     "href": "https://main--928837cf--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      98,
+      13,
+      122,
+      50
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle platform submenu",
+     "key": "toggle platform submenu",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      315,
+      26,
+      21,
+      21
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Explore the platform",
+          "href": "https://www.netlify.com/platform/"
+         },
+         {
+          "text": "Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         },
+         {
+          "text": "Deploy Previews",
+          "href": "https://www.netlify.com/platform/core/deploy-previews/"
+         },
+         {
+          "text": "AI Gateway",
+          "href": "https://www.netlify.com/platform/ai-gateway/"
+         },
+         {
+          "text": "Functions",
+          "href": "https://www.netlify.com/platform/functions/"
+         },
+         {
+          "text": "Database",
+          "href": "https://www.netlify.com/platform/database/"
+         },
+         {
+          "text": "Observability",
+          "href": "https://www.netlify.com/platform/observability/"
+         },
+         {
+          "text": "Security",
+          "href": "https://www.netlify.com/security/"
+         },
+         {
+          "text": "Edge network",
+          "href": "https://www.netlify.com/platform/core/edge/"
+         }
+        ],
+        "headings": [
+         "The Netlify Platform",
+         "Key Features"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         239,
+         57,
+         777,
+         213
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        }
+       ],
+       "shot": "1440-001-Toggle-platform-submenu-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Explore the platform",
+          "href": "https://www.netlify.com/platform/"
+         },
+         {
+          "text": "Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         },
+         {
+          "text": "Deploy Previews",
+          "href": "https://www.netlify.com/platform/core/deploy-previews/"
+         },
+         {
+          "text": "AI Gateway",
+          "href": "https://www.netlify.com/platform/ai-gateway/"
+         },
+         {
+          "text": "Functions",
+          "href": "https://www.netlify.com/platform/functions/"
+         },
+         {
+          "text": "Database",
+          "href": "https://www.netlify.com/platform/database/"
+         },
+         {
+          "text": "Observability",
+          "href": "https://www.netlify.com/platform/observability/"
+         },
+         {
+          "text": "Security",
+          "href": "https://www.netlify.com/security/"
+         },
+         {
+          "text": "Edge network",
+          "href": "https://www.netlify.com/platform/core/edge/"
+         }
+        ],
+        "headings": [
+         "The Netlify Platform",
+         "Key Features"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         239,
+         57,
+         777,
+         213
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 248,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        }
+       ],
+       "shot": "1440-002-Toggle-platform-submenu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Explore the platform",
+          "href": "https://www.netlify.com/platform/"
+         },
+         {
+          "text": "Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         },
+         {
+          "text": "Deploy Previews",
+          "href": "https://www.netlify.com/platform/core/deploy-previews/"
+         },
+         {
+          "text": "AI Gateway",
+          "href": "https://www.netlify.com/platform/ai-gateway/"
+         },
+         {
+          "text": "Functions",
+          "href": "https://www.netlify.com/platform/functions/"
+         },
+         {
+          "text": "Database",
+          "href": "https://www.netlify.com/platform/database/"
+         },
+         {
+          "text": "Observability",
+          "href": "https://www.netlify.com/platform/observability/"
+         },
+         {
+          "text": "Security",
+          "href": "https://www.netlify.com/security/"
+         },
+         {
+          "text": "Edge network",
+          "href": "https://www.netlify.com/platform/core/edge/"
+         }
+        ],
+        "headings": [
+         "The Netlify Platform",
+         "Key Features"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         239,
+         57,
+         777,
+         213
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 248,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        }
+       ],
+       "shot": "1440-003-Toggle-platform-submenu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Toggle solutions submenu",
+     "key": "toggle solutions submenu",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      417,
+      26,
+      21,
+      21
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Enterprise",
+          "href": "https://www.netlify.com/enterprise/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "Agent experience",
+          "href": "https://www.netlify.com/agent-experience/"
+         },
+         {
+          "text": "Prototypes",
+          "href": "https://www.netlify.com/solutions/prototypes/"
+         },
+         {
+          "text": "Internal apps",
+          "href": "https://www.netlify.com/solutions/internal-apps/"
+         },
+         {
+          "text": "Coding agents",
+          "href": "https://www.netlify.com/solutions/code-agents/"
+         },
+         {
+          "text": "Ecommerce",
+          "href": "https://www.netlify.com/solutions/ecommerce/"
+         },
+         {
+          "text": "Marketing sites",
+          "href": "https://www.netlify.com/solutions/marketing-sites/"
+         },
+         {
+          "text": "Web apps",
+          "href": "https://www.netlify.com/for/web-applications/"
+         },
+         {
+          "text": "Chat with a Netlify expert",
+          "href": "https://www.netlify.com/enterprise/contact/?attr=homepage&ref=&id=nav-solutions-chat-with-netlify-expert"
+         }
+        ],
+        "headings": [
+         "Why Netlify?",
+         "Use Cases"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         336,
+         57,
+         541,
+         370
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        }
+       ],
+       "shot": "1440-004-Toggle-solutions-submenu-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Enterprise",
+          "href": "https://www.netlify.com/enterprise/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "Agent experience",
+          "href": "https://www.netlify.com/agent-experience/"
+         },
+         {
+          "text": "Prototypes",
+          "href": "https://www.netlify.com/solutions/prototypes/"
+         },
+         {
+          "text": "Internal apps",
+          "href": "https://www.netlify.com/solutions/internal-apps/"
+         },
+         {
+          "text": "Coding agents",
+          "href": "https://www.netlify.com/solutions/code-agents/"
+         },
+         {
+          "text": "Ecommerce",
+          "href": "https://www.netlify.com/solutions/ecommerce/"
+         },
+         {
+          "text": "Marketing sites",
+          "href": "https://www.netlify.com/solutions/marketing-sites/"
+         },
+         {
+          "text": "Web apps",
+          "href": "https://www.netlify.com/for/web-applications/"
+         },
+         {
+          "text": "Chat with a Netlify expert",
+          "href": "https://www.netlify.com/enterprise/contact/?attr=homepage&ref=&id=nav-solutions-chat-with-netlify-expert"
+         }
+        ],
+        "headings": [
+         "Why Netlify?",
+         "Use Cases"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         336,
+         57,
+         541,
+         370
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 248,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        }
+       ],
+       "shot": "1440-005-Toggle-solutions-submenu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Enterprise",
+          "href": "https://www.netlify.com/enterprise/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "Agent experience",
+          "href": "https://www.netlify.com/agent-experience/"
+         },
+         {
+          "text": "Prototypes",
+          "href": "https://www.netlify.com/solutions/prototypes/"
+         },
+         {
+          "text": "Internal apps",
+          "href": "https://www.netlify.com/solutions/internal-apps/"
+         },
+         {
+          "text": "Coding agents",
+          "href": "https://www.netlify.com/solutions/code-agents/"
+         },
+         {
+          "text": "Ecommerce",
+          "href": "https://www.netlify.com/solutions/ecommerce/"
+         },
+         {
+          "text": "Marketing sites",
+          "href": "https://www.netlify.com/solutions/marketing-sites/"
+         },
+         {
+          "text": "Web apps",
+          "href": "https://www.netlify.com/for/web-applications/"
+         },
+         {
+          "text": "Chat with a Netlify expert",
+          "href": "https://www.netlify.com/enterprise/contact/?attr=homepage&ref=&id=nav-solutions-chat-with-netlify-expert"
+         }
+        ],
+        "headings": [
+         "Why Netlify?",
+         "Use Cases"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         336,
+         57,
+         541,
+         370
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 248,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        }
+       ],
+       "shot": "1440-006-Toggle-solutions-submenu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Toggle developers submenu",
+     "key": "toggle developers submenu",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      532,
+      26,
+      21,
+      21
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Developer guides",
+          "href": "https://developers.netlify.com/"
+         },
+         {
+          "text": "Templates",
+          "href": "https://www.netlify.com/integrations/templates/"
+         },
+         {
+          "text": "Integrations",
+          "href": "https://www.netlify.com/integrations/"
+         },
+         {
+          "text": "Build with AI",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Claude",
+          "href": "https://www.netlify.com/with/claude/"
+         },
+         {
+          "text": "Codex",
+          "href": "https://www.netlify.com/with/codex/"
+         },
+         {
+          "text": "Cursor",
+          "href": "https://cursor.com/marketplace/netlify"
+         },
+         {
+          "text": "+ More",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Astro",
+          "href": "https://docs.netlify.com/frameworks/astro/"
+         },
+         {
+          "text": "TanStack",
+          "href": "https://docs.netlify.com/frameworks/tanstack-start/"
+         },
+         {
+          "text": "Next.js",
+          "href": "https://www.netlify.com/with/nextjs/"
+         },
+         {
+          "text": "Wordpress",
+          "href": "https://www.netlify.com/with/wordpress/"
+         },
+         {
+          "text": "React",
+          "href": "https://www.netlify.com/with/react/"
+         },
+         {
+          "text": "+ More",
+          "href": "https://www.netlify.com/integrations/frameworks/"
+         },
+         {
+          "text": "Try Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         }
+        ],
+        "headings": [
+         "Where to start",
+         "Agents",
+         "Frameworks"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         438,
+         57,
+         601,
+         411
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-007-Toggle-developers-submenu-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Developer guides",
+          "href": "https://developers.netlify.com/"
+         },
+         {
+          "text": "Templates",
+          "href": "https://www.netlify.com/integrations/templates/"
+         },
+         {
+          "text": "Integrations",
+          "href": "https://www.netlify.com/integrations/"
+         },
+         {
+          "text": "Build with AI",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Claude",
+          "href": "https://www.netlify.com/with/claude/"
+         },
+         {
+          "text": "Codex",
+          "href": "https://www.netlify.com/with/codex/"
+         },
+         {
+          "text": "Cursor",
+          "href": "https://cursor.com/marketplace/netlify"
+         },
+         {
+          "text": "+ More",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Astro",
+          "href": "https://docs.netlify.com/frameworks/astro/"
+         },
+         {
+          "text": "TanStack",
+          "href": "https://docs.netlify.com/frameworks/tanstack-start/"
+         },
+         {
+          "text": "Next.js",
+          "href": "https://www.netlify.com/with/nextjs/"
+         },
+         {
+          "text": "Wordpress",
+          "href": "https://www.netlify.com/with/wordpress/"
+         },
+         {
+          "text": "React",
+          "href": "https://www.netlify.com/with/react/"
+         },
+         {
+          "text": "+ More",
+          "href": "https://www.netlify.com/integrations/frameworks/"
+         },
+         {
+          "text": "Try Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         }
+        ],
+        "headings": [
+         "Where to start",
+         "Agents",
+         "Frameworks"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         438,
+         57,
+         601,
+         411
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 231,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-008-Toggle-developers-submenu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Developer guides",
+          "href": "https://developers.netlify.com/"
+         },
+         {
+          "text": "Templates",
+          "href": "https://www.netlify.com/integrations/templates/"
+         },
+         {
+          "text": "Integrations",
+          "href": "https://www.netlify.com/integrations/"
+         },
+         {
+          "text": "Build with AI",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Claude",
+          "href": "https://www.netlify.com/with/claude/"
+         },
+         {
+          "text": "Codex",
+          "href": "https://www.netlify.com/with/codex/"
+         },
+         {
+          "text": "Cursor",
+          "href": "https://cursor.com/marketplace/netlify"
+         },
+         {
+          "text": "+ More",
+          "href": "https://docs.netlify.com/welcome/build-with-ai/overview/"
+         },
+         {
+          "text": "Astro",
+          "href": "https://docs.netlify.com/frameworks/astro/"
+         },
+         {
+          "text": "TanStack",
+          "href": "https://docs.netlify.com/frameworks/tanstack-start/"
+         },
+         {
+          "text": "Next.js",
+          "href": "https://www.netlify.com/with/nextjs/"
+         },
+         {
+          "text": "Wordpress",
+          "href": "https://www.netlify.com/with/wordpress/"
+         },
+         {
+          "text": "React",
+          "href": "https://www.netlify.com/with/react/"
+         },
+         {
+          "text": "+ More",
+          "href": "https://www.netlify.com/integrations/frameworks/"
+         },
+         {
+          "text": "Try Agent Runners",
+          "href": "https://www.netlify.com/platform/agent-runners/"
+         }
+        ],
+        "headings": [
+         "Where to start",
+         "Agents",
+         "Frameworks"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         438,
+         57,
+         601,
+         411
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "p"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "h3"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 231,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-009-Toggle-developers-submenu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Toggle resources submenu",
+     "key": "toggle resources submenu",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-menu>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      642,
+      26,
+      21,
+      21
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Blog",
+          "href": "https://www.netlify.com/blog/"
+         },
+         {
+          "text": "Changelog",
+          "href": "https://www.netlify.com/changelog/"
+         },
+         {
+          "text": "Knowledge Base",
+          "href": "https://www.netlify.com/knowledge-base/"
+         },
+         {
+          "text": "Community",
+          "href": "https://www.netlify.com/community/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.netlify.com/events/"
+         },
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "All resources",
+          "href": "https://www.netlify.com/resources/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         553,
+         57,
+         200,
+         301
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "a.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-010-Toggle-resources-submenu-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Blog",
+          "href": "https://www.netlify.com/blog/"
+         },
+         {
+          "text": "Changelog",
+          "href": "https://www.netlify.com/changelog/"
+         },
+         {
+          "text": "Knowledge Base",
+          "href": "https://www.netlify.com/knowledge-base/"
+         },
+         {
+          "text": "Community",
+          "href": "https://www.netlify.com/community/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.netlify.com/events/"
+         },
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "All resources",
+          "href": "https://www.netlify.com/resources/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         553,
+         57,
+         200,
+         301
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 150,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 300,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 0,
+         "delay": 200,
+         "easing": "ease",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 248,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 200,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-011-Toggle-resources-submenu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Blog",
+          "href": "https://www.netlify.com/blog/"
+         },
+         {
+          "text": "Changelog",
+          "href": "https://www.netlify.com/changelog/"
+         },
+         {
+          "text": "Knowledge Base",
+          "href": "https://www.netlify.com/knowledge-base/"
+         },
+         {
+          "text": "Community",
+          "href": "https://www.netlify.com/community/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.netlify.com/events/"
+         },
+         {
+          "text": "Customers",
+          "href": "https://www.netlify.com/customers/"
+         },
+         {
+          "text": "Partner directory",
+          "href": "https://www.netlify.com/agency-directory/"
+         },
+         {
+          "text": "All resources",
+          "href": "https://www.netlify.com/resources/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         553,
+         57,
+         200,
+         301
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 100,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "ul.l-stack"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 231,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-012-Toggle-resources-submenu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Pricing",
+     "key": "pricing",
+     "role": "link",
+     "kind": "link",
+     "sel": "#main-nav-pricing",
+     "href": "https://www.netlify.com/pricing/",
+     "expanded": null,
+     "rect": [
+      663,
+      17,
+      75,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#cta-main-nav-search",
+     "expanded": null,
+     "rect": [
+      1023,
+      17,
+      36,
+      40
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Go to docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Go to support forums",
+          "href": "https://answers.netlify.com/"
+         },
+         {
+          "text": "Contact support",
+          "href": "https://www.netlify.com/support/"
+         },
+         {
+          "text": "Request a demo",
+          "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+         }
+        ],
+        "headings": [
+         "Help",
+         "Actions"
+        ],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear",
+         "Ask Netlify AI Get instant answers, powered by AI",
+         "Toggle theme"
+        ],
+        "options": 0,
+        "rect": [
+         420,
+         193,
+         600,
+         514
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "open-search",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "dialog.n-search-modal"
+        },
+        {
+         "kind": "animation",
+         "prop": "open-search-backdrop",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "dialog.n-search-modal"
+        },
+        {
+         "kind": "animation",
+         "prop": "appear-container",
+         "ms": 120,
+         "delay": 140,
+         "easing": "linear",
+         "target": "div.n-search-container"
+        }
+       ],
+       "shot": "1440-013-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Go to docs",
+          "href": "https://docs.netlify.com/"
+         },
+         {
+          "text": "Go to support forums",
+          "href": "https://answers.netlify.com/"
+         },
+         {
+          "text": "Contact support",
+          "href": "https://www.netlify.com/support/"
+         },
+         {
+          "text": "Request a demo",
+          "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+         }
+        ],
+        "headings": [
+         "Help",
+         "Actions"
+        ],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear",
+         "Ask Netlify AI Get instant answers, powered by AI",
+         "Toggle theme"
+        ],
+        "options": 0,
+        "rect": [
+         420,
+         193,
+         600,
+         514
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "open-search",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "dialog.n-search-modal"
+        },
+        {
+         "kind": "animation",
+         "prop": "open-search-backdrop",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "dialog.n-search-modal"
+        }
+       ],
+       "shot": "1440-014-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(1)>label",
+       "expanded": null,
+       "rect": [
+        420,
+        210,
+        32,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Search...",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#site-search-input",
+       "expanded": null,
+       "rect": [
+        452,
+        194,
+        486,
+        48
+       ],
+       "actions": {},
+       "search": {
+        "probe": "site",
+        "typeahead": {
+         "links": 1,
+         "options": 0
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Clear",
+       "key": "clear",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        962,
+        208,
+        34,
+        21
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Ask Netlify AI Get instant answers, powered by AI",
+       "key": "ask netlify ai get instant answers powered by ai",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(2)>div>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        428,
+        251,
+        584,
+        69
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Search",
+           "How do I deploy an app to Netlify using AI?",
+           "How does Netlify simplify my CI/CD pipeline?",
+           "How does Netlify help improve my site’s Core Web Vitals?",
+           "What are the benefits of using Netlify with a headless CMS?",
+           "What are the benefits of hosting on Netlify’s edge network?",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           320,
+           213,
+           800,
+           474
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 150,
+           "delay": 200,
+           "easing": "ease-in-out",
+           "target": "dialog.n-search-modal"
+          },
+          {
+           "kind": "animation",
+           "prop": "fade-in-up",
+           "ms": 500,
+           "delay": 100,
+           "easing": "linear",
+           "target": "li.n-ask-question-list-item"
+          },
+          {
+           "kind": "animation",
+           "prop": "appear-container",
+           "ms": 120,
+           "delay": 140,
+           "easing": "linear",
+           "target": "div.n-ask-chat-container"
+          }
+         ],
+         "shot": "1440-015-Ask-Netlify-AI-Get-instant-answers-power.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Search",
+           "How do I deploy an app to Netlify using AI?",
+           "How does Netlify simplify my CI/CD pipeline?",
+           "How does Netlify help improve my site’s Core Web Vitals?",
+           "What are the benefits of using Netlify with a headless CMS?",
+           "What are the benefits of hosting on Netlify’s edge network?",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           320,
+           213,
+           800,
+           474
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 150,
+           "delay": 200,
+           "easing": "ease-in-out",
+           "target": "dialog.n-search-modal"
+          },
+          {
+           "kind": "animation",
+           "prop": "fade-in-up",
+           "ms": 500,
+           "delay": 100,
+           "easing": "linear",
+           "target": "li.n-ask-question-list-item"
+          },
+          {
+           "kind": "animation",
+           "prop": "appear-container",
+           "ms": 120,
+           "delay": 140,
+           "easing": "linear",
+           "target": "div.n-ask-chat-container"
+          }
+         ],
+         "shot": "1440-016-Ask-Netlify-AI-Get-instant-answers-power.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Search",
+         "key": "search",
+         "role": "toggle",
+         "kind": "search",
+         "sel": "#site-search>div>div:nth-of-type(4)>button",
+         "expanded": null,
+         "rect": [
+          336,
+          229,
+          109,
+          42
+         ],
+         "actions": {
+          "hover": null,
+          "click": {
+           "opened": true,
+           "hidden": 8,
+           "panel": {
+            "links": [
+             {
+              "text": "Go to docs",
+              "href": "https://docs.netlify.com/"
+             },
+             {
+              "text": "Go to support forums",
+              "href": "https://answers.netlify.com/"
+             },
+             {
+              "text": "Contact support",
+              "href": "https://www.netlify.com/support/"
+             },
+             {
+              "text": "Request a demo",
+              "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+             }
+            ],
+            "headings": [
+             "Help",
+             "Actions"
+            ],
+            "images": 0,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "Clear",
+             "Ask Netlify AI Get instant answers, powered by AI",
+             "Toggle theme"
+            ],
+            "options": 0,
+            "rect": [
+             420,
+             193,
+             600,
+             514
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "width",
+             "ms": 150,
+             "delay": 200,
+             "easing": "ease-in-out",
+             "target": "dialog.n-search-modal"
+            },
+            {
+             "kind": "animation",
+             "prop": "appear-container",
+             "ms": 120,
+             "delay": 140,
+             "easing": "linear",
+             "target": "div.n-search-container"
+            }
+           ],
+           "shot": "1440-017-Search-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 8,
+           "panel": {
+            "links": [
+             {
+              "text": "Go to docs",
+              "href": "https://docs.netlify.com/"
+             },
+             {
+              "text": "Go to support forums",
+              "href": "https://answers.netlify.com/"
+             },
+             {
+              "text": "Contact support",
+              "href": "https://www.netlify.com/support/"
+             },
+             {
+              "text": "Request a demo",
+              "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id="
+             }
+            ],
+            "headings": [
+             "Help",
+             "Actions"
+            ],
+            "images": 0,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "Clear",
+             "Ask Netlify AI Get instant answers, powered by AI",
+             "Toggle theme"
+            ],
+            "options": 0,
+            "rect": [
+             420,
+             193,
+             600,
+             514
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "width",
+             "ms": 150,
+             "delay": 200,
+             "easing": "ease-in-out",
+             "target": "dialog.n-search-modal"
+            },
+            {
+             "kind": "animation",
+             "prop": "appear-container",
+             "ms": 120,
+             "delay": 140,
+             "easing": "linear",
+             "target": "div.n-search-container"
+            }
+           ],
+           "shot": "1440-018-Search-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        },
+        {
+         "name": "How do I deploy an app to Netlify using AI?",
+         "key": "how do i deploy an app to netlify using ai",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          324,
+          436,
+          307,
+          37
+         ],
+         "actions": {
+          "hover": null,
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "How does Netlify simplify my CI/CD pipeline?",
+         "key": "how does netlify simplify my cicd pipeline",
+         "role": "toggle",
+         "kind": "account",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(2)>button",
+         "expanded": null,
+         "rect": [
+          324,
+          473,
+          324,
+          37
+         ],
+         "actions": {
+          "hover": null,
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "How does Netlify help improve my site’s Core Web Vitals?",
+         "key": "how does netlify help improve my sites core web vitals",
+         "role": "toggle",
+         "kind": "account",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(3)>button",
+         "expanded": null,
+         "rect": [
+          324,
+          510,
+          398,
+          37
+         ],
+         "actions": {
+          "hover": null,
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "What are the benefits of using Netlify with a headless CMS?",
+         "key": "what are the benefits of using netlify with a headless cms",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(4)>button",
+         "expanded": null,
+         "rect": [
+          324,
+          547,
+          411,
+          37
+         ],
+         "actions": {
+          "hover": null,
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "What are the benefits of hosting on Netlify’s edge network?",
+         "key": "what are the benefits of hosting on netlifys edge network",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>div>ul>li:nth-of-type(5)>button",
+         "expanded": null,
+         "rect": [
+          324,
+          584,
+          409,
+          37
+         ],
+         "actions": {
+          "hover": null,
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "Ask a question...",
+         "key": "ask a question",
+         "role": "input",
+         "kind": "search",
+         "sel": "#site-search>div>div:nth-of-type(4)>form>input",
+         "expanded": null,
+         "rect": [
+          320,
+          638,
+          580,
+          48
+         ],
+         "actions": {},
+         "search": {
+          "probe": "site",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        },
+        {
+         "name": "Send message",
+         "key": "send message",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#site-search>div>div:nth-of-type(4)>form>button",
+         "expanded": null,
+         "rect": [
+          1074,
+          643,
+          38,
+          38
+         ],
+         "actions": {
+          "hover": null,
+          "click": null,
+          "key": null
+         }
+        }
+       ]
+      },
+      {
+       "name": "Toggle theme",
+       "key": "toggle theme",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-search>div>div:nth-of-type(2)>div>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        428,
+        591,
+        584,
+        49
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Contact",
+     "key": "contact",
+     "role": "link",
+     "kind": "link",
+     "sel": "#main-nav-contact",
+     "href": "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-contact",
+     "expanded": null,
+     "rect": [
+      1059,
+      17,
+      83,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Log in",
+     "key": "log in",
+     "role": "link",
+     "kind": "account",
+     "sel": "#main-nav-login",
+     "href": "https://app.netlify.com/login",
+     "expanded": null,
+     "rect": [
+      1143,
+      17,
+      68,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Sign up",
+     "key": "sign up",
+     "role": "link",
+     "kind": "account",
+     "sel": "#signup",
+     "href": "https://app.netlify.com/signup",
+     "expanded": null,
+     "rect": [
+      1219,
+      17,
+      93,
+      40
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 74,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 74,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 74,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 74,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 18,
+   "truncated": null,
+   "loads": 9
+  }
+ },
+ "probe": "site"
+}

@@ -1,0 +1,43 @@
+{
+ "pages": 1,
+ "vendors": [
+  {
+   "host": "www.netlify.com",
+   "pages": 1,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.cookielaw.org",
+   "pages": 1,
+   "firstParty": false,
+   "role": "consent: OneTrust",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "js.hsforms.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": "form backend: HubSpot forms",
+   "class": "F",
+   "inCsp": false
+  },
+  {
+   "host": "js.hs-scripts.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "form backend: HubSpot forms",
+   "class": "F",
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 1,
+  "OneTrust": 1,
+  "gtag(": 1
+ },
+ "cspHosts": []
+}

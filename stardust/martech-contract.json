@@ -1,0 +1,180 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-11T16:24:43.459Z",
+  "input": "stardust/.work/rollout/dynamics-fresh/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.netlify.com"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": "5dec0507-5e89-4bb4-8f2d-0872be7dd9dd"
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "per-tag",
+  "categories": [
+   {
+    "id": "C0003",
+    "name": "Functional Cookies",
+    "status": "active"
+   },
+   {
+    "id": "C0005",
+    "name": "Social Media Cookies",
+    "status": "active"
+   },
+   {
+    "id": "C0001",
+    "name": "Strictly Necessary Cookies",
+    "status": "always active"
+   },
+   {
+    "id": "C0002",
+    "name": "Performance Cookies",
+    "status": "active"
+   },
+   {
+    "id": "C0004",
+    "name": "Targeting Cookies",
+    "status": "active"
+   }
+  ],
+  "ruleSets": 5,
+  "modelFrom": "tagNotes"
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-T7WNFLD",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "marketing: HubSpot tracking",
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {
+  "google-tag-manager": {
+   "rules": [
+    {
+     "name": "GA4 event click (tag 621)",
+     "paths": [
+      "/"
+     ],
+     "selectors": [
+      "[id^=cta-]",
+      "[id^=nav-]",
+      "#cta-hero-getstartedforfree",
+      "#mainNav-signup",
+      "#cta-hero-requestDemo",
+      "#nav-contact-requestDemo"
+     ],
+     "events": [
+      "gtm.click",
+      "gtm.linkClick"
+     ],
+     "consentGroups": [],
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js resource.tags/rules (extracted by stardust/.work/gtm-extract.cjs)"
+    },
+    {
+     "name": "GA4 Hubspot Form Submit / generate_lead (tags 662, 733)",
+     "paths": [
+      "*"
+     ],
+     "selectors": [],
+     "events": [
+      "hubspot-form-success"
+     ],
+     "consentGroups": [],
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js resource.tags/rules (extracted by stardust/.work/gtm-extract.cjs)"
+    },
+    {
+     "name": "Google tag (tag 647)",
+     "paths": [
+      "*"
+     ],
+     "selectors": [],
+     "events": [
+      "gtm.load"
+     ],
+     "consentGroups": [],
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js resource.tags/rules (extracted by stardust/.work/gtm-extract.cjs)"
+    },
+    {
+     "name": "Consent-gated tag (tag 802)",
+     "paths": [
+      "*"
+     ],
+     "selectors": [],
+     "events": [
+      "OneTrustGroupsUpdated"
+     ],
+     "consentGroups": [
+      "C0002"
+     ],
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js resource.tags/rules (extracted by stardust/.work/gtm-extract.cjs)"
+    },
+    {
+     "name": "GA4 video_* events (tag 740)",
+     "paths": [
+      "*"
+     ],
+     "selectors": [
+      "lite-youtube / YouTube embeds"
+     ],
+     "events": [
+      "gtm.video"
+     ],
+     "consentGroups": [],
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js resource.tags/rules (extracted by stardust/.work/gtm-extract.cjs)"
+    }
+   ],
+   "dataElements": [
+    {
+     "name": "OnetrustActiveGroups",
+     "selectors": [],
+     "source": "window.OnetrustActiveGroups / dataLayer",
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js resource.tags/rules (extracted by stardust/.work/gtm-extract.cjs)"
+    },
+    {
+     "name": "hs-form-guid",
+     "selectors": [],
+     "source": "dataLayer push on hubspot-form-success",
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js resource.tags/rules (extracted by stardust/.work/gtm-extract.cjs)"
+    }
+   ],
+   "notes": [
+    "111 tags / 48 rules in container GTM-T7WNFLD; click tracking keys off element ids prefixed cta- and nav- — the migrated blocks keep the source ids on CTAs and nav links.",
+    "Several tags are __paused in the container; they stay paused."
+   ]
+  }
+ },
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

@@ -1,0 +1,203 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-11T18:38:01.579Z",
+  "origin": "https://main--928837cf--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "header mega-menus (Platform, Solutions, Developers, Resources), mobile drawer, announcement close",
+   "id": "header-menus",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × header .submenu-toggle[aria-controls] (min 4)",
+   "thirdParty": "",
+   "ms": 2257,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega-menus (Platform, Solutions, Developers, Resources), mobile drawer, announcement close",
+   "id": "header-menus",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "44 × header .submenu a[href] (min 40)",
+   "thirdParty": "",
+   "ms": 2150,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega-menus (Platform, Solutions, Developers, Resources), mobile drawer, announcement close",
+   "id": "header-menus",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header .nav-toggle[aria-controls='main-menu'] (min 1)",
+   "thirdParty": "",
+   "ms": 2084,
+   "environmentLimit": null
+  },
+  {
+   "feature": "hero prompt box / dropzone + 'Add Netlify to your coding agent' copy button",
+   "id": "hero-prompt",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .hero .n-dropzone.dz-hero (min 1)",
+   "thirdParty": "",
+   "ms": 2142,
+   "environmentLimit": null
+  },
+  {
+   "feature": "hero prompt box / dropzone + 'Add Netlify to your coding agent' copy button",
+   "id": "hero-prompt",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .hero .homepage-hero-agent-cta (min 1)",
+   "thirdParty": "",
+   "ms": 2196,
+   "environmentLimit": null
+  },
+  {
+   "feature": "auto-scrolling customer logo ticker",
+   "id": "logo-ticker",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "20 × .logo-ticker img (min 10)",
+   "thirdParty": "",
+   "ms": 2189,
+   "environmentLimit": null
+  },
+  {
+   "feature": "5-tab 'For every kind of web app' panel with code samples + copy buttons",
+   "id": "use-case-tabs",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .tabs [role=tab] (min 5)",
+   "thirdParty": "",
+   "ms": 2227,
+   "environmentLimit": null
+  },
+  {
+   "feature": "5-tab 'For every kind of web app' panel with code samples + copy buttons",
+   "id": "use-case-tabs",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .tabs [role=tabpanel] (min 5)",
+   "thirdParty": "",
+   "ms": 2144,
+   "environmentLimit": null
+  },
+  {
+   "feature": "copy-to-clipboard on CLI snippet",
+   "id": "cli-copy",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × button.n-cli-copy-btn (min 1)",
+   "thirdParty": "",
+   "ms": 2261,
+   "environmentLimit": null
+  },
+  {
+   "feature": "lite-youtube 'What is Netlify' video (poster, click-to-load iframe)",
+   "id": "youtube",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: true · no <video> · playback requests 19 (ok)",
+   "thirdParty": "www.youtube-nocookie.com:200×15 fonts.gstatic.com:200×3 www.google.com:200×1 rr1---sn-o097znzd.googlevideo.com:200×1 yt3.ggpht.com:200×2 i.ytimg.com:200×3 www.gstatic.com:200×1 rr2---sn-a5msenes.googlevideo.com:200×2 www.youtube-nocookie.com:204×4 jnn-pa.googleapis.com:200×1",
+   "ms": 6348,
+   "environmentLimit": null
+  },
+  {
+   "feature": "footer newsletter form (HubSpot form 52611e5e…, email + hidden utm, reCAPTCHA)",
+   "id": "newsletter-form",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × footer form.hs-form input[name=email][required] (min 1)",
+   "thirdParty": "",
+   "ms": 2202,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search toggle + quick-search dialog (Pagefind index on source)",
+   "id": "site-search",
+   "class": "S",
+   "status": "interim",
+   "type": "click-dialog",
+   "pass": true,
+   "detail": "dialog 600px · heading \"Ask Netlify AI\" · 1 fields · Escape closes: true",
+   "thirdParty": "",
+   "ms": 4353,
+   "environmentLimit": "Site-wide search is host-bound: the source's Pagefind index (/pagefind/*) is not served on the target. Detect recorded no source query results, so no search-query check is asserted; the dialog UI is checked, the index is not."
+  },
+  {
+   "feature": "dataLayer global + Astro hydration",
+   "id": "datalayer",
+   "class": "A/CR",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 1 page(s)",
+   "thirdParty": "",
+   "ms": 2091,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Log in / Sign up / avatar slot (app.netlify.com)",
+   "id": "account",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "8 × a[href*='app.netlify.com'] (min 2)",
+   "thirdParty": "",
+   "ms": 2127,
+   "environmentLimit": null
+  },
+  {
+   "feature": "floating 'Ask Netlify' assistant button",
+   "id": "ask-netlify",
+   "class": "CR",
+   "status": "interim",
+   "type": "click-dialog",
+   "pass": true,
+   "detail": "dialog 800px · heading \"Ask Netlify AI\" · 2 fields · Escape closes: true",
+   "thirdParty": "",
+   "ms": 4451,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (2 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6130,
+   "environmentLimit": null
+  }
+ ]
+}

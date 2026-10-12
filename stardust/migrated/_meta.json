@@ -1,0 +1,444 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "logo-ticker",
+    "steps",
+    "cards",
+    "switchback",
+    "testimonial",
+    "tabs"
+  ],
+  "slotsFilled": [
+    "n-page-section",
+    "n-page-section",
+    "n-page-section",
+    "n-page-section",
+    "n-page-section",
+    "n-page-section",
+    "n-page-section"
+  ],
+  "canonShas": {
+    "header": "bdbd8472f1cb",
+    "footer": "b379f880d682",
+    "css": "14b082939146"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Push your ideas to the web | Netlify",
+    "description": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Push your ideas to the web | Netlify",
+    "description": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
+    "url": "https://www.netlify.com/"
+  },
+  "migratedAt": "2026-10-11T16:23:42Z",
+  "designMdSha": "a2af47651077",
+  "designJsonSha": "cc3a66a8200d",
+  "sourceCurrentSha": "59e37b971a48",
+  "sourceProposedSha": "b162fe6bd007",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 29,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-compact-contact",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/agent-runners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/core/deploy-previews/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/ai-gateway/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/functions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/database/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/observability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/security/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/core/edge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/customers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/agency-directory/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/agent-experience/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/prototypes/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/internal-apps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/code-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/ecommerce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/marketing-sites/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/for/web-applications/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/enterprise/contact/?attr=homepage&ref=&id=nav-solutions-chat-with-netlify-expert",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/integrations/templates/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/integrations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/with/claude/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/with/codex/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/with/nextjs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/with/wordpress/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/with/react/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/integrations/frameworks/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/agent-runners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/changelog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/knowledge-base/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/community/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/customers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/agency-directory/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/pricing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-contact",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/support/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id=",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/contact/sales?attr=homepage&ref=request-a-demo&id=cta-hero-contact-sales",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/agent-runners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/docs/ai-gateway",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/marketing-sites/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/docs/primitives",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/ecommerce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/solutions/internal-apps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/agent-runners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/core/deploy-previews/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/functions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/observability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/security/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/pricing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/agent-runners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/core/deploy-previews/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/functions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/platform/observability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/security/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/pricing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/changelog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/knowledge-base/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/agency-directory/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/changelog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/knowledge-base/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/agency-directory/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/agent-experience/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/open-source/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/customers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/press/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/agent-experience/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/open-source/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/customers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/press/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/contact/sales?attr=homepage&ref=sales&id=cta-footer-sales",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/support/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/contact/sales?attr=homepage&ref=sales&id=cta-footer-sales",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/support/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/trust-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/privacy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.netlify.com/gdpr-ccpa/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

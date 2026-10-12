@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/bottom.css"
+        ],
+        "createdAt": "2026-10-11T16:09:15.687Z",
+        "reason": "replica fidelity: testimonial border-inline-start 3px is the live netlify.com style (captured in stardust/current/pages/index.html inline component CSS); pure-replica register forbids design changes"
+      }
+    ]
+  }
+}

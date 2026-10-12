@@ -1,0 +1,94 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-10-11T16:25:31.900Z",
+      "endedAt": "2026-10-11T16:45:15.508Z",
+      "blocks": 2,
+      "gates": {
+        "crop": "header 100% @1440/@360 vs prototype; footer 100% @1440, 99.79% @360 (published /footer page)",
+        "chrome": "chrome-compare deferred to archetype unit (no root page yet)"
+      },
+      "verdict": "foundation: styles+fonts+header/footer blocks+martech.js (off) deployed; /nav /footer live 200; lint ok; frozen 22 files"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-10-11T16:45:22.552Z",
+      "pages": 1,
+      "endedAt": "2026-10-11T17:56:30.355Z",
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "pub2": "pixel 3.88% dh +3, main 0 red",
+          "gateAll": "PASS 5.92% dh -26"
+        },
+        "1440": {
+          "pub2": "pixel 1.23% dh -1, main 0 red",
+          "gateAll": "PASS 3.68% dh -25"
+        },
+        "crop": "header/footer 100/100 @1440, 100/99.71 @360",
+        "chrome": "chrome-compare exit 2 (14 header errors) + 24 chrome red — queued as foundation-requests 1-4 for C-final"
+      },
+      "verdict": "archetype-landing: / live 200 (page+live), blocks 7, gate 1440 1.23% / 360 3.88%, gate-all PASS both, requests 4"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "startedAt": "2026-10-11T17:57:19.000Z",
+      "endedAt": "2026-10-11T17:57:19.000Z",
+      "verdict": "cluster-landing: pages 0/0 siblings (single-page scope; archetype / live 200 on aem.page + aem.live), blocks 0 new, gate n/a (archetype row covers it), requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-10-11T18:27:23.000Z",
+      "pages": 1,
+      "endedAt": "2026-10-11T18:29:25.000Z",
+      "gates": {
+        "360": {
+          "pixel": 5.91,
+          "dh": -26,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 3.72,
+          "dh": -25,
+          "verdict": "PASS"
+        }
+      },
+      "verdict": "gate-all: 1/1 PASS at 1440 (3.72%) and 360 (5.91%), clip 0, content MISSING/HIDDEN 0; coverage updated"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-10-11T18:29:41.000Z",
+      "endedAt": "2026-10-11T18:29:41.000Z",
+      "pages": 1,
+      "gates": {
+        "360": {
+          "pixel": 3.89,
+          "dh": 3
+        },
+        "1440": {
+          "pixel": 1.23,
+          "dh": -1
+        },
+        "chrome": "chrome-compare 14 -> 2 errors (search-dialog crop framing)"
+      },
+      "verdict": "final: freeze check clean, 4/4 foundation requests applied once, archetype re-gated pub3 1440 1.23% / 360 3.89% (1 justified red), refrozen 23 files"
+    }
+  }
+}

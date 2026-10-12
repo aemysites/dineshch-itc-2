@@ -1,0 +1,14 @@
+[
+ {
+  "vendor": "Google Tag Manager",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T7WNFLD",
+  "file": "tags/www.googletagmanager.com-gtm-GTM-T7WNFLD.js",
+  "bytes": 568867
+ },
+ {
+  "vendor": "Google Tag Manager",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-X2FMMZSSS9",
+  "file": "tags/www.googletagmanager.com-js-G-X2FMMZSSS9.js",
+  "bytes": 640163
+ }
+]

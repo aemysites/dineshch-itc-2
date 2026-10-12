@@ -1,10 +1,6 @@
 module.exports = {
   root: true,
-  extends: [
-    'airbnb-base',
-    'plugin:json/recommended',
-    'plugin:xwalk/recommended',
-  ],
+  extends: 'airbnb-base',
   env: {
     browser: true,
   },
@@ -19,5 +15,4 @@ module.exports = {
     'linebreak-style': ['error', 'unix'], // enforce unix linebreaks
     'no-param-reassign': [2, { props: false }], // allow modifying properties of param
   },
-  ignorePatterns: ['tools/importer/**/*'],
 };

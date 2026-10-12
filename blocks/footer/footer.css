@@ -1,20 +1,373 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* footer block — the gated prototype chrome (stardust/prototypes/chrome.css, footer, newsletter,
+   Ask Netlify button), lifted verbatim; source breakpoint kept (footer columns 750px). */
+
+/* stylelint-disable no-descending-specificity -- verbatim source cascade order */
+
+/* ---------- shared utilities used by the chrome (source: blocks layer / utilities) ---------- */
+.site-header .visually-hidden,
+.site-footer .visually-hidden,
+.newsletter-form label {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+.site-footer .tracking-tight {
+  letter-spacing: -.025em;
 }
 
-footer .footer p {
+/* button base (source :where(button,[type=submit],[type=reset],.button):not([data-type=reset])) —
+   live computed: Figtree 700 16/16, 2px border, 10px 17px, pill radius, gap 12px */
+:where(.site-footer, .ask-netlify-button)
+  :where(button, [type="submit"], .button):not([data-type="reset"], .n-search-modal *) {
+  appearance: none;
+  outline-offset: 4px;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+  padding: 10px 17px;
+  font-family: var(--font-heading);
+  font-size: var(--step-0, 1rem);
+  font-weight: var(--font-weight-bold, 700);
+  line-height: 1;
+  text-align: center;
+  text-decoration-line: none;
+  color: var(--button-text-color, var(--color-brand-1));
+  background-color: var(--button-bg-color, transparent);
+  border: 2px solid var(--button-border-color, currentcolor);
+  border-radius: var(--radius-pill);
+  transition: .2s var(--ease-out);
+  transition-property: background-color, border-color;
+}
+
+:where(.site-footer, .ask-netlify-button)
+  :where(button, [type="submit"], .button):not([data-type="reset"], .n-search-modal *) svg {
+  --local-size: var(--button-icon-size, .875em);
+
+  width: var(--local-size);
+  height: var(--local-size);
+  transform-origin: center;
+  flex-shrink: 0;
+}
+
+:where(.site-footer, .ask-netlify-button)
+  :where(.button, [type="submit"]):where([data-type="primary"], .button-primary) {
+  --button-bg-color: var(--button-primary-bg-color);
+  --button-border-color: var(--button-primary-bg-color);
+  --button-text-color: var(--button-primary-text-color);
+}
+
+:where(.site-footer, .ask-netlify-button)
+  :where(.button, [type="submit"]):where([data-type="primary"], .button-primary):hover {
+  --button-bg-color: var(--button-primary-bg-color-hover);
+  --button-border-color: var(--button-primary-bg-color-hover);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  :where(.site-footer, .ask-netlify-button)
+    :where(button, [type="submit"], .button):not([data-type="reset"],
+      .n-search-modal *):active:not(:disabled) {
+    top: 1px;
+  }
+}
+
+.site-header button[data-type="reset"],
+.site-footer button[data-type="reset"] {
+  all: unset;
+  outline: revert;
+}
+
+/* logged-out auth state (no html[data-user-authed] in the static replica) */
+html:not([data-user-authed]) .site-header [data-auth-show],
+html:not([data-user-authed]) .site-header li:has(> [data-auth-show]) {
+  display: none !important;
+}
+
+html[data-user-authed] .site-header [data-auth-hide],
+html[data-user-authed] .site-header li:has(> [data-auth-hide]) {
+  display: none !important;
+}
+
+.site-header .auth-nav-slot {
+  --avatar-size: 2.25rem;
+
+  display: flex;
+  align-items: center;
+}
+
+/* ================================ FOOTER ================================ */
+.site-footer {
+  --footer-spacing: var(--space-3xl);
+  --stack-space: var(--space-2xl);
+
+  position: sticky;
+  top: 100vh;
+  margin-block: var(--footer-spacing);
+  color: var(--footer-text, var(--color-text-2));
+  background: var(--footer-bg, transparent);
+}
+
+.site-footer :where(a, button) {
+  color: var(--footer-text);
+  font-size: var(--step-minus-1);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+.site-footer :where(a, button):hover {
+  text-decoration: underline;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin-block-end: 0;
+}
+
+.site-footer h2 {
+  margin-block-end: 0;
+}
+
+.site-footer .footer-nav h2 {
+  font-weight: 800;
+}
+
+/* live computed 800 (font-bold) */
+
+/* top row: logo + social */
+.site-footer .footer-top {
+  --cluster-align: center;
+  --cluster-justify: space-between;
+}
+
+.site-footer .logo {
+  width: clamp(40px, 8vw, 50px);
+  height: auto;
+  display: inline-block;
+}
+
+.site-footer .logo .spark {
+  fill: var(--color-brand-logo-spark);
+}
+
+.site-footer .logo .text {
+  fill: var(--color-brand-logo-text);
+}
+
+.site-footer .social {
+  --icon-size: 1.25rem;
+  --icon-color: var(--neutral-dark-300);
+  --cluster-gap: var(--space-m);
+}
+
+.site-footer .icon {
+  --local-size: 1em;
+
+  width: var(--icon-size, var(--local-size));
+  height: var(--icon-size, var(--local-size));
+  color: var(--icon-color, currentcolor);
+  fill: var(--icon-color, currentcolor);
+}
+
+.site-footer .social [data-icon="youtube"] {
+  width: 1.875rem;
+}
+
+/* link columns */
+.site-footer .footer-nav {
+  --stack-space: var(--space-xl);
+}
+
+.site-footer .footer-nav .section {
+  --stack-space: var(--space-s);
+}
+
+.site-footer .footer-nav .section a {
+  display: inline-block;
+}
+
+.site-footer .footer-nav .section[data-variant="wide"] {
+  display: none;
+}
+
+.site-footer .footer-nav .section[data-variant="narrow"] {
+  --local-padding: var(--space-m);
+
+  padding-block: var(--local-padding);
+  border-block-end: 1px solid var(--neutral-light-200);
+}
+
+.site-footer .footer-nav .section[data-variant="narrow"] summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2xs);
+  list-style: none;
+  padding-block: var(--local-padding);
+  margin-block: calc(var(--local-padding) * -1);
+}
+
+.site-footer .footer-nav .section[data-variant="narrow"] summary::marker,
+.site-footer .footer-nav .section[data-variant="narrow"] summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-footer .footer-nav .section[data-variant="narrow"][open] summary .icon {
+  rotate: 180deg;
+}
+
+@media (width >= 750px) {
+  .site-footer .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-xl);
+    margin-inline: auto;
+    max-inline-size: 62.5rem;
+    width: 100%;
+  }
+
+  .site-footer .footer-nav .section[data-variant="narrow"] {
+    display: none;
+  }
+
+  .site-footer .footer-nav .section[data-variant="wide"] {
+    display: block;
+  }
+}
+
+/* newsletter (HubSpot form rebuilt as a plain form) */
+.newsletter-form {
+  --center-max: 28.125rem;
+  --center-gutters: 0px;
+  --cluster-gap: var(--space-s);
+}
+
+.newsletter-form .hs-form {
+  --cluster-gap: var(--space-s);
+}
+
+.newsletter-form .hs-form-field {
+  flex: 1 1 25ch;
+  margin-bottom: unset;
+}
+
+.newsletter-form .hs-input {
+  appearance: none;
+  margin-top: unset;
+  padding: var(--input-padding);
+  inline-size: 100%;
+  border: var(--input-border-width) var(--input-border-style) var(--input-border-color);
+  background-color: var(--input-bg);
+  border-radius: var(--radius-s);
+  color: var(--input-color-text);
+  min-block-size:
+    calc(1rem * var(--line-height-text) + var(--input-padding) * 2 + var(--input-border-width) * 2);
+  display: flex;
+}
+
+.newsletter-form .hs-submit {
+  inline-size: 100%;
+  max-inline-size: 10ch;
+}
+
+.newsletter-form .hs-submit input {
+  min-block-size: 42px;
+  width: auto;
+  margin-top: 0;
+}
+
+/* legal row */
+.site-footer .footer-legal {
+  --cluster-align: center;
+  --cluster-justify: space-between;
+  --cluster-gap: var(--space-s);
+
+  inline-size: 100%;
+  border-block-start: 1px solid var(--footer-border, var(--color-bg-3));
+  padding-block-start: var(--space-s);
+  font-size: var(--step-minus-1);
+  color: var(--footer-text);
+}
+
+.site-footer .legal {
+  --cluster-gap: var(--space-s);
+}
+
+.site-footer .copyright {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+.site-footer .legal button {
+  cursor: pointer;
+}
+
+/* theme select */
+.site-footer .site-theme-select {
+  --stack-space: var(--space-xs);
+
+  margin-inline-start: auto;
+  display: inline-block;
+}
+
+.site-footer .site-theme-select select {
+  --local-bg-offset: var(--space-s);
+
+  appearance: none;
+  padding: var(--input-padding);
+  padding-inline-end: calc(var(--local-bg-offset) + 1.2em);
+  inline-size: 100%;
+  border: var(--input-border-width) var(--input-border-style) var(--input-border-color);
+  background-color: var(--input-bg);
+  background-image: var(--icon-chevron);
+  background-position: calc(100% - var(--local-bg-offset));
+  background-repeat: no-repeat;
+  background-size: .75em;
+  border-radius: var(--radius-s);
+  color: var(--input-color-text);
+  min-block-size:
+    calc(1rem * var(--line-height-text) + var(--input-padding) * 2 + var(--input-border-width) * 2);
+  display: flex;
+}
+
+.newsletter-form .hs-form-required {
+  color: var(--color-text-invalid, #d6273f);
+  margin-inline-start: .1em;
+}
+
+/* ---------- floating "Ask Netlify" button (body child in the source) ---------- */
+.ask-netlify-button {
+  position: fixed;
+  z-index: 9999;
+  inset: auto var(--space-s) var(--space-s) auto;
+}
+
+#cta-ask-netlify-chat {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s ease, visibility .3s ease;
+}
+
+#cta-ask-netlify-chat.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#cta-ask-netlify-chat svg {
+  display: block;
+  width: 1.048em;
+  height: .98em;
+}
+
+/* ---------- EDS adaptations ---------- */
+
+/* the authored paragraph that hosts the logo link lays out as its anchor */
+.site-footer .footer-logo-wrapper {
+  display: contents;
 }

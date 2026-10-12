@@ -1,0 +1,55 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-11T16:24:16.065Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-11T16:24:16.065Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "logo-ticker",
+          "edsBlockName": "logo-ticker"
+        },
+        {
+          "id": "steps",
+          "edsBlockName": "steps"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "cards"
+        },
+        {
+          "id": "switchback",
+          "edsBlockName": "switchback"
+        },
+        {
+          "id": "testimonial",
+          "edsBlockName": "testimonial"
+        },
+        {
+          "id": "tabs",
+          "edsBlockName": "tabs"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

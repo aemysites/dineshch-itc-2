@@ -1,0 +1,2921 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "n-page-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Push your ideas to the web"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Start building",
+     "href": "https://app.netlify.com/signup"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Request a demo",
+     "href": "https://www.netlify.com/contact/sales?attr=homepage&ref=request-a-demo&id=cta-hero-contact-sales"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Add Netlify to your coding agent"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "fetch https://netlify.ai"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Drop here"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Deploy failed, try again"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "g.[object",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "n-page-section",
+   "items": [],
+   "imgCount": 20,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.n-ticker-content",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 10,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.n-trust-bar-ticker-item",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.n-trust-bar-ticker-item",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "n-page-section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "How it works"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Build your way. Ship on one platform."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Every path runs on the same workflow and production infrastructure, powering millions of sites and apps."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "#airplane { cursor: pointer; transition: filter 0.2s ease; } #airplane:hover { filter: drop-shadow(0 0 6px #14D8D4) drop-shadow(0 0 12px #14D8D4); }"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Start with code or AI"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Start with a prompt, push from Git, or drag and drop. All paths lead to the same project."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": ".pill { cursor: pointer; transition: filter 0.2s ease; } .pill:hover { filter: drop-shadow(0 0 6px rgba(20, 216, 212, 0.8)) drop-shadow(0 0 2px rgba(20, 216, 212, 0.4)); } .pill-content { transition: filter 0.2s ease; } .pill:hover .pill-content { filter: drop-shadow(0 0 6px rgba(20, 216, 212, 0.8)) drop-shadow(0 0 2px rgba(20, 216, 212, 0.4)); }"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Build fullstack apps"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Connect APIs, manage data, optimize images, and add AI features from your first prompt."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Go live everywhere"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Deploy to a global CDN in seconds, then choose when to make your project public."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Play",
+     "href": "https://www.youtube.com/watch?v=Evdv_HSFHBk"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.n-step-item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "n-page-section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Get going"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Start your way."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Choose the workflow that fits how you work."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Start building with an AI agent"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Describe what you want to build. An AI agent handles the rest."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Build now",
+     "href": "https://app.netlify.com/start"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Deploy from Git"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Auto-deploy on every push. Every PR gets a preview URL."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Import a project",
+     "href": "https://app.netlify.com/start"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Deploy from terminal"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Deploy directly from your working directory. No login required to start."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "npm i -g netlify-cli netlify deploy --allow-anonymous"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Get started with CLI",
+     "href": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Drag and drop"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Drop your project folder and deploy in seconds. New projects stay private until you choose to publish."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Try Netlify Drop",
+     "href": "https://app.netlify.com/drop"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.n-card",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "n-page-section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Workflow"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Prompt. Preview. Repeat."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Prompt from the dashboard, develop locally, or push from Git. Every change gets a private preview URL before it's live."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Build with Claude, Codex, and"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "more AI agents",
+     "href": "https://www.netlify.com/platform/agent-runners/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Deploy from Git, CLI, or drag and drop"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Roll back any deploy in one click"
+    },
+    {
+     "role": "eyebrow",
+     "order": 7,
+     "text": "Platform"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Build with agent-ready primitives."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Add APIs, run logic at the edge, schedule jobs, and handle background work on production infrastructure."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Build APIs with serverless functions"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Add instant databases and file storage"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Handle auth with built-in identity"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Connect to AI models through AI Gateway"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Explore the platform",
+     "href": "https://www.netlify.com/platform/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 15,
+     "text": "Scale"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Grow on the same infrastructure."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "From your first deploy to global traffic, the same infrastructure supports your growth as you scale."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Automatic HTTPS and DDoS protection"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Manage access, secrets, and env vars by team"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Global edge network with 99.99% uptime"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.n-switchback",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 7
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "n-page-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "I can push a change, and within 30 seconds the site is completely rebuilt."
+    },
+    {
+     "role": "eyebrow",
+     "order": 1,
+     "text": "Jeffrey Sica"
+    },
+    {
+     "role": "eyebrow",
+     "order": 2,
+     "text": "Kubernetes contributor, Head of Projects at CNCF"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "n-page-section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Use cases"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "For every kind of web app."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Build everything from marketing sites to AI apps on one platform."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "AI apps"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Marketing sites"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "SaaS apps"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ecommerce"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Internal tools"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Launch AI features with one gateway"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Prototype, test, and scale AI-powered experiences faster. Product teams can iterate with agents while engineers productionize on the same platform."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Prototype and ship AI features with"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Agent Runners"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Connect your app to any major AI model through"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "AI Gateway"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Deploy backend logic as API endpoints with"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Serverless Functions"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Explore AI Gateway",
+     "href": "https://www.netlify.com/docs/ai-gateway"
+    },
+    {
+     "role": "eyebrow",
+     "order": 17,
+     "text": "Example: Generate alt text with OpenAI"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "OpenAI description req () client () res client responses ( model input [ role content description ] ) Response ( altText res output_text ) config path"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "import"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "from"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "openai"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "export"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "default"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "async"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "("
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "req"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Request"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": ")"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "=>"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "json"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "new"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "OpenAI"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "create"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "gpt-5-mini"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "user"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "`"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Write concise alt text for:"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "${"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "}`"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "},"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "return"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "json"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "};"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "export"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "/api/alt-text"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "};"
+    },
+    {
+     "role": "heading",
+     "order": 94,
+     "text": "Launch fast and iterate faster"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Run campaigns quickly, test changes safely, and let marketers and designers contribute directly with agents."
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Generate pages, update copy, and publish with"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Agent Runners"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Review every change before it goes live with"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Deploy Previews"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Optimize and serve images on demand with"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "Image CDN"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "Marketing sites on Netlify",
+     "href": "https://www.netlify.com/solutions/marketing-sites/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 103,
+     "text": "Example: Optimized image with form"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "Email: Join waitlist"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "<!-- Resize an image to 800px wide -->"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "<"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "img"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "src"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "/.netlify/images?url=/hero.jpg&w=800"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "alt"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "Optimized hero image"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": ">"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "<!-- Collect leads with zero config -->"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "<"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "form"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "name"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "waitlist"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "method"
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 130,
+     "text": "POST"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "data-netlify"
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 134,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "true"
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": ">"
+    },
+    {
+     "role": "body",
+     "order": 138,
+     "text": "<"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "label"
+    },
+    {
+     "role": "body",
+     "order": 140,
+     "text": ">"
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "<"
+    },
+    {
+     "role": "body",
+     "order": 142,
+     "text": "input"
+    },
+    {
+     "role": "body",
+     "order": 143,
+     "text": "type"
+    },
+    {
+     "role": "body",
+     "order": 144,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 146,
+     "text": "email"
+    },
+    {
+     "role": "body",
+     "order": 147,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 148,
+     "text": "name"
+    },
+    {
+     "role": "body",
+     "order": 149,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 150,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 151,
+     "text": "email"
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 153,
+     "text": "/></"
+    },
+    {
+     "role": "body",
+     "order": 154,
+     "text": "label"
+    },
+    {
+     "role": "body",
+     "order": 155,
+     "text": ">"
+    },
+    {
+     "role": "body",
+     "order": 156,
+     "text": "<"
+    },
+    {
+     "role": "body",
+     "order": 157,
+     "text": "button"
+    },
+    {
+     "role": "body",
+     "order": 158,
+     "text": "type"
+    },
+    {
+     "role": "body",
+     "order": 159,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 160,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 161,
+     "text": "submit"
+    },
+    {
+     "role": "body",
+     "order": 162,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 163,
+     "text": ">"
+    },
+    {
+     "role": "body",
+     "order": 164,
+     "text": "</"
+    },
+    {
+     "role": "body",
+     "order": 165,
+     "text": "button"
+    },
+    {
+     "role": "body",
+     "order": 166,
+     "text": ">"
+    },
+    {
+     "role": "body",
+     "order": 167,
+     "text": "</"
+    },
+    {
+     "role": "body",
+     "order": 168,
+     "text": "form"
+    },
+    {
+     "role": "body",
+     "order": 169,
+     "text": ">"
+    },
+    {
+     "role": "heading",
+     "order": 170,
+     "text": "Build fullstack apps without managing infrastructure"
+    },
+    {
+     "role": "body",
+     "order": 171,
+     "text": "Prototype features quickly with agents and move them into production-ready code as you scale."
+    },
+    {
+     "role": "body",
+     "order": 172,
+     "text": "Scaffold and iterate on features with"
+    },
+    {
+     "role": "body",
+     "order": 173,
+     "text": "Agent Runners"
+    },
+    {
+     "role": "body",
+     "order": 174,
+     "text": "Deploy and safely iterate on managed Postgres with"
+    },
+    {
+     "role": "body",
+     "order": 175,
+     "text": "Netlify Database"
+    },
+    {
+     "role": "body",
+     "order": 176,
+     "text": "Scale your backend logic without managing servers with"
+    },
+    {
+     "role": "body",
+     "order": 177,
+     "text": "Serverless Functions"
+    },
+    {
+     "role": "cta",
+     "order": 178,
+     "text": "Explore platform primitives",
+     "href": "https://www.netlify.com/docs/primitives"
+    },
+    {
+     "role": "eyebrow",
+     "order": 179,
+     "text": "Example: Persist user-generated uploads"
+    },
+    {
+     "role": "body",
+     "order": 180,
+     "text": "getStore Context v4 uuid form req () file form ( ) key () uploads ( ) uploads (key file metadata country context geo country name ) ( )"
+    },
+    {
+     "role": "body",
+     "order": 181,
+     "text": "import"
+    },
+    {
+     "role": "body",
+     "order": 182,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 183,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 184,
+     "text": "from"
+    },
+    {
+     "role": "body",
+     "order": 185,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 186,
+     "text": "@netlify/blobs"
+    },
+    {
+     "role": "body",
+     "order": 187,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 188,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 189,
+     "text": "import"
+    },
+    {
+     "role": "body",
+     "order": 190,
+     "text": "type"
+    },
+    {
+     "role": "body",
+     "order": 191,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 192,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 193,
+     "text": "from"
+    },
+    {
+     "role": "body",
+     "order": 194,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 195,
+     "text": "@netlify/functions"
+    },
+    {
+     "role": "body",
+     "order": 196,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 197,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 198,
+     "text": "import"
+    },
+    {
+     "role": "body",
+     "order": 199,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 200,
+     "text": "as"
+    },
+    {
+     "role": "body",
+     "order": 201,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 202,
+     "text": "from"
+    },
+    {
+     "role": "body",
+     "order": 203,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 204,
+     "text": "uuid"
+    },
+    {
+     "role": "body",
+     "order": 205,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 206,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 207,
+     "text": "export"
+    },
+    {
+     "role": "body",
+     "order": 208,
+     "text": "default"
+    },
+    {
+     "role": "body",
+     "order": 209,
+     "text": "async"
+    },
+    {
+     "role": "body",
+     "order": 210,
+     "text": "("
+    },
+    {
+     "role": "body",
+     "order": 211,
+     "text": "req"
+    },
+    {
+     "role": "body",
+     "order": 212,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 213,
+     "text": "Request"
+    },
+    {
+     "role": "body",
+     "order": 214,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 215,
+     "text": "context"
+    },
+    {
+     "role": "body",
+     "order": 216,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 217,
+     "text": "Context"
+    },
+    {
+     "role": "body",
+     "order": 218,
+     "text": ")"
+    },
+    {
+     "role": "body",
+     "order": 219,
+     "text": "=>"
+    },
+    {
+     "role": "body",
+     "order": 220,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 221,
+     "text": "// Accessing the request as `multipart/form-data`."
+    },
+    {
+     "role": "body",
+     "order": 222,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 223,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 224,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 225,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 226,
+     "text": "formData"
+    },
+    {
+     "role": "body",
+     "order": 227,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 228,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 229,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 230,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 231,
+     "text": "get"
+    },
+    {
+     "role": "body",
+     "order": 232,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 233,
+     "text": "file"
+    },
+    {
+     "role": "body",
+     "order": 234,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 235,
+     "text": "as"
+    },
+    {
+     "role": "body",
+     "order": 236,
+     "text": "File"
+    },
+    {
+     "role": "body",
+     "order": 237,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 238,
+     "text": "// Generating a unique key for the entry."
+    },
+    {
+     "role": "body",
+     "order": 239,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 240,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 241,
+     "text": "uuid"
+    },
+    {
+     "role": "body",
+     "order": 242,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 243,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 244,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 245,
+     "text": "getStore"
+    },
+    {
+     "role": "body",
+     "order": 246,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 247,
+     "text": "file-uploads"
+    },
+    {
+     "role": "body",
+     "order": 248,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 249,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 250,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 251,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 252,
+     "text": "set"
+    },
+    {
+     "role": "body",
+     "order": 253,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 254,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 255,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 256,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 257,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 258,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 259,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 260,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 261,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 262,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 263,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 264,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 265,
+     "text": "return"
+    },
+    {
+     "role": "body",
+     "order": 266,
+     "text": "new"
+    },
+    {
+     "role": "body",
+     "order": 267,
+     "text": "Response"
+    },
+    {
+     "role": "body",
+     "order": 268,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 269,
+     "text": "Submission saved"
+    },
+    {
+     "role": "body",
+     "order": 270,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 271,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 272,
+     "text": "};"
+    },
+    {
+     "role": "heading",
+     "order": 273,
+     "text": "Run fast storefronts at global scale"
+    },
+    {
+     "role": "body",
+     "order": 274,
+     "text": "Test new experiences quickly and let teams iterate safely across merchandising, design, and engineering."
+    },
+    {
+     "role": "body",
+     "order": 275,
+     "text": "Prototype landing pages and flows with"
+    },
+    {
+     "role": "body",
+     "order": 276,
+     "text": "Agent Runners"
+    },
+    {
+     "role": "body",
+     "order": 277,
+     "text": "Deliver sub-second page loads from 100+ locations with"
+    },
+    {
+     "role": "body",
+     "order": 278,
+     "text": "Edge Network"
+    },
+    {
+     "role": "body",
+     "order": 279,
+     "text": "Optimize product images on the fly with"
+    },
+    {
+     "role": "body",
+     "order": 280,
+     "text": "Image CDN"
+    },
+    {
+     "role": "cta",
+     "order": 281,
+     "text": "Ecommerce on Netlify",
+     "href": "https://www.netlify.com/solutions/ecommerce/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 282,
+     "text": "Example: Fetch products from a headless API"
+    },
+    {
+     "role": "body",
+     "order": 283,
+     "text": "res (Netlify env ( ) headers Authorization Netlify env ) products res () Response ( products ( ( id p id title p title price p variants[ ] price image p image )) ) config path"
+    },
+    {
+     "role": "body",
+     "order": 284,
+     "text": "export"
+    },
+    {
+     "role": "body",
+     "order": 285,
+     "text": "default"
+    },
+    {
+     "role": "body",
+     "order": 286,
+     "text": "async"
+    },
+    {
+     "role": "body",
+     "order": 287,
+     "text": "("
+    },
+    {
+     "role": "body",
+     "order": 288,
+     "text": "req"
+    },
+    {
+     "role": "body",
+     "order": 289,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 290,
+     "text": "Request"
+    },
+    {
+     "role": "body",
+     "order": 291,
+     "text": ")"
+    },
+    {
+     "role": "body",
+     "order": 292,
+     "text": "=>"
+    },
+    {
+     "role": "body",
+     "order": 293,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 294,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 295,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 296,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 297,
+     "text": "fetch"
+    },
+    {
+     "role": "body",
+     "order": 298,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 299,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 300,
+     "text": "get"
+    },
+    {
+     "role": "body",
+     "order": 301,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 302,
+     "text": "STORE_API_URL"
+    },
+    {
+     "role": "body",
+     "order": 303,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 304,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 305,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 306,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 307,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 308,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 309,
+     "text": "`"
+    },
+    {
+     "role": "body",
+     "order": 310,
+     "text": "Bearer"
+    },
+    {
+     "role": "body",
+     "order": 311,
+     "text": "${"
+    },
+    {
+     "role": "body",
+     "order": 312,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 313,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 314,
+     "text": "get"
+    },
+    {
+     "role": "body",
+     "order": 315,
+     "text": "("
+    },
+    {
+     "role": "body",
+     "order": 316,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 317,
+     "text": "STORE_API_TOKEN"
+    },
+    {
+     "role": "body",
+     "order": 318,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 319,
+     "text": ")"
+    },
+    {
+     "role": "body",
+     "order": 320,
+     "text": "}`"
+    },
+    {
+     "role": "body",
+     "order": 321,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 322,
+     "text": "},"
+    },
+    {
+     "role": "body",
+     "order": 323,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 324,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 325,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 326,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 327,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 328,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 329,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 330,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 331,
+     "text": "json"
+    },
+    {
+     "role": "body",
+     "order": 332,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 333,
+     "text": "return"
+    },
+    {
+     "role": "body",
+     "order": 334,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 335,
+     "text": "json"
+    },
+    {
+     "role": "body",
+     "order": 336,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 337,
+     "text": "map"
+    },
+    {
+     "role": "body",
+     "order": 338,
+     "text": "("
+    },
+    {
+     "role": "body",
+     "order": 339,
+     "text": "p"
+    },
+    {
+     "role": "body",
+     "order": 340,
+     "text": ")"
+    },
+    {
+     "role": "body",
+     "order": 341,
+     "text": "=>"
+    },
+    {
+     "role": "body",
+     "order": 342,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 343,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 344,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 345,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 346,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 347,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 348,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 349,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 350,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 351,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 352,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 353,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 354,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 355,
+     "text": "`"
+    },
+    {
+     "role": "body",
+     "order": 356,
+     "text": "/.netlify/images?url="
+    },
+    {
+     "role": "body",
+     "order": 357,
+     "text": "${"
+    },
+    {
+     "role": "body",
+     "order": 358,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 359,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 360,
+     "text": "&w=400"
+    },
+    {
+     "role": "body",
+     "order": 361,
+     "text": "`"
+    },
+    {
+     "role": "body",
+     "order": 362,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 363,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 364,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 365,
+     "text": "};"
+    },
+    {
+     "role": "body",
+     "order": 366,
+     "text": "export"
+    },
+    {
+     "role": "body",
+     "order": 367,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 368,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 369,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 370,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 371,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 372,
+     "text": "/api/products"
+    },
+    {
+     "role": "body",
+     "order": 373,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 374,
+     "text": "};"
+    },
+    {
+     "role": "heading",
+     "order": 375,
+     "text": "Create internal apps with less overhead"
+    },
+    {
+     "role": "body",
+     "order": 376,
+     "text": "Build dashboards and workflow tools faster with contributions from ops, data, and product teams."
+    },
+    {
+     "role": "body",
+     "order": 377,
+     "text": "Build and update internal tools from the dashboard with"
+    },
+    {
+     "role": "body",
+     "order": 378,
+     "text": "Agent Runners"
+    },
+    {
+     "role": "body",
+     "order": 379,
+     "text": "Connect to internal APIs and databases with"
+    },
+    {
+     "role": "body",
+     "order": 380,
+     "text": "Serverless Functions"
+    },
+    {
+     "role": "body",
+     "order": 381,
+     "text": "Manage permissions across your team with"
+    },
+    {
+     "role": "body",
+     "order": 382,
+     "text": "Access Controls"
+    },
+    {
+     "role": "cta",
+     "order": 383,
+     "text": "Internal apps on Netlify",
+     "href": "https://www.netlify.com/solutions/internal-apps/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 384,
+     "text": "Example: Proxy an internal API"
+    },
+    {
+     "role": "body",
+     "order": 385,
+     "text": "query req () res (Netlify env ( ) method headers Authorization Netlify env body JSON ( query ) ) (res body headers ) config path"
+    },
+    {
+     "role": "body",
+     "order": 386,
+     "text": "export"
+    },
+    {
+     "role": "body",
+     "order": 387,
+     "text": "default"
+    },
+    {
+     "role": "body",
+     "order": 388,
+     "text": "async"
+    },
+    {
+     "role": "body",
+     "order": 389,
+     "text": "("
+    },
+    {
+     "role": "body",
+     "order": 390,
+     "text": "req"
+    },
+    {
+     "role": "body",
+     "order": 391,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 392,
+     "text": "Request"
+    },
+    {
+     "role": "body",
+     "order": 393,
+     "text": ")"
+    },
+    {
+     "role": "body",
+     "order": 394,
+     "text": "=>"
+    },
+    {
+     "role": "body",
+     "order": 395,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 396,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 397,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 398,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 399,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 400,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 401,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 402,
+     "text": "json"
+    },
+    {
+     "role": "body",
+     "order": 403,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 404,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 405,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 406,
+     "text": "await"
+    },
+    {
+     "role": "body",
+     "order": 407,
+     "text": "fetch"
+    },
+    {
+     "role": "body",
+     "order": 408,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 409,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 410,
+     "text": "get"
+    },
+    {
+     "role": "body",
+     "order": 411,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 412,
+     "text": "INTERNAL_API"
+    },
+    {
+     "role": "body",
+     "order": 413,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 414,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 415,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 416,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 417,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 418,
+     "text": "POST"
+    },
+    {
+     "role": "body",
+     "order": 419,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 420,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 421,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 422,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 423,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 424,
+     "text": "`"
+    },
+    {
+     "role": "body",
+     "order": 425,
+     "text": "Bearer"
+    },
+    {
+     "role": "body",
+     "order": 426,
+     "text": "${"
+    },
+    {
+     "role": "body",
+     "order": 427,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 428,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 429,
+     "text": "get"
+    },
+    {
+     "role": "body",
+     "order": 430,
+     "text": "("
+    },
+    {
+     "role": "body",
+     "order": 431,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 432,
+     "text": "INTERNAL_TOKEN"
+    },
+    {
+     "role": "body",
+     "order": 433,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 434,
+     "text": ")"
+    },
+    {
+     "role": "body",
+     "order": 435,
+     "text": "}`"
+    },
+    {
+     "role": "body",
+     "order": 436,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 437,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 438,
+     "text": "Content-Type"
+    },
+    {
+     "role": "body",
+     "order": 439,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 440,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 441,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 442,
+     "text": "application/json"
+    },
+    {
+     "role": "body",
+     "order": 443,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 444,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 445,
+     "text": "},"
+    },
+    {
+     "role": "body",
+     "order": 446,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 447,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 448,
+     "text": "stringify"
+    },
+    {
+     "role": "body",
+     "order": 449,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 450,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 451,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 452,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 453,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 454,
+     "text": "return"
+    },
+    {
+     "role": "body",
+     "order": 455,
+     "text": "new"
+    },
+    {
+     "role": "body",
+     "order": 456,
+     "text": "Response"
+    },
+    {
+     "role": "body",
+     "order": 457,
+     "text": "."
+    },
+    {
+     "role": "body",
+     "order": 458,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 459,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 460,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 461,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 462,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 463,
+     "text": "Content-Type"
+    },
+    {
+     "role": "body",
+     "order": 464,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 465,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 466,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 467,
+     "text": "application/json"
+    },
+    {
+     "role": "body",
+     "order": 468,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 469,
+     "text": "},"
+    },
+    {
+     "role": "body",
+     "order": 470,
+     "text": "}"
+    },
+    {
+     "role": "body",
+     "order": 471,
+     "text": ";"
+    },
+    {
+     "role": "body",
+     "order": 472,
+     "text": "};"
+    },
+    {
+     "role": "body",
+     "order": 473,
+     "text": "export"
+    },
+    {
+     "role": "body",
+     "order": 474,
+     "text": "const"
+    },
+    {
+     "role": "body",
+     "order": 475,
+     "text": "="
+    },
+    {
+     "role": "body",
+     "order": 476,
+     "text": "{"
+    },
+    {
+     "role": "body",
+     "order": 477,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 478,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 479,
+     "text": "/api/internal"
+    },
+    {
+     "role": "body",
+     "order": 480,
+     "text": "\""
+    },
+    {
+     "role": "body",
+     "order": 481,
+     "text": "};"
+    },
+    {
+     "role": "body",
+     "order": 482,
+     "text": "10M+"
+    },
+    {
+     "role": "body",
+     "order": 483,
+     "text": "developers"
+    },
+    {
+     "role": "body",
+     "order": 484,
+     "text": "60M+"
+    },
+    {
+     "role": "body",
+     "order": 485,
+     "text": "apps deployed"
+    },
+    {
+     "role": "body",
+     "order": 486,
+     "text": "99.99%"
+    },
+    {
+     "role": "body",
+     "order": 487,
+     "text": "uptime"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 22,
+   "repeats": [
+    {
+     "unitSelector": "DIV.n-tabbed-content-panel",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 86
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.n-stat-row-item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

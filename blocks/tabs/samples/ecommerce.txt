@@ -1,0 +1,20 @@
+<span class="c1">export</span><span class="c1"> default</span><span class="c4"> async</span><span class="c1"> (</span><span class="c5">req</span><span class="c4">:</span><span class="c6"> Request</span><span class="c1">)</span><span class="c4"> =&gt;</span><span class="c1"> {</span>
+<span class="c4">  const</span> res <span class="c4">=</span><span class="c1"> await</span><span class="c7"> fetch</span>(Netlify<span class="c1">.</span>env<span class="c1">.</span><span class="c7">get</span>(<span class="c1">"</span><span class="c3">STORE_API_URL</span><span class="c1">"</span>)<span class="c1">,</span><span class="c1"> {</span>
+    headers<span class="c1">:</span><span class="c1"> {</span>
+      Authorization<span class="c1">:</span><span class="c1"> `</span><span class="c3">Bearer </span><span class="c1">${</span>Netlify<span class="c1">.</span>env<span class="c1">.</span><span class="c7">get</span><span class="c3">(</span><span class="c1">"</span><span class="c3">STORE_API_TOKEN</span><span class="c1">"</span><span class="c3">)</span><span class="c1">}`</span><span class="c1">,</span>
+<span class="c1">    },</span>
+<span class="c1">  }</span>)<span class="c1">;</span>
+
+<span class="c4">  const</span><span class="c1"> {</span> products <span class="c1">}</span><span class="c4"> =</span><span class="c1"> await</span> res<span class="c1">.</span><span class="c7">json</span>()<span class="c1">;</span>
+
+<span class="c1">  return</span> Response<span class="c1">.</span><span class="c7">json</span>(
+    products<span class="c1">.</span><span class="c7">map</span>(<span class="c1">(</span><span class="c5">p</span><span class="c1">)</span><span class="c4"> =&gt;</span> (<span class="c1">{</span>
+      id<span class="c1">:</span> p<span class="c1">.</span>id<span class="c1">,</span>
+      title<span class="c1">:</span> p<span class="c1">.</span>title<span class="c1">,</span>
+      price<span class="c1">:</span> p<span class="c1">.</span>variants[<span class="c5">0</span>]<span class="c1">.</span>price<span class="c1">,</span>
+      image<span class="c1">:</span><span class="c1"> `</span><span class="c3">/.netlify/images?url=</span><span class="c1">${</span>p<span class="c1">.</span>image<span class="c1">}</span><span class="c3">&amp;w=400</span><span class="c1">`</span><span class="c1">,</span>
+<span class="c1">    }</span>))
+  )<span class="c1">;</span>
+<span class="c1">};</span>
+
+<span class="c1">export</span><span class="c4"> const</span> config <span class="c4">=</span><span class="c1"> {</span> path<span class="c1">:</span><span class="c1"> "</span><span class="c3">/api/products</span><span class="c1">"</span><span class="c1"> };</span>

@@ -1,27 +1,204 @@
-.cards > ul {
-  list-style: none;
+/* cards — values lifted from the gated prototype (top.css § start your way) */
+.cards .n-page-section {
+  --local-space: var(--ntl-space-3xl);
+
+  color: var(--ntl-page-section-text-color, var(--ntl-color-text));
+  background: var(--ntl-page-section-bg-color, var(--ntl-color-bg));
+  padding-block: var(--ntl-page-section-space-top, var(--local-space)) var(--ntl-page-section-space-bottom, var(--local-space));
+}
+
+.cards .n-page-section > * + * {
+  margin-block-start: var(--ntl-page-section-item-space, var(--ntl-space-2xl));
+}
+
+/* section head: wrappers carry the type, authored nodes inherit it (EW2) */
+.cards .n-heading-block-center {
+  --ntl-cluster-justify: center;
+
+  text-align: center;
+  margin-inline: auto;
+}
+
+.cards .n-heading-block-center > * {
+  margin-inline: auto;
+}
+
+.cards .n-heading-block-heading {
+  font-family: var(--font-family-display);
+  font-size: var(--ntl-heading-block-heading-font-size, var(--ntl-font-size-display-2xl));
+  inline-size: min(100%, var(--ntl-heading-block-heading-max-width, 50rem));
+  text-wrap: balance;
+  color: var(--ntl-heading-text-color);
+}
+
+.cards .n-heading-block-text {
+  font-size: var(--ntl-heading-block-text-font-size, var(--ntl-font-size-text-lg));
+  inline-size: min(100%, var(--ntl-heading-block-text-max-width, 35rem));
+  text-wrap: pretty;
+}
+
+.cards .eyebrow {
+  font-size: var(--ntl-font-size-text-sm);
+  font-family: var(--ntl-font-family-mono);
+  line-height: var(--ntl-line-height-heading);
+  color: var(--ntl-eyebrow-text-color);
+  text-transform: uppercase;
+}
+
+.cards :is(.n-heading-block-heading, .n-card-headline) :is(h1, h2, h3, h4),
+.cards :is(.eyebrow, .n-heading-block-text, .n-card-headline, .n-card-paragraph) p {
   margin: 0;
-  padding: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+/* grid + cards */
+.cards .n-grid {
+  --n-grid-column-min-size: 26rem;
+
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  gap: var(--space-m);
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+@media (width <= 768px) {
+  .cards .n-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+.cards .n-card {
+  position: relative;
+  padding: var(--ntl-space-m);
+  background-color: var(--ntl-card-bg-color);
+  border: 1px solid var(--ntl-card-border-color);
+  border-radius: var(--ntl-radius-m);
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.cards .n-card-headline {
+  font-size: var(--ntl-font-size-display-sm);
+  font-family: var(--ntl-font-family-display);
+  font-weight: var(--ntl-font-weight-bold);
+  line-height: var(--ntl-line-height-heading);
+  color: var(--ntl-heading-text-color);
 }
 
-.cards > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+.cards .n-card-headline:has(+ .n-card-link) {
+  margin-block-end: auto;
+}
+
+.cards .n-card-paragraph {
+  line-height: var(--ntl-line-height-text);
+}
+
+.cards .n-card-paragraph:nth-last-child(2) {
+  margin-block-end: auto;
+}
+
+.cards .n-card-link {
+  --ntl-flow-space: var(--ntl-space-m);
+
+  align-self: flex-start;
+  width: max-content;
+}
+
+/* action link (authored <p><a>, the arrow is generated) */
+.cards .n-card-link p {
+  margin: 0;
+}
+
+.cards .n-card-link a:any-link {
+  display: inline-block;
+  font-weight: var(--ntl-font-weight-medium);
+  font-size: var(--ntl-font-size-text-md);
+  text-wrap: pretty;
+  color: var(--ntl-color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--ntl-color-link);
+  text-underline-offset: 0.1em;
+}
+
+.cards .n-action-arrow {
+  display: inline-flex;
+  overflow: hidden;
+  margin-inline-start: 0.1em;
+}
+
+.cards .n-action-arrow svg {
+  color: var(--ntl-color-icon);
+  transition: translate 0.1s ease-out;
+}
+
+@media (any-hover: hover) {
+  .cards .n-card-link a:where(:hover, :focus-visible) .n-action-arrow svg {
+    --local-offset: 100%;
+
+    animation: n-action-link-hover 0.35s cubic-bezier(0.85, 0, 0.15, 1) forwards;
+  }
+}
+
+@keyframes n-action-link-hover {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  30% {
+    translate: calc(var(--local-offset) * 2) calc(var(--local-offset) * -2);
+  }
+
+  31% {
+    translate: calc(var(--local-offset) * -1) var(--local-offset);
+  }
+}
+
+.cards .n-card-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--ntl-color-icon);
+}
+
+/* CLI snippet */
+.cards .n-cli-copy {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  background: color-mix(in srgb, currentcolor 6%, transparent);
+  border: 1px solid color-mix(in srgb, currentcolor 12%, transparent);
+  border-radius: var(--radius-sm, 6px);
+  padding: var(--space-3xs) var(--space-2xs);
+  margin-top: var(--space-xs);
+  font-size: var(--font-size-body-sm);
+  width: fit-content;
+}
+
+.cards .n-cli-copy pre {
+  display: contents;
+}
+
+.cards .n-cli-copy code {
+  /* the source code sits outside a <pre>: canon :not(pre) > code box */
+  padding: var(--space-3xs);
+  font-size: var(--font-size-text-xs, 0.9em);
+  border-radius: var(--radius-xs);
+  background-color: var(--color-bg-2);
+  font-family: var(--font-family-mono, monospace);
+  user-select: all;
+  white-space: pre-wrap;
+}
+
+.cards .n-cli-copy-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--body-text-color);
+  padding: 2px;
+  border-radius: var(--radius-xs, 4px);
+  transition: color 0.15s ease;
+}
+
+.cards .n-cli-copy-btn:hover {
+  color: var(--heading-text-color);
 }

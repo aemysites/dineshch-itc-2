@@ -1,0 +1,974 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-11T15:56:11.663Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.netlify.com/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.netlify.com/",
+   "status": 200,
+   "host": "www.netlify.com",
+   "title": "Push your ideas to the web | Netlify",
+   "forms": [
+    {
+     "name": "hsForm_52611e5e-cc55-4960-bf4a-a2adb36291f6_52611e5e-cc55-4960-bf4a-a2adb36291f6-0",
+     "action": "https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/7477936/52611e5e-cc55-4960-bf4a-a2adb36291f6",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 2,
+     "signature": [
+      "email:email",
+      "textarea:g-recaptcha-response"
+     ],
+     "hidden": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term",
+      "g-recaptcha-response",
+      "hs_context"
+     ],
+     "tokens": [
+      "g-recaptcha-response"
+     ],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Toggle platform submenu",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Toggle solutions submenu",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Toggle developers submenu",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Toggle resources submenu",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Ask Netlify AI",
+     "textLen": 189,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "alertdialog",
+     "heading": "Do Not Use My Personal Information",
+     "textLen": 4022,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Ld_ad8ZAAAAAAqr0ePo1dUfAi0m4KPkCMQYwPPm&co=aHR0cHM6Ly93d3cubmV0bGlmeS5jb206NDQz&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&badge=inline&",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Lck4YwlAAAAAEIE1hR--varWp0qu9F-8-emQn2v&co=aHR0cHM6Ly93d3cubmV0bGlmeS5jb206NDQz&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=200",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&k=6Ld_ad8ZAAAAAAqr0ePo1dUfAi0m4KPkCMQYwPPm&bft=0dAFcWeA4C2rPwY6Zz2gPQQ8R6rhHm2gxUfinKCtFhwY7MuKs2OTN6adgz9-bi-wqUR2r",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Ld_ad8ZAAAAAAqr0ePo1dUfAi0m4KPkCMQYwPPm&co=aHR0cHM6Ly93d3cubmV0bGlmeS5jb206NDQz&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&badge=inline&anchor-ms=20000&execute-ms=30000&cb=5ajsbofjvq96",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 150
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Lck4YwlAAAAAEIE1hR--varWp0qu9F-8-emQn2v&co=aHR0cHM6Ly93d3cubmV0bGlmeS5jb206NDQz&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=v4mh0v80dcb",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 150
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&k=6Ld_ad8ZAAAAAAqr0ePo1dUfAi0m4KPkCMQYwPPm&bft=0dAFcWeA4C2rPwY6Zz2gPQQ8R6rhHm2gxUfinKCtFhwY7MuKs2OTN6adgz9-bi-wqUR2r7Ga8K3Oi3bdfp0Wqaxr0QcBDNrVWOeA",
+     "title": "recaptcha challenge expires in two minutes",
+     "w": 1438,
+     "h": 150
+    }
+   ],
+   "mounts": [
+    {
+     "cls": "",
+     "attrs": [
+      "data-ads-portal-id",
+      "data-ads-env",
+      "data-loader",
+      "data-hsjs-portal",
+      "data-hsjs-env",
+      "data-hsjs-hublet"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-astro-exec"
+     ]
+    }
+   ],
+   "auth": [
+    "https://app.netlify.com/login",
+    "https://app.netlify.com/login"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": "astro",
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha",
+    "hbspt"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "n-tabpanel-group n-tabpanel-group-uniform-height",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 30,
+   "inlineFetch": true,
+   "mainText": 3285,
+   "domAddedAfterLoad": 18,
+   "hosts": {
+    "www.netlify.com": 59,
+    "cdn.cookielaw.org": 11,
+    "js.hsforms.net": 1,
+    "js.hs-scripts.com": 1,
+    "geolocation.onetrust.com": 1,
+    "js.hs-analytics.net": 1,
+    "js.hsadspixel.net": 1,
+    "www.google.com": 9,
+    "docs.netlify.com": 2,
+    "www.gstatic.com": 15,
+    "developers.netlify.com": 2,
+    "js.hs-banner.com": 1,
+    "js.hubspot.com": 1,
+    "www.googletagmanager.com": 4,
+    "rum.browser-intake-datadoghq.com": 7,
+    "api.hubapi.com": 1,
+    "join.netlify.com": 2,
+    "privacyportal-de.onetrust.com": 1,
+    "fonts.gstatic.com": 3,
+    "cdn.segment.com": 6,
+    "cta-service-cms2.hubspot.com": 1,
+    "partnerlinks.io": 1,
+    "grsm.io": 1,
+    "perf-na1.hsforms.com": 1,
+    "pagead2.googlesyndication.com": 2,
+    "www.google-analytics.com": 2,
+    "forms.hsforms.com": 1,
+    "track.hubspot.com": 4,
+    "forms-na1.hsforms.com": 2,
+    "api.segment.io": 1,
+    "static.ads-twitter.com": 1,
+    "snap.licdn.com": 2,
+    "t.co": 1,
+    "analytics.twitter.com": 1,
+    "px.ads.linkedin.com": 4,
+    "www.linkedin.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "js.hsforms.net",
+    "js.hs-scripts.com",
+    "geolocation.onetrust.com",
+    "js.hs-analytics.net",
+    "js.hsadspixel.net",
+    "www.google.com",
+    "www.gstatic.com",
+    "js.hs-banner.com",
+    "js.hubspot.com",
+    "www.googletagmanager.com",
+    "rum.browser-intake-datadoghq.com",
+    "api.hubapi.com",
+    "privacyportal-de.onetrust.com",
+    "fonts.gstatic.com",
+    "cdn.segment.com",
+    "cta-service-cms2.hubspot.com",
+    "partnerlinks.io",
+    "grsm.io",
+    "perf-na1.hsforms.com",
+    "pagead2.googlesyndication.com",
+    "www.google-analytics.com",
+    "forms.hsforms.com",
+    "track.hubspot.com",
+    "forms-na1.hsforms.com",
+    "api.segment.io",
+    "static.ads-twitter.com",
+    "snap.licdn.com",
+    "t.co",
+    "analytics.twitter.com",
+    "px.ads.linkedin.com",
+    "www.linkedin.com"
+   ],
+   "scripts": [
+    "https://www.netlify.com/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js",
+    "https://www.netlify.com/_astro/SiteNavigationSubmenu.astro_astro_type_script_index_0_lang.gPXner7w.js",
+    "https://www.netlify.com/_astro/BaseLayout.astro_astro_type_script_index_0_lang.BU0Zwx7e.js",
+    "https://www.netlify.com/_astro/SiteHeader.astro_astro_type_script_index_0_lang.DnvfDjhU.js",
+    "https://www.netlify.com/_astro/HomepageExperimentExposure.astro_astro_type_script_index_0_lang.DJgEBepp.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd/OtAutoBlock.js",
+    "https://www.netlify.com/_astro/HubSpotForm.astro_astro_type_script_index_0_lang.w3u3LLoj.js",
+    "https://www.netlify.com/_astro/HomepageGoogleOneTap.astro_astro_type_script_index_0_lang.C_o82L0W.js",
+    "https://www.netlify.com/pagefind/pagefind.js",
+    "https://www.netlify.com/rum.js",
+    "https://www.netlify.com/_astro/forwardUtm.DvR0WdbB.js",
+    "https://www.netlify.com/_astro/AuthNav.BVVjt1IP.js",
+    "https://www.netlify.com/_astro/client.DEZwZQai.js",
+    "https://js.hsforms.net/forms/v2.js",
+    "https://www.netlify.com/_astro/preact.StWrlRn1.js",
+    "https://js.hs-scripts.com/7477936.js",
+    "https://www.netlify.com/_astro/_commonjsHelpers.Cpj98o6Y.js",
+    "https://www.netlify.com/_astro/lodash.NslEEZXB.js",
+    "https://www.netlify.com/_astro/utils.CzkYfCtQ.js",
+    "https://www.netlify.com/_astro/HomepageDropZoneTracked.CGUMTQVY.js",
+    "https://www.netlify.com/pagefind/pagefind-worker.js",
+    "https://www.netlify.com/_astro/jsxRuntime.module.BYH08P0y.js",
+    "https://www.netlify.com/_astro/preload-helper.BlTxHScW.js",
+    "https://www.netlify.com/_astro/_commonjsHelpers.C6fGbg64.ByBKgm3k.js",
+    "https://www.netlify.com/_astro/siteNavToggle.CTMpDt45.js",
+    "https://www.netlify.com/_astro/hooks.module.CGr34I9g.js",
+    "https://www.netlify.com/_astro/preact.module.BrqZEJFG.js",
+    "https://www.netlify.com/_astro/auth.BFgiVRh_.js",
+    "https://cdn.cookielaw.org/scripttemplates/202311.1.0/otBannerSdk.js",
+    "https://www.netlify.com/_astro/tracking.BuBjEFxV.js",
+    "https://www.netlify.com/_astro/segment.DayVUMxu.js",
+    "https://js.hs-analytics.net/analytics/1791734100000/7477936.js",
+    "https://js.hsadspixel.net/pixels.js",
+    "https://www.google.com/recaptcha/enterprise.js?render=6Lck4YwlAAAAAEIE1hR--varWp0qu9F-8-emQn2v",
+    "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+    "https://js.hs-banner.com/v2/7477936/banner.js",
+    "https://js.hubspot.com/web-interactives-embed.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T7WNFLD",
+    "https://www.googletagmanager.com/gtag/js?id=AW-957669464",
+    "https://join.netlify.com/pr/js",
+    "https://www.googletagmanager.com/gtag/js?id=G-X2FMMZSSS9&cx=c&gtm=4e6a72",
+    "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz",
+    "https://www.googletagmanager.com/gtag/js?id=AW-957669464&cx=c&gtm=4e6a72",
+    "https://cdn.segment.com/analytics.js/v1/7f8W9mAxost9lRWyMuVR8xaMv9kHxBsy/analytics.min.js",
+    "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.40628baed746e9904edc.js",
+    "https://www.google.com/recaptcha/enterprise.js?&onload=hsRecaptchaLoaded_078d1918_6d1c_4cf3_bbf8_065df8f0216c&render=explicit&hl=en",
+    "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.a6a77355d52c20e3a83d.js",
+    "https://cdn.segment.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js",
+    "https://cdn.segment.com/next-integrations/actions/3962/1faa179dfb20d0a3f5a0.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.netlify.com",
+     "path": "/pagefind/pagefind-entry.json",
+     "query": [
+      "ts"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.netlify.com/pagefind/pagefind-entry.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.netlify.com",
+     "path": "/pagefind/pagefind.en_12efb6c454.pf_meta",
+     "query": [],
+     "status": 200,
+     "contentType": "application/octet-stream",
+     "example": "https://www.netlify.com/pagefind/pagefind.en_12efb6c454.pf_meta"
+    },
+    {
+     "method": "GET",
+     "host": "www.netlify.com",
+     "path": "/pagefind/wasm.en.pagefind",
+     "query": [],
+     "status": 200,
+     "contentType": "application/octet-stream",
+     "example": "https://www.netlify.com/pagefind/wasm.en.pagefind"
+    },
+    {
+     "method": "GET",
+     "host": "docs.netlify.com",
+     "path": "/pagefind/pagefind-entry.json",
+     "query": [
+      "ts"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://docs.netlify.com/pagefind/pagefind-entry.json"
+    },
+    {
+     "method": "GET",
+     "host": "docs.netlify.com",
+     "path": "/pagefind/pagefind.en_d9663937a2.pf_meta",
+     "query": [],
+     "status": 200,
+     "contentType": "application/octet-stream",
+     "example": "https://docs.netlify.com/pagefind/pagefind.en_d9663937a2.pf_meta"
+    },
+    {
+     "method": "GET",
+     "host": "developers.netlify.com",
+     "path": "/pagefind/pagefind-entry.json",
+     "query": [
+      "ts"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://developers.netlify.com/pagefind/pagefind-entry.json"
+    },
+    {
+     "method": "GET",
+     "host": "developers.netlify.com",
+     "path": "/pagefind/pagefind.en_45c5bbe766.pf_meta",
+     "query": [],
+     "status": 200,
+     "contentType": "application/octet-stream",
+     "example": "https://developers.netlify.com/pagefind/pagefind.en_45c5bbe766.pf_meta"
+    },
+    {
+     "method": "GET",
+     "host": "join.netlify.com",
+     "path": "/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+     "query": [],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://join.netlify.com/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd/5dec0507-5e89-4bb4-8f2d-0872be7dd9",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd/019be7c0-c17c-7b38-86db-9637cd5181",
+    "GET cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202311.1.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST rum.browser-intake-datadoghq.com/api/v2/rum",
+    "GET api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+    "POST privacyportal-de.onetrust.com/request/v1/consentreceipts",
+    "GET cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+    "GET partnerlinks.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+    "GET grsm.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+    "POST pagead2.googlesyndication.com/ccm/collect",
+    "POST www.google-analytics.com/g/collect",
+    "GET cdn.segment.com/v1/projects/7f8W9mAxost9lRWyMuVR8xaMv9kHxBsy/settings",
+    "GET forms.hsforms.com/embed/v3/form/7477936/52611e5e-cc55-4960-bf4a-a2adb36291f6/json",
+    "POST api.segment.io/v1/p",
+    "POST www.google.com/recaptcha/enterprise/reload",
+    "POST px.ads.linkedin.com/wa/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.50.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awww&dd-api-key=pubb2e68ad93b9891edc190fcd4c7bbe1b1&dd-evp-",
+     "body": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":100},\"discarded\":false},\"application\":{\"id\":\"be4d070b-9645-4227-b084-41fa141b62b3\"},\"date\":1791734171739,\"service\":\"www\",\"source\":\"browser\",\"session\":{\"id\":\"2268e893-c97d-474a-9c57-942ea5e8202b\",\"type\":\"user\"},\"view\":{\"id\":\"0a6854ae-281f-4834-810f-8b3c4233af3e\",\"url\":\"h"
+    },
+    {
+     "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.50.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awww&dd-api-key=pubb2e68ad93b9891edc190fcd4c7bbe1b1&dd-evp-",
+     "body": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":100},\"discarded\":false},\"application\":{\"id\":\"be4d070b-9645-4227-b084-41fa141b62b3\"},\"date\":1791734171837,\"service\":\"www\",\"source\":\"browser\",\"session\":{\"id\":\"2268e893-c97d-474a-9c57-942ea5e8202b\",\"type\":\"user\"},\"view\":{\"id\":\"0a6854ae-281f-4834-810f-8b3c4233af3e\",\"url\":\"h"
+    },
+    {
+     "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.50.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awww&dd-api-key=pubb2e68ad93b9891edc190fcd4c7bbe1b1&dd-evp-",
+     "body": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":100},\"discarded\":false},\"application\":{\"id\":\"be4d070b-9645-4227-b084-41fa141b62b3\"},\"date\":1791734171981,\"service\":\"www\",\"source\":\"browser\",\"session\":{\"id\":\"2268e893-c97d-474a-9c57-942ea5e8202b\",\"type\":\"user\"},\"view\":{\"id\":\"0a6854ae-281f-4834-810f-8b3c4233af3e\",\"url\":\"h"
+    },
+    {
+     "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.50.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awww&dd-api-key=pubb2e68ad93b9891edc190fcd4c7bbe1b1&dd-evp-",
+     "body": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":100},\"discarded\":false},\"application\":{\"id\":\"be4d070b-9645-4227-b084-41fa141b62b3\"},\"date\":1791734172141,\"service\":\"www\",\"source\":\"browser\",\"session\":{\"id\":\"2268e893-c97d-474a-9c57-942ea5e8202b\",\"type\":\"user\"},\"view\":{\"id\":\"0a6854ae-281f-4834-810f-8b3c4233af3e\",\"url\":\"h"
+    },
+    {
+     "url": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+     "body": "{\"requestInformation\":\"eyJhbGciOiJSUzUxMiJ9.eyJvdEp3dFZlcnNpb24iOjEsInByb2Nlc3NJZCI6IjczNDdlYmEzLWZhYjctNDJjYi1hYWE5LTJkNjI2ZTkwMjlhZiIsInByb2Nlc3NWZXJzaW9uIjo0MywiaWF0IjoiMjAyMy0wNC0yNFQyMTo1MTo1OS43NjciLCJtb2MiOiJDT09LSUUiLCJwb2xpY3lfdXJpIjoibmV0bGlmeS5jb20iLCJzdWIiOiJDb29raWUgVW5pcXVlIElkIiwiaXNzIjpudWxsLCJ0ZW5hbnRJZCI6ImMwNjc3NTk3LTBkZjAtNDMyYy1hNjdmLTJiMTU3MmJjYjI5ZiIsImRlc2NyaXB0aW9uIjoiVGhp"
+    },
+    {
+     "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.50.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awww&dd-api-key=pubb2e68ad93b9891edc190fcd4c7bbe1b1&dd-evp-",
+     "body": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":100},\"discarded\":false},\"application\":{\"id\":\"be4d070b-9645-4227-b084-41fa141b62b3\"},\"date\":1791734172319,\"service\":\"www\",\"source\":\"browser\",\"session\":{\"id\":\"2268e893-c97d-474a-9c57-942ea5e8202b\",\"type\":\"user\"},\"view\":{\"id\":\"0a6854ae-281f-4834-810f-8b3c4233af3e\",\"url\":\"h"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&apvc=1&tid=AW-957669464&en=page_view&dl=https%3A%2F%2Fwww.netlify.com%2F&scrsrc=www.googletagmanager.com&rnd=1695404499.1791734174&navt=n",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2FMMZSSS9&gtm=45je6a72v895976415za208zb848243009zd848243009xf1&_p=1791734171929&gcs=G111&gcd=13v3v3m3m5l1&npa=1&dma_cps=-&dma=0&ecid=2113422808&_e",
+     "body": ""
+    },
+    {
+     "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.50.1%2Capi%3Afetch%2Cenv%3Aproduction%2Cservice%3Awww&dd-api-key=pubb2e68ad93b9891edc190fcd4c7bbe1b1&dd-evp-",
+     "body": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":100},\"discarded\":false},\"application\":{\"id\":\"be4d070b-9645-4227-b084-41fa141b62b3\"},\"date\":1791734173173,\"service\":\"www\",\"source\":\"browser\",\"session\":{\"id\":\"2268e893-c97d-474a-9c57-942ea5e8202b\",\"type\":\"user\"},\"view\":{\"id\":\"0a6854ae-281f-4834-810f-8b3c4233af3e\",\"url\":\"h"
+    },
+    {
+     "url": "https://api.segment.io/v1/p",
+     "body": "{\"timestamp\":\"2026-10-11T15:56:14.583Z\",\"integrations\":{\"Actions Amplitude\":{\"session_id\":1791734174601}},\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Push your ideas to the web | Netlify\",\"url\":\"https://www.netlify.com/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Push your ideas to the web | Netlify\",\"url\":\"https://www.netlify.com/\"},\"userAgent\""
+    },
+    {
+     "url": "https://www.google.com/recaptcha/enterprise/reload?k=6Ld_ad8ZAAAAAAqr0ePo1dUfAi0m4KPkCMQYwPPm",
+     "body": "\n\u0018nY0xPItgwtlvjEjk2TqdwOQz\u0012�\f03AFcWeA4ACr0-0_kCxPDg13n0NHddWcfJsIDZQr7BekSt3jtvsO1yjJdtoANzeKZOtDiH6GIhGsanlPoMtnBsnxXyROHkFp7rR44EdYEyyaAPAsxvhHST0VfaxOrhs92Ou6OP78g2_VQUui6qRHaTEkZrmhAWC0Yk3MnaIbzp56f6xdzUqzlPj7tPntdHWDiTfNpvpSj7CwWsFOZKtQ3YLKp_K7udqPSOzFRLjroBT7Ku9LCCvHG-P5IN7h6UxwaXxRt7Tpmya06FqOBanaaEjrKFaiArz2t25JdQYQ4qQXd_9EHKCiD1gnL3hMkZqs7QbAUzuDTQlpQD7zoXpkBX6H9o_mxGAFytz4R5PGREV0d-T3Rxd"
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&apvc=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.netlify.com%2F&scrsrc=www.googletagmanager.com&rnd=1695404499.1791734174&navt=n&npa=1&ep.ads",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 3285,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-api-hubapi-com",
+   "class": "A",
+   "feature": "unknown third-party host api.hubapi.com",
+   "hint": "inspect",
+   "evidence": [
+    "api.hubapi.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cdn-segment-com",
+   "class": "A",
+   "feature": "unknown third-party host cdn.segment.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.segment.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cta-service-cms2-hubspot-com",
+   "class": "A",
+   "feature": "unknown third-party host cta-service-cms2.hubspot.com",
+   "hint": "inspect",
+   "evidence": [
+    "cta-service-cms2.hubspot.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-partnerlinks-io",
+   "class": "A",
+   "feature": "unknown third-party host partnerlinks.io",
+   "hint": "inspect",
+   "evidence": [
+    "partnerlinks.io"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-grsm-io",
+   "class": "A",
+   "feature": "unknown third-party host grsm.io",
+   "hint": "inspect",
+   "evidence": [
+    "grsm.io"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-api-segment-io",
+   "class": "A",
+   "feature": "unknown third-party host api.segment.io",
+   "hint": "inspect",
+   "evidence": [
+    "api.segment.io"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-framework-astro",
+   "class": "CR",
+   "feature": "client framework astro",
+   "hint": "framework",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-pagefind-pagefind-entry-json",
+   "class": "D",
+   "feature": "first-party data file GET /pagefind/pagefind-entry.json",
+   "api": {
+    "method": "GET",
+    "path": "/pagefind/pagefind-entry.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /pagefind/pagefind-entry.json?ts → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 1
+   }
+  },
+  {
+   "id": "f-form-backend-hubspot-forms",
+   "class": "F",
+   "feature": "form backend: HubSpot forms",
+   "role": "form backend: HubSpot forms",
+   "hint": "forms",
+   "evidence": [
+    "js.hsforms.net",
+    "js.hs-scripts.com",
+    "perf-na1.hsforms.com",
+    "forms.hsforms.com",
+    "forms-na1.hsforms.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "role": "form protection: captcha / antibot",
+   "hint": "forms",
+   "evidence": [
+    "www.google.com",
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-hsform-52611e5e-cc55-4960-bf4a-a2adb36291f6-52611e5e-",
+   "class": "F",
+   "feature": "form \"hsForm_52611e5e-cc55-4960-bf4a-a2adb36291f6_52611e5e-cc55-4960-bf4a-a2adb36291f6-0\" → third-party forms.hsforms.com (2 fields, tokens: g-recaptcha-response)",
+   "signature": [
+    "email:email",
+    "textarea:g-recaptcha-response"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "email:email,textarea:g-recaptcha-response",
+    "utm_campaign,utm_content,utm_medium,utm_source,utm_term,g-recaptcha-response,hs_context"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Toggle platform submenu",
+    "Toggle solutions submenu",
+    "Toggle developers submenu",
+    "Toggle resources submenu"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 4,
+    "of": 1
+   }
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "privacyportal-de.onetrust.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-marketing-hubspot-tracking",
+   "class": "T",
+   "feature": "marketing: HubSpot tracking",
+   "role": "marketing: HubSpot tracking",
+   "hint": "tags",
+   "evidence": [
+    "js.hs-analytics.net",
+    "js.hs-banner.com",
+    "js.hubspot.com",
+    "t.co"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-js-hsadspixel-net",
+   "class": "T",
+   "feature": "unknown third-party host js.hsadspixel.net",
+   "hint": "inspect",
+   "evidence": [
+    "js.hsadspixel.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-rum-error-monitoring",
+   "class": "T",
+   "feature": "RUM: error monitoring",
+   "role": "RUM: error monitoring",
+   "hint": "tags",
+   "evidence": [
+    "rum.browser-intake-datadoghq.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "pagead2.googlesyndication.com",
+    "snap.licdn.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-track-hubspot-com",
+   "class": "T",
+   "feature": "unknown third-party host track.hubspot.com",
+   "hint": "inspect",
+   "evidence": [
+    "track.hubspot.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.ads-twitter.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "analytics.twitter.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-third-party-mount-div-data-ads-portal-id-tag-manager-injec",
+   "class": "T",
+   "feature": "third-party mount <div data-ads-portal-id> (tag-manager-injected widget)",
+   "hint": "tags",
+   "evidence": [
+    "data-ads-portal-id data-ads-env data-loader data-hsjs-portal data-hsjs-env data-hsjs-hublet"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-third-party-mount-div-data-astro-exec-tag-manager-injected",
+   "class": "T",
+   "feature": "third-party mount <div data-astro-exec> (tag-manager-injected widget)",
+   "hint": "tags",
+   "evidence": [
+    "data-astro-exec"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0",
+    "onetrust-text-resize"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://app.netlify.com/login"
+   ],
+   "pages": [
+    "/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 1,
+  "of": 1,
+  "endpoints": {
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 1,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 1,
+   "GET www.netlify.com/pagefind/pagefind-entry.json": 1,
+   "GET www.netlify.com/pagefind/pagefind.en_12efb6c454.pf_meta": 1,
+   "GET www.netlify.com/pagefind/wasm.en.pagefind": 1,
+   "GET docs.netlify.com/pagefind/pagefind-entry.json": 1,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 1,
+   "GET docs.netlify.com/pagefind/pagefind.en_d9663937a2.pf_meta": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otFloatingRounded.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202311.1.0/assets/v2/otPcCenter.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otCommonStyles.css": 1,
+   "GET developers.netlify.com/pagefind/pagefind-entry.json": 1,
+   "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg": 1,
+   "GET developers.netlify.com/pagefind/pagefind.en_45c5bbe766.pf_meta": 1,
+   "GET api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json": 1,
+   "POST rum.browser-intake-datadoghq.com/api/v2/rum": 1,
+   "GET cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs": 1,
+   "GET join.netlify.com/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj": 1,
+   "POST privacyportal-de.onetrust.com/request/v1/consentreceipts": 1,
+   "GET partnerlinks.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj": 1,
+   "GET grsm.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj": 1,
+   "POST pagead2.googlesyndication.com/ccm/collect": 1,
+   "GET cdn.segment.com/v1/projects/7f8W9mAxost9lRWyMuVR8xaMv9kHxBsy/settings": 1,
+   "POST www.google-analytics.com/g/collect": 1,
+   "GET forms.hsforms.com/embed/v3/form/{n}/{uuid}/json": 1,
+   "POST api.segment.io/v1/p": 1,
+   "POST px.ads.linkedin.com/wa/": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 1,
+  "triggerPages": {
+   "aria-haspopup": 4
+  }
+ }
+}

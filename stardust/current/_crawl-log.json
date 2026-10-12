@@ -1,0 +1,647 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.netlify.com/favicon/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 1,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 1,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.netlify.com",
+        "path": "/pagefind/pagefind-entry.json",
+        "query": [
+          "ts"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.netlify.com/pagefind/pagefind-entry.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.netlify.com",
+        "path": "/pagefind/pagefind.en_12efb6c454.pf_meta",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://www.netlify.com/pagefind/pagefind.en_12efb6c454.pf_meta",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.netlify.com",
+        "path": "/pagefind/wasm.en.pagefind",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://www.netlify.com/pagefind/wasm.en.pagefind",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "docs.netlify.com",
+        "path": "/pagefind/pagefind-entry.json",
+        "query": [
+          "ts"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://docs.netlify.com/pagefind/pagefind-entry.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd/019be7c0-c17c-7b38-86db-9637cd518176/en.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "docs.netlify.com",
+        "path": "/pagefind/pagefind.en_d9663937a2.pf_meta",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://docs.netlify.com/pagefind/pagefind.en_d9663937a2.pf_meta",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202311.1.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otFloatingRounded.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202311.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202311.1.0/assets/v2/otPcCenter.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202311.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otCommonStyles.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "developers.netlify.com",
+        "path": "/pagefind/pagefind-entry.json",
+        "query": [
+          "ts"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://developers.netlify.com/pagefind/pagefind-entry.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "developers.netlify.com",
+        "path": "/pagefind/pagefind.en_45c5bbe766.pf_meta",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://developers.netlify.com/pagefind/pagefind.en_45c5bbe766.pf_meta",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.hubapi.com",
+        "path": "/hs-script-loader-public/v2/config/pixels-and-events/json",
+        "query": [
+          "portalId"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "rum.browser-intake-datadoghq.com",
+        "path": "/api/v2/rum",
+        "query": [
+          "batch_time",
+          "dd-api-key",
+          "dd-evp-origin",
+          "dd-evp-origin-version",
+          "dd-request-id",
+          "ddsource",
+          "ddtags"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://rum.browser-intake-datadoghq.com/api/v2/rum",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cta-service-cms2.hubspot.com",
+        "path": "/web-interactives/public/v1/embed/combinedConfigs",
+        "query": [
+          "currentUrl",
+          "portalId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "join.netlify.com",
+        "path": "/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://join.netlify.com/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "partnerlinks.io",
+        "path": "/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://partnerlinks.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "grsm.io",
+        "path": "/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://grsm.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "did",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "ep.optanonAction",
+          "ep.optanonCategory",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.segment.com",
+        "path": "/v1/projects/7f8W9mAxost9lRWyMuVR8xaMv9kHxBsy/settings",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.segment.com/v1/projects/7f8W9mAxost9lRWyMuVR8xaMv9kHxBsy/settings",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "forms.hsforms.com",
+        "path": "/embed/v3/form/{n}/{uuid}/json",
+        "query": [
+          "X-HubSpot-Static-App-Info",
+          "hs_static_app",
+          "hs_static_app_version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://forms.hsforms.com/embed/v3/form/7477936/52611e5e-cc55-4960-bf4a-a2adb36291f6/json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.segment.io",
+        "path": "/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.segment.io/v1/p",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.segment.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "js.hs-scripts.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "js.hsforms.net",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "js.hsadspixel.net",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "js.hs-analytics.net",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "js.hs-banner.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "js.hubspot.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "astro",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "hint": "hubspot-forms",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/7477936/52611e5e-cc55-4960-bf4a-a2adb36291f6",
+        "method": "post",
+        "sameOrigin": false,
+        "search": false,
+        "fieldNames": [
+          "email",
+          "g-recaptcha-response"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "thumbnail shows fully rendered home page (hero, logo strip, feature grid, video, start-your-way cards, three dark platform panels, quote, tabbed web-app section, stats, footer); no consent wall or bot page"
+    }
+  ],
+  "assetHarvest": {
+    "fonts": "7 woff2 from /_astro/ (OFL: Figtree, Instrument Sans, Martian Mono) → assets/fonts/",
+    "css": "8 /_astro/*.css → assets/css/",
+    "media": "15 /images/ assets → assets/media/"
+  }
+}

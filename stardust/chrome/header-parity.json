@@ -1,0 +1,143 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-11T18:56:21.982Z",
+ "source": "https://www.netlify.com/",
+ "build": "https://main--928837cf--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 2,
+  "warn": 12,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "motion@360 Search [click]",
+   "width": 360,
+   "path": "Search",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates openSearch; the build does not"
+  },
+  {
+   "key": "motion@360 Search [click]",
+   "width": 360,
+   "path": "Search",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates appearContainer; the build does not"
+  },
+  {
+   "key": "motion@360 Search > Ask Netlify AI Get instant answers, powered by AI [click]",
+   "width": 360,
+   "path": "Search > Ask Netlify AI Get instant answers, powered by AI",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates fadeInUp; the build does not"
+  },
+  {
+   "key": "motion@360 Search > Ask Netlify AI Get instant answers, powered by AI [click]",
+   "width": 360,
+   "path": "Search > Ask Netlify AI Get instant answers, powered by AI",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates appearContainer; the build does not"
+  },
+  {
+   "key": "link-href@360 Toggle main menu [click]",
+   "width": 360,
+   "path": "Toggle main menu",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: + More: /welcome/build-with-ai/overview → /integrations/frameworks"
+  },
+  {
+   "key": "budget-truncated@360 (source)",
+   "width": 360,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 2 at Search > Ask Netlify AI Get instant answers, powered by AI: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "link-href@1440 Toggle developers submenu [hover]",
+   "width": 1440,
+   "path": "Toggle developers submenu",
+   "action": "hover",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: + More: /welcome/build-with-ai/overview → /integrations/frameworks"
+  },
+  {
+   "key": "motion@1440 Search [click]",
+   "width": 1440,
+   "path": "Search",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates openSearch; the build does not"
+  },
+  {
+   "key": "motion@1440 Search [click]",
+   "width": 1440,
+   "path": "Search",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates appearContainer; the build does not"
+  },
+  {
+   "key": "motion@1440 Search > Ask Netlify AI Get instant answers, powered by AI [click]",
+   "width": 1440,
+   "path": "Search > Ask Netlify AI Get instant answers, powered by AI",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates fadeInUp; the build does not"
+  },
+  {
+   "key": "motion@1440 Search > Ask Netlify AI Get instant answers, powered by AI [click]",
+   "width": 1440,
+   "path": "Search > Ask Netlify AI Get instant answers, powered by AI",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates appearContainer; the build does not"
+  },
+  {
+   "key": "budget-truncated@1440 (source)",
+   "width": 1440,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 2 at Search > Ask Netlify AI Get instant answers, powered by AI: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "panel-visual@360 Search [click]",
+   "width": 360,
+   "path": "Search",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 42.8% (bar 2%; source 333×613, build 322×512; texture 93% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Search [click]",
+   "width": 1440,
+   "path": "Search",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 84.5% (bar 2%; source 1012×640, build 600×514; texture 98% thick)"
+  }
+ ]
+}

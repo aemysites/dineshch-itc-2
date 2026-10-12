@@ -1,47 +1,309 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
+/* hero — values lifted from the gated prototype (stardust/prototypes/top.css § hero) */
+
+/* page section shell */
+.hero .n-page-section {
+  --local-space: var(--ntl-space-3xl);
+  --spark-hero-stroke-color: white;
+  --ntl-page-section-item-space: var(--ntl-space-2xs);
+  --ntl-page-section-space-bottom: 2rem;
+
+  color: var(--ntl-page-section-text-color, var(--ntl-color-text));
+  background: var(--ntl-page-section-bg-color, var(--ntl-color-bg));
+  padding-block: var(--ntl-page-section-space-top, var(--local-space)) var(--ntl-page-section-space-bottom, var(--local-space));
 }
 
-.hero {
+.hero .n-page-section > * + * {
+  margin-block-start: var(--ntl-page-section-item-space, var(--ntl-space-2xl));
+}
+
+/* heading block: the wrappers carry the type, the authored nodes inherit it (EW2) */
+.hero .n-heading-block-heading {
+  font-family: var(--font-family-display);
+  font-size: var(--ntl-heading-block-heading-font-size, var(--ntl-font-size-display-2xl));
+  inline-size: min(100%, var(--ntl-heading-block-heading-max-width, 50rem));
+  text-wrap: balance;
+  color: var(--ntl-heading-text-color);
+}
+
+.hero .n-heading-block-heading :is(h1, h2, h3) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+.hero .n-heading-block-text {
+  font-size: var(--ntl-heading-block-text-font-size, var(--ntl-font-size-text-lg));
+  inline-size: min(100%, var(--ntl-heading-block-text-max-width, 35rem));
+  text-wrap: pretty;
+}
+
+.hero .n-heading-block-text p {
+  margin: 0;
+}
+
+.hero .n-page-hero-graphic-container {
+  --ntl-grid-column-min-size: min(400px, 100%);
+
+  align-items: var(--n-hero-align, center);
+  column-gap: var(--n-hero-column-gap, var(--ntl-space-l));
+}
+
+.hero .n-heading-block-ctas {
+  --ntl-flow-space: var(--ntl-space-l);
+  --ntl-cluster-gap: var(--ntl-space-xs);
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 var(--ntl-space-xs);
+  width: fit-content;
+}
+
+.hero .n-heading-block-ctas p {
+  margin: 0;
+}
+
+/* buttons (the global main a.button system carries the same values) */
+.hero .homepage-hero-agent-cta {
+  --button-icon-size: 0.8rem;
+  --button-bg-color: var(--button-secondary-bg-color);
+  --button-bg-color-hover: var(--button-secondary-bg-color-hover);
+  --button-text-color: var(--button-secondary-text-color);
+
+  appearance: none;
+  cursor: pointer;
+  outline-offset: 0.25rem;
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  grid-column: 1 / -1;
+  min-height: 2.5rem;
+  overflow: hidden;
+  padding: 0.625rem 1.0625rem;
+  font-size: var(--font-size-text-md);
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-none);
+  text-align: center;
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  border: none;
+  border-radius: var(--radius-pill);
+  transition: 0.2s cubic-bezier(0.33, 1, 0.68, 1);
+  transition-property: background-color, border-color;
 }
 
-.hero h1,
-.hero h2,
-.hero h3,
-.hero h4,
-.hero h5,
-.hero h6,
-.hero p {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.hero .homepage-hero-agent-cta:hover {
+  background-color: var(--button-bg-color-hover);
 }
 
-.hero.no-image * {
-  color: var(--text-color);
+.hero .homepage-hero-agent-cta:active {
+  top: 1px;
 }
 
-.hero picture {
+.hero .homepage-hero-agent-cta svg {
+  flex: none;
+  height: var(--button-icon-size, 1.4cap);
+  width: auto;
+  fill: currentcolor;
+}
+
+.hero .homepage-hero-agent-cta-label {
+  grid-column: 1 / -1;
+  margin: var(--ntl-space-xs) 0 0.5rem;
+  text-align: center;
+  font-size: var(--font-size-text-sm);
+  color: inherit;
+  opacity: 0.85;
+}
+
+.hero .homepage-hero-agent-cta > :not(.homepage-hero-agent-cta-dots) {
+  position: relative;
+  z-index: 1;
+}
+
+.hero .homepage-hero-agent-cta-dots {
   position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
+  z-index: 0;
+  top: calc(-1 * var(--space-m));
+  left: calc(-1 * var(--space-xs));
+  display: block;
+  width: calc(100% + var(--space-m));
+  height: calc(100% + var(--space-xl));
+  color: var(--ntl-teal-100);
+  opacity: 0;
+  pointer-events: none;
+  mask-image: linear-gradient(105deg, transparent 40%, black 50%, transparent 60%);
+  mask-size: 300% 100%;
+  mask-position: 100% 0;
+}
+
+.hero .homepage-hero-agent-cta.is-animated .homepage-hero-agent-cta-dots {
+  opacity: 0.5;
+  animation: agent-cta-sweep 2.4s cubic-bezier(0.55, 0, 0.35, 1) 0.4s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero .homepage-hero-agent-cta.is-animated .homepage-hero-agent-cta-dots {
+    opacity: 0;
+    animation: none;
+  }
+}
+
+@keyframes agent-cta-sweep {
+  0% {
+    mask-position: 100% 0;
+  }
+
+  100% {
+    mask-position: 0% 0;
+  }
+}
+
+.hero .homepage-hero-agent-cta-text {
+  font-family: var(--font-family-mono, monospace);
+  font-size: var(--font-size-text-xs);
+  font-weight: var(--font-weight-bold);
+}
+
+.hero .homepage-hero-agent-cta-text :is(p, code) {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: none;
+}
+
+.hero .homepage-hero-agent-cta-icon-stack {
+  display: inline-grid;
+  place-items: center;
+  margin-inline-start: calc(var(--space-s) - var(--space-2xs));
+}
+
+.hero .homepage-hero-agent-cta-icon-stack > * {
+  grid-area: 1 / 1;
+}
+
+.hero .homepage-hero-agent-cta-icon-stack svg {
+  height: var(--space-s);
+  fill: currentcolor;
+}
+
+.hero .homepage-hero-agent-cta-icon-stack .homepage-hero-agent-cta-check,
+.hero .homepage-hero-agent-cta.is-copied .homepage-hero-agent-cta-copy {
+  visibility: hidden;
+}
+
+.hero .homepage-hero-agent-cta.is-copied .homepage-hero-agent-cta-icon-stack .homepage-hero-agent-cta-check {
+  visibility: visible;
+}
+
+@media (width <= 30rem) {
+  .hero .n-heading-block-ctas > *,
+  .hero .n-heading-block-ctas p a {
+    inline-size: 100%;
+  }
+}
+
+/* dropzone */
+.hero .n-dropzone {
+  --n-dropzone-accent: var(--color-brand-primary, #0e7fe1);
+  --n-dropzone-radius: var(--radius-2xl, 1rem);
+
   box-sizing: border-box;
+  position: relative;
+  min-height: 4rem;
+  color: var(--color-text-default, #14161a);
+  border: 2px dashed var(--color-border-default, rgb(0 0 0 / 15%));
+  border-radius: var(--n-dropzone-radius);
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease-out, background-color 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
-.hero img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.hero .n-dropzone:focus-visible {
+  border-color: var(--n-dropzone-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--n-dropzone-accent) 40%, transparent);
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .n-dropzone.is-active {
+  border-color: var(--n-dropzone-accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--n-dropzone-accent) 18%, transparent);
+}
+
+.hero .n-dropzone-content {
+  transition: opacity 0.15s ease-out;
+  pointer-events: none;
+}
+
+.hero .dz-hero {
+  --color-border-default: rgb(255 255 255 / 30%);
+
+  padding: var(--ntl-space-s);
+  min-width: 0;
+  transition-duration: 0.45s;
+  overflow: hidden;
+
+  /* the source wraps it in a display:contents astro-island (no flex-grid child rule) */
+  flex: 0 1 auto;
+}
+
+.hero .dz-hero svg {
+  height: auto;
+}
+
+.hero .dz-hero input[hidden] {
+  display: none;
+}
+
+.hero .dz-hero .dz-hero-arrow {
+  fill: #fff;
+  transition: fill 0.25s ease, filter 0.25s ease;
+}
+
+.hero .dz-hero:hover .dz-hero-arrow {
+  fill: #32e6e2;
+  filter: drop-shadow(0 0 5px rgb(50 230 226 / 75%));
+}
+
+.hero .dz-hero.is-active .dz-hero-arrow {
+  fill: #32e6e2;
+  filter: drop-shadow(0 0 10px rgb(50 230 226 / 90%)) drop-shadow(0 0 3px rgb(50 230 226 / 90%));
+}
+
+.hero .dz-hero-spinner {
+  display: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero .dz-hero .dz-hero-float {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: dzh-float 3.2s ease-in-out infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero .n-dropzone {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@keyframes dzh-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
   }
 }

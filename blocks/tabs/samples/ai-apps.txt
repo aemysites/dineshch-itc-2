@@ -1,0 +1,17 @@
+<span class="c1">import</span> OpenAI <span class="c1">from</span><span class="c1"> "</span><span class="c3">openai</span><span class="c1">"</span><span class="c1">;</span>
+
+<span class="c1">export</span><span class="c1"> default</span><span class="c4"> async</span><span class="c1"> (</span><span class="c5">req</span><span class="c4">:</span><span class="c6"> Request</span><span class="c1">)</span><span class="c4"> =&gt;</span><span class="c1"> {</span>
+<span class="c4">  const</span><span class="c1"> {</span> description <span class="c1">}</span><span class="c4"> =</span><span class="c1"> await</span> req<span class="c1">.</span><span class="c7">json</span>()<span class="c1">;</span>
+<span class="c4">  const</span> client <span class="c4">=</span><span class="c4"> new</span><span class="c7"> OpenAI</span>()<span class="c1">;</span>
+
+<span class="c4">  const</span> res <span class="c4">=</span><span class="c1"> await</span> client<span class="c1">.</span>responses<span class="c1">.</span><span class="c7">create</span>(<span class="c1">{</span>
+    model<span class="c1">:</span><span class="c1"> "</span><span class="c3">gpt-5-mini</span><span class="c1">"</span><span class="c1">,</span>
+    input<span class="c1">:</span> [
+<span class="c1">      {</span> role<span class="c1">:</span><span class="c1"> "</span><span class="c3">user</span><span class="c1">"</span><span class="c1">,</span> content<span class="c1">:</span><span class="c1"> `</span><span class="c3">Write concise alt text for: </span><span class="c1">${</span>description<span class="c1">}`</span><span class="c1"> },</span>
+    ]<span class="c1">,</span>
+<span class="c1">  }</span>)<span class="c1">;</span>
+
+<span class="c1">  return</span> Response<span class="c1">.</span><span class="c7">json</span>(<span class="c1">{</span> altText<span class="c1">:</span> res<span class="c1">.</span>output_text <span class="c1">}</span>)<span class="c1">;</span>
+<span class="c1">};</span>
+
+<span class="c1">export</span><span class="c4"> const</span> config <span class="c4">=</span><span class="c1"> {</span> path<span class="c1">:</span><span class="c1"> "</span><span class="c3">/api/alt-text</span><span class="c1">"</span><span class="c1"> };</span>

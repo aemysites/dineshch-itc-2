@@ -1,0 +1,125 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-11T16:24:01Z",
+    "stardustVersion": "0.33.0"
+  },
+  "site": {
+    "originUrl": "https://www.netlify.com",
+    "deployUrl": null,
+    "extractedAt": "2026-10-11T15:52:38.882Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1
+  },
+  "direction": {
+    "resolvedAt": "2026-10-11T15:57:52.113Z",
+    "phrase": "replica — keep the current design (bounded-single)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-11T15:53:01.111Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.netlify.com/",
+      "title": "Push your ideas to the web | Netlify",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-11T15:52:38.882Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-11T15:57:52Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-11T16:21:05Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-11T16:22:34Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-11T16:24:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-11T16:23:42Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 29,
+    "bundledAssets": [
+      "bottom.css",
+      "bottom.js",
+      "canon.css",
+      "chrome.css",
+      "chrome.js",
+      "fonts/Figtree_wght_.DbGe-NNA.woff2",
+      "fonts/InstrumentSans-Italic_wdth_wght_.pMV_u3Uy.woff2",
+      "fonts/InstrumentSans_wdth_wght_.tWV223Ma.woff2",
+      "fonts/MartianMono-Bold.DCwCKom0.woff2",
+      "fonts/MartianMono-Medium.BnDjRSrk.woff2",
+      "fonts/MartianMono-Regular.BdLZLV0s.woff2",
+      "fonts/MartianMono-SemiBold.1R8ajVL6.woff2",
+      "media/autodesk-black.svg",
+      "media/favicon.ico",
+      "media/figma.svg",
+      "media/finn-black.svg",
+      "media/kubernetes.svg",
+      "media/meta-black.svg",
+      "media/mighty-black.svg",
+      "media/riot-games.svg",
+      "media/servicetitan-black.svg",
+      "media/stack-overflow.svg",
+      "media/switchback-1.svg",
+      "media/switchback-2.svg",
+      "media/switchback-3.svg",
+      "media/what-is-netlify-thumbnail.png",
+      "media/zscaler-black.svg",
+      "top.css",
+      "top.js"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 29
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-11T16:23:42Z",
+      "rendered": [
+        "index"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

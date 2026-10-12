@@ -1,0 +1,37 @@
+{
+  "frozenAt": "2026-10-11T18:38:20.472Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer-icons.js": "c09a0fbc3a5f153ca6c92b0ac5f5944540615e08da57a067e07447da62e9c8a4",
+    "blocks/footer/footer.css": "a388a6edcd8aa9aea3ce032992e9eba2ac9101eeaaf20eb3687dcda59dfbe034",
+    "blocks/footer/footer.js": "e54c6e32000dcec781bc5fdbf2dadf66404e93590b2cf0466f7c33e568b69a8f",
+    "blocks/header/header-icons.js": "ff3f8f497479f177670e4f711441946416c15d43eadcc3ac88fd585d2cbacd4c",
+    "blocks/header/header.css": "1cf9b22710286905478ce2670b261752063736dac622e38e7028e721c66b0561",
+    "blocks/header/header.js": "d956ee2cddf6189a4999323229ff4cf31a7d66280cde64473a77281b876324ce",
+    "fonts/figtree.woff2": "6b96ce6d4783658f09e2b92d468da8e542d57aa6e4bc461ab2e7ae71565fdc64",
+    "fonts/instrument-sans-italic.woff2": "e958f71ffb2d576dd6a9499bd9bb336ad060ab48e1920b2444d68919dee29ba5",
+    "fonts/instrument-sans.woff2": "aa72922aafcc0dc18f36ec1d805b0212057dabe8b9d5b8b57f67035aea1b826d",
+    "fonts/martian-mono-400.woff2": "a52fec1b85342fa4279fbf9d1bb5da5f6f12b38040a8e0d79ec1e6a5244eb0bb",
+    "fonts/martian-mono-500.woff2": "e3543dd7fc5195fcbf17dfab04e5a1fba89cb8d01496e03e386da0850fb5e57e",
+    "fonts/martian-mono-600.woff2": "e4feb454f876d81fcba021e2f21f8cdee54b1aad68594a6561ae290a5ea82ed3",
+    "fonts/martian-mono-700.woff2": "f0fcc5a7cdd77a204f0cedcc48fec02d9e976c08ca347d0fa304757ff6ed9673",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "a3e1384374d6483892538a15703e3f62880ef520c4b2192afbc2bb488c0bb6fe",
+    "scripts/scripts.js": "4503c02bd53c5e5fb04b14e325e467a26f1ec9446519bb368ba779fbfc5a5096",
+    "scripts/svg-symbol.js": "4fa6d14f1cb0b8ebe8ffea3325d29d795f146bd999cdcd223d71edb47f04bdcd",
+    "styles/fonts.css": "f1c207243ba0f73af0b9356100244206893583739affc8543113b73260f25330",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "150a2264e6e2de3f74cfe7601ee0800aa52a49db357be5e3257c4fe57966fa6c"
+  }
+}

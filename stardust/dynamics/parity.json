@@ -1,0 +1,110 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-10-11T17:30:00Z", "phase": "rollout D2-dynamic", "input": "stardust/dynamic-features.md (14 curated rows), stardust/dynamic-features-plan.md, stardust/dynamics/dynamic-features.generated-plan.json, stardust/martech-contract.json" },
+  "method": "Same-design replica of the home page: chrome interactions rebuilt natively in header/footer blocks, client-only islands re-implemented in hero/logo-ticker/tabs/steps blocks, YouTube kept as a click-to-load nocookie facade, newsletter UI rebuilt without a backend, tags carried over via scripts/martech.js with every contract part OFF. Probed on the published origin at 1440 and 360 (stardust/.work/dynamics/probes/).",
+  "features": [
+    {
+      "id": "header-menus", "feature": "header mega-menus (Platform, Solutions, Developers, Resources), mobile drawer, announcement close", "class": "M", "pages": 1,
+      "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "1440: 4 submenu toggles open one panel each — platform 777x213/9 links, solutions 540x369/11, developers 600x411/16, resources 200x300/8; Escape closes (0 open after). 360: hamburger sets data-site-nav-open, drawer 360x667 with 47 links",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": "header .submenu-toggle[aria-controls]", "min": 4 },
+        { "type": "dom-count", "path": "/", "selector": "header .submenu a[href]", "min": 40 },
+        { "type": "dom-count", "path": "/", "selector": "header .nav-toggle[aria-controls='main-menu']", "min": 1 }
+      ]
+    },
+    {
+      "id": "hero-prompt", "feature": "hero prompt box / dropzone + 'Add Netlify to your coding agent' copy button", "class": "CR", "pages": 1,
+      "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "1 .n-dropzone.dz-hero; 1 animated agent copy CTA (.homepage-hero-agent-cta, dots canvas); prompt submit stays a link-out to app.netlify.com",
+      "owner": "none — prompt submit target stays app.netlify.com (link-out)",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": ".hero .n-dropzone.dz-hero", "min": 1 },
+        { "type": "dom-count", "path": "/", "selector": ".hero .homepage-hero-agent-cta", "min": 1 }
+      ]
+    },
+    {
+      "id": "logo-ticker", "feature": "auto-scrolling customer logo ticker", "class": "CR", "pages": 1,
+      "disposition": "client-only", "reproducibility": "self", "status": "done",
+      "verifiedBy": "20 logos; CSS animation scroll-x running on the track",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": ".logo-ticker img", "min": 10 } ]
+    },
+    {
+      "id": "use-case-tabs", "feature": "5-tab 'For every kind of web app' panel with code samples + copy buttons", "class": "CR", "pages": 1,
+      "disposition": "client-only", "reproducibility": "self", "status": "done",
+      "verifiedBy": "5 [role=tab], 5 [role=tabpanel]; copy-button per sample",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": ".tabs [role=tab]", "min": 5 },
+        { "type": "dom-count", "path": "/", "selector": ".tabs [role=tabpanel]", "min": 5 }
+      ]
+    },
+    {
+      "id": "cli-copy", "feature": "copy-to-clipboard on CLI snippet", "class": "CR", "pages": 1,
+      "disposition": "client-only", "reproducibility": "self", "status": "done",
+      "verifiedBy": "1 .n-cli-copy-btn; 6 copy buttons page-wide",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": "button.n-cli-copy-btn", "min": 1 } ]
+    },
+    {
+      "id": "youtube", "feature": "lite-youtube 'What is Netlify' video (poster, click-to-load iframe)", "class": "V", "pages": 1,
+      "disposition": "embed-passthrough", "reproducibility": "self", "status": "done",
+      "verifiedBy": "1 .lite-youtube facade; click inserts youtube-nocookie embed with autoplay=1 — playback asserted by the vendor request status",
+      "checks": [ { "type": "video-plays", "path": "/", "trigger": ".lite-youtube", "iframeSelector": ".lite-youtube iframe", "playbackHost": "youtube" } ]
+    },
+    {
+      "id": "newsletter-form", "feature": "footer newsletter form (HubSpot form 52611e5e…, email + hidden utm, reCAPTCHA)", "class": "F", "pages": 1,
+      "disposition": "rebuild-native", "reproducibility": "needs-backend", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "1 form.hs-form with required email input + Subscribe; submit is prevented and reports validity (interim: never posts)",
+      "owner": "HubSpot portal id + form id 52611e5e-cc55-4960-bf4a-a2adb36291f6 field mapping for the new host — until then the UI ships and submission is not wired (no form-flow check: it would assert a post that is intentionally absent)",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": "footer form.hs-form input[name=email][required]", "min": 1 } ]
+    },
+    {
+      "id": "site-search", "feature": "header search toggle + quick-search dialog (Pagefind index on source)", "class": "S", "pages": 1,
+      "disposition": "static-snapshot", "reproducibility": "self", "status": "interim",
+      "hostBound": "dead on target (/pagefind/pagefind-entry.json 404)",
+      "verifiedBy": "search toggle opens the quick-search dialog (Ask Netlify AI, quick links, Actions); its typeahead only filters header/footer links (≤ 5) — not a site search",
+      "environmentLimit": "Site-wide search is host-bound: the source's Pagefind index (/pagefind/*) is not served on the target. Detect recorded no source query results, so no search-query check is asserted; the dialog UI is checked, the index is not.",
+      "owner": "whether a site search index is built for the new host (one-page corpus today) — revisit at rollout",
+      "checks": [ { "type": "click-dialog", "path": "/", "trigger": "#cta-main-nav-search", "minWidth": 400 } ]
+    },
+    {
+      "id": "consent", "feature": "OneTrust CMP (domain script 5dec0507…)", "class": "T", "pages": 1,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "carried in martech-contract.json consent.cmp, enabled:false; replayed by the appended martech feature",
+      "owner": "reuse of OneTrust domain-script 5dec0507-5e89-4bb4-8f2d-0872be7dd9dd on the new host (stardust/martech-handoff.md)",
+      "checks": []
+    },
+    {
+      "id": "tags", "feature": "GTM-T7WNFLD (+ GA4, HubSpot tracking, LinkedIn/Twitter/ads pixels, Segment, RUM via GTM)", "class": "T", "pages": 1,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "contract routes all enabled:false; scripts/martech.js served; replayed by the appended martech feature",
+      "owner": "which tags run on the new host — enable routes in stardust/martech-contract.json",
+      "checks": []
+    },
+    {
+      "id": "tm-mounts", "feature": "tag-manager-injected mounts (data-ads-portal-id, HubSpot web interactives)", "class": "T", "pages": 1,
+      "disposition": "embed-passthrough", "reproducibility": "needs-credential", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "injected by GTM only; nothing to render while the contract is off",
+      "owner": "vendor account ids stay the owner's",
+      "checks": []
+    },
+    {
+      "id": "datalayer", "feature": "dataLayer global + Astro hydration", "class": "A/CR", "pages": 1,
+      "disposition": "static-snapshot", "reproducibility": "self", "status": "done",
+      "verifiedBy": "hydration replaced by EDS block decoration — no uncaught exceptions on /; window.dataLayer (same name) is created by scripts/martech.js only when a GTM route is enabled (absent while off)",
+      "checks": [ { "type": "no-page-errors", "paths": ["/"] } ]
+    },
+    {
+      "id": "account", "feature": "Log in / Sign up / avatar slot (app.netlify.com)", "class": "X", "pages": 1,
+      "disposition": "static-snapshot", "reproducibility": "needs-backend", "status": "done",
+      "verifiedBy": "8 links to app.netlify.com; avatar slot shows the logged-out state",
+      "owner": "none — auth lives on app.netlify.com (link-out)",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": "a[href*='app.netlify.com']", "min": 2 } ]
+    },
+    {
+      "id": "ask-netlify", "feature": "floating 'Ask Netlify' assistant button", "class": "CR", "pages": 1,
+      "disposition": "static-snapshot", "reproducibility": "needs-backend", "status": "interim",
+      "verifiedBy": "#cta-ask-netlify-chat opens the search dialog in ask state (chat UI); no assistant backend wired",
+      "owner": "assistant backend for the new host — revisit at rollout",
+      "checks": [ { "type": "click-dialog", "path": "/", "trigger": "#cta-ask-netlify-chat", "minWidth": 400 } ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+[
+ {
+  "domainScript": "5dec0507-5e89-4bb4-8f2d-0872be7dd9dd",
+  "version": "202311.1.0",
+  "ruleSets": [
+   {
+    "name": "USA - Pennsylvania Test Region",
+    "type": "GENERIC",
+    "countries": 0,
+    "default": false,
+    "gpc": true,
+    "consentModel": "opt-out",
+    "banner": true,
+    "languages": 1,
+    "groups": [
+     {
+      "id": "C0003",
+      "name": "Functional Cookies",
+      "status": "active",
+      "hosts": [
+       "github.com",
+       "www.google.com",
+       "unsplash.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co"
+      ]
+     },
+     {
+      "id": "C0001",
+      "name": "Strictly Necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "forms-na1.hsforms.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Performance Cookies",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co",
+       "script.hotjar.com",
+       "tracking.g2crowd.com"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Targeting Cookies",
+      "status": "active",
+      "hosts": [
+       "ads.linkedin.com",
+       "hubspot.com",
+       "disqus.com",
+       "g2crowd.com",
+       "snap.licdn.com",
+       "t.co",
+       "doubleclick.net",
+       "youtube.com",
+       "www.linkedin.com",
+       "js.driftt.com",
+       "linkedin.com",
+       "6sc.co",
+       "twitter.com"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Global",
+    "type": "GENERIC",
+    "countries": 209,
+    "default": true,
+    "gpc": true,
+    "consentModel": "opt-out",
+    "banner": true,
+    "languages": 1,
+    "groups": [
+     {
+      "id": "C0003",
+      "name": "Functional Cookies",
+      "status": "active",
+      "hosts": [
+       "github.com",
+       "www.google.com",
+       "unsplash.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co"
+      ]
+     },
+     {
+      "id": "C0001",
+      "name": "Strictly Necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "forms-na1.hsforms.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Performance Cookies",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co",
+       "script.hotjar.com",
+       "tracking.g2crowd.com"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Targeting Cookies",
+      "status": "active",
+      "hosts": [
+       "ads.linkedin.com",
+       "hubspot.com",
+       "disqus.com",
+       "g2crowd.com",
+       "snap.licdn.com",
+       "t.co",
+       "doubleclick.net",
+       "youtube.com",
+       "www.linkedin.com",
+       "js.driftt.com",
+       "linkedin.com",
+       "6sc.co",
+       "twitter.com"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "LGPD Rule",
+    "type": "LGPD",
+    "countries": 1,
+    "default": false,
+    "gpc": true,
+    "consentModel": "opt-out",
+    "banner": true,
+    "languages": 1,
+    "groups": [
+     {
+      "id": "C0002",
+      "name": "Cookies de desempenho",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co",
+       "script.hotjar.com",
+       "tracking.g2crowd.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Cookies das redes sociais",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Cookies de funcionalidade",
+      "status": "active",
+      "hosts": [
+       "github.com",
+       "www.google.com",
+       "unsplash.com"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Cookies de publicidade",
+      "status": "active",
+      "hosts": [
+       "ads.linkedin.com",
+       "hubspot.com",
+       "disqus.com",
+       "g2crowd.com",
+       "snap.licdn.com",
+       "t.co",
+       "doubleclick.net",
+       "youtube.com",
+       "www.linkedin.com",
+       "js.driftt.com",
+       "linkedin.com",
+       "6sc.co",
+       "twitter.com"
+      ]
+     },
+     {
+      "id": "C0001",
+      "name": "Cookies estritamente necessários",
+      "status": "always active",
+      "hosts": [
+       "forms-na1.hsforms.com"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "CCPA Rule",
+    "type": "CCPA",
+    "countries": 0,
+    "default": false,
+    "gpc": true,
+    "consentModel": "opt-out",
+    "banner": true,
+    "languages": 1,
+    "groups": [
+     {
+      "id": "C0003",
+      "name": "Functional Cookies",
+      "status": "always active",
+      "hosts": [
+       "github.com",
+       "www.google.com",
+       "unsplash.com"
+      ]
+     },
+     {
+      "id": "C0001",
+      "name": "Strictly Necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "forms-na1.hsforms.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Targeting Cookies",
+      "status": "active",
+      "hosts": [
+       "ads.linkedin.com",
+       "hubspot.com",
+       "disqus.com",
+       "g2crowd.com",
+       "snap.licdn.com",
+       "t.co",
+       "doubleclick.net",
+       "youtube.com",
+       "www.linkedin.com",
+       "js.driftt.com",
+       "linkedin.com",
+       "6sc.co",
+       "twitter.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Performance Cookies",
+      "status": "active",
+      "hosts": [
+       "j.6sc.co",
+       "script.hotjar.com",
+       "tracking.g2crowd.com"
+      ]
+     },
+     {
+      "id": "SPD_BG",
+      "name": "Use of Personal Data",
+      "status": "active",
+      "hosts": []
+     }
+    ]
+   },
+   {
+    "name": "GDPR Rule",
+    "type": "GDPR",
+    "countries": 40,
+    "default": false,
+    "gpc": true,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 1,
+    "groups": [
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "inactive",
+      "hosts": [
+       "j.6sc.co"
+      ]
+     },
+     {
+      "id": "C0001",
+      "name": "Strictly Necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "forms-na1.hsforms.com"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Targeting Cookies",
+      "status": "inactive",
+      "hosts": [
+       "ads.linkedin.com",
+       "hubspot.com",
+       "disqus.com",
+       "g2crowd.com",
+       "snap.licdn.com",
+       "t.co",
+       "doubleclick.net",
+       "youtube.com",
+       "www.linkedin.com",
+       "js.driftt.com",
+       "linkedin.com",
+       "6sc.co",
+       "twitter.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Performance Cookies",
+      "status": "inactive",
+      "hosts": [
+       "j.6sc.co",
+       "script.hotjar.com",
+       "tracking.g2crowd.com"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Functional Cookies",
+      "status": "inactive",
+      "hosts": [
+       "github.com",
+       "www.google.com",
+       "unsplash.com"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

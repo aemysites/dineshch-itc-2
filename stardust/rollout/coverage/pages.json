@@ -1,0 +1,61 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-11T16:24:06.487Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-11T18:44:05.797Z",
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Push your ideas to the web | Netlify",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:ef24fb14b09a4587bb47d737e81c4c2ed75247422d1eb4f1a949522bbf3a9b10",
+        "sourceUrl": "https://www.netlify.com/"
+      },
+      "blocks": [
+        "hero",
+        "logo-ticker",
+        "steps",
+        "cards",
+        "switchback",
+        "testimonial",
+        "tabs"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--928837cf--aemcoder.aem.live/",
+        "deployedAt": "2026-10-11T17:55:03.669Z",
+        "verifiedAt": "2026-10-11T18:44:05.797Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.91,
+          "heightDelta": -26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 3,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-11T18:29:25.481Z"
+        }
+      }
+    }
+  ]
+}

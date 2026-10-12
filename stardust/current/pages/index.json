@@ -1,0 +1,1750 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-11T15:52:38.882Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.netlify.com/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-11T15:52:38.882Z",
+  "finalUrl": "https://www.netlify.com/",
+  "title": "Push your ideas to the web | Netlify",
+  "description": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
+  "og": {
+    "title": "Push your ideas to the web | Netlify",
+    "description": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
+    "image": "https://www.netlify.com/images/og-image-default.png",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Push your ideas to the web"
+    },
+    {
+      "tag": "h2",
+      "text": "Build your way.Ship on one platform."
+    },
+    {
+      "tag": "h3",
+      "text": "Start with code or AI"
+    },
+    {
+      "tag": "h3",
+      "text": "Build fullstack apps"
+    },
+    {
+      "tag": "h3",
+      "text": "Go live everywhere"
+    },
+    {
+      "tag": "h2",
+      "text": "Start your way."
+    },
+    {
+      "tag": "h3",
+      "text": "Prompt. Preview. Repeat."
+    },
+    {
+      "tag": "h3",
+      "text": "Build with agent-ready primitives."
+    },
+    {
+      "tag": "h3",
+      "text": "Grow on the same infrastructure."
+    },
+    {
+      "tag": "h2",
+      "text": "For every kind of web app."
+    },
+    {
+      "tag": "h3",
+      "text": "Launch AI features with one gateway"
+    },
+    {
+      "tag": "h2",
+      "text": "Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Company"
+    },
+    {
+      "tag": "h2",
+      "text": "Contact us"
+    },
+    {
+      "tag": "h2",
+      "text": "Stay up to date with Netlify news"
+    }
+  ],
+  "body": [
+    "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
+    "Add Netlify to your coding agent",
+    "Every path runs on the same workflow and production infrastructure, powering millions of sites and apps.",
+    "Start with a prompt, push from Git, or drag and drop. All paths lead to the same project.",
+    "Connect APIs, manage data, optimize images, and add AI features from your first prompt.",
+    "Deploy to a global CDN in seconds, then choose when to make your project public.",
+    "Choose the workflow that fits how you work.",
+    "Prompt from the dashboard, develop locally, or push from Git. Every change gets a private preview URL before it's live.",
+    "Build with Claude, Codex, and more AI agents",
+    "Deploy from Git, CLI, or drag and drop",
+    "Roll back any deploy in one click",
+    "Add APIs, run logic at the edge, schedule jobs, and handle background work on production infrastructure.",
+    "Build APIs with serverless functions",
+    "Add instant databases and file storage",
+    "Handle auth with built-in identity",
+    "Connect to AI models through AI Gateway",
+    "From your first deploy to global traffic, the same infrastructure supports your growth as you scale.",
+    "Automatic HTTPS and DDoS protection",
+    "Manage access, secrets, and env vars by team",
+    "Global edge network with 99.99% uptime",
+    "I can push a change, and within 30 seconds the site is completely rebuilt.",
+    "Build everything from marketing sites to AI apps on one platform.",
+    "Prototype, test, and scale AI-powered experiences faster. Product teams can iterate with agents while engineers productionize on the same platform.",
+    "Prototype and ship AI features with Agent Runners",
+    "Connect your app to any major AI model through AI Gateway",
+    "Deploy backend logic as API endpoints with Serverless Functions"
+  ],
+  "codeBlocks": [
+    "import OpenAI from \"openai\";\n\nexport default async (req: Request) => {\n  const { description } = await req.json();\n  const client = new OpenAI();\n\n  const res = await client.responses.create({\n    model: \"gpt-5-mini\",\n    input: [\n      { role: \"user\", content: `Write concise alt text for: ${description}` },\n    ],\n  });\n\n  return Response.json({ altText: res.output_text });\n};\n\nexport const config = { path: \"/api/alt-text\" };"
+  ],
+  "ctas": [
+    {
+      "label": "Go to homepage",
+      "href": "/"
+    },
+    {
+      "label": "Toggle platform submenu",
+      "href": null
+    },
+    {
+      "label": "Toggle solutions submenu",
+      "href": null
+    },
+    {
+      "label": "Toggle developers submenu",
+      "href": null
+    },
+    {
+      "label": "Toggle resources submenu",
+      "href": null
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Contact",
+      "href": "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-contact"
+    },
+    {
+      "label": "Log in",
+      "href": "https://app.netlify.com/login"
+    },
+    {
+      "label": "Sign up",
+      "href": "https://app.netlify.com/signup"
+    },
+    {
+      "label": "Start building",
+      "href": "https://app.netlify.com/signup"
+    },
+    {
+      "label": "Request a demo",
+      "href": "https://www.netlify.com/contact/sales?attr=homepage&ref=request-a-demo&id=cta-hero-contact-sales"
+    },
+    {
+      "label": "fetch https://netlify.ai",
+      "href": null
+    },
+    {
+      "label": "Drop here Deploy failed, try again",
+      "href": null
+    },
+    {
+      "label": "Build now",
+      "href": "https://app.netlify.com/start"
+    },
+    {
+      "label": "Import a project",
+      "href": "https://app.netlify.com/start"
+    },
+    {
+      "label": "Get started with CLI",
+      "href": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/"
+    },
+    {
+      "label": "Try Netlify Drop",
+      "href": "https://app.netlify.com/drop"
+    },
+    {
+      "label": "more AI agents",
+      "href": "/platform/agent-runners/"
+    },
+    {
+      "label": "Explore the platform",
+      "href": "/platform/"
+    },
+    {
+      "label": "AI apps",
+      "href": null
+    },
+    {
+      "label": "Marketing sites",
+      "href": null
+    },
+    {
+      "label": "SaaS apps",
+      "href": null
+    },
+    {
+      "label": "Ecommerce",
+      "href": null
+    },
+    {
+      "label": "Internal tools",
+      "href": null
+    },
+    {
+      "label": "Explore AI Gateway",
+      "href": "/docs/ai-gateway"
+    },
+    {
+      "label": "Go to Netlify homepage",
+      "href": "/"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/netlify"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/netlify"
+    },
+    {
+      "label": "Bluesky",
+      "href": "https://bsky.app/profile/netlify.com"
+    },
+    {
+      "label": "@keyframes appear{0%{opacity:0;transform:scale3d(.3,.3,.3)}20%{opacity:1;transform:scale3d(1.1,1.1,1.1)}40%{transform:scale3d(.9,.9,.9)}60%{transform:scale3d(1.03,1.03,1.03)}80%{transform:scale3d(.97,.97,.97)}to{transform:scale3d(1.001,1.001,1.001)}} X (formerly known as Twitter)",
+      "href": "https://twitter.com/netlify"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@NetlifyApp"
+    },
+    {
+      "label": "Discourse",
+      "href": "https://answers.netlify.com/"
+    },
+    {
+      "label": "Discord",
+      "href": "https://discord.gg/netlify"
+    },
+    {
+      "label": "Agent Runners",
+      "href": "/platform/agent-runners/"
+    },
+    {
+      "label": "Deploy Previews",
+      "href": "/platform/core/deploy-previews/"
+    },
+    {
+      "label": "Functions",
+      "href": "/platform/functions/"
+    },
+    {
+      "label": "Observability",
+      "href": "/platform/observability/"
+    },
+    {
+      "label": "Security",
+      "href": "/security/"
+    },
+    {
+      "label": "Netlify CLI",
+      "href": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise/"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing/"
+    },
+    {
+      "label": "Docs",
+      "href": "https://docs.netlify.com/"
+    },
+    {
+      "label": "Status",
+      "href": "https://netlifystatus.com/"
+    },
+    {
+      "label": "Changelog",
+      "href": "/changelog/"
+    },
+    {
+      "label": "Knowledge Base",
+      "href": "/knowledge-base/"
+    },
+    {
+      "label": "Guides",
+      "href": "/resources/"
+    },
+    {
+      "label": "Hire an agency",
+      "href": "/agency-directory/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "Agent experience",
+      "href": "/agent-experience/"
+    },
+    {
+      "label": "Open source",
+      "href": "/open-source/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Customers",
+      "href": "/customers/"
+    },
+    {
+      "label": "Partners",
+      "href": "/partners/"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers/"
+    },
+    {
+      "label": "Press",
+      "href": "/press/"
+    },
+    {
+      "label": "Sales",
+      "href": "/contact/sales?attr=homepage&ref=sales&id=cta-footer-sales"
+    },
+    {
+      "label": "Support",
+      "href": "/support/"
+    },
+    {
+      "label": "Status",
+      "href": "https://netlifystatus.com/"
+    },
+    {
+      "label": "Forums",
+      "href": "https://answers.netlify.com/"
+    },
+    {
+      "label": "Trust Center",
+      "href": "/trust-center/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy/"
+    },
+    {
+      "label": "GDPR/CCPA",
+      "href": "/gdpr-ccpa/"
+    },
+    {
+      "label": "Abuse",
+      "href": "mailto:fraud@netlify.com?subject=Abuse%20report&body=Please%20include%20the%20site%20URL%20and%20reason%20for%20your%20report%2C%20and%20we%20will%20reply%20promptly."
+    },
+    {
+      "label": "Cookie Settings",
+      "href": null
+    },
+    {
+      "label": "Ask Netlify",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://discord.com/invite/netlify",
+    "https://www.netlify.com/",
+    "https://www.netlify.com/#main",
+    "https://app.netlify.com/login",
+    "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-compact-contact",
+    "https://www.netlify.com/platform/",
+    "https://www.netlify.com/platform/agent-runners/",
+    "https://www.netlify.com/platform/core/deploy-previews/",
+    "https://www.netlify.com/platform/ai-gateway/",
+    "https://www.netlify.com/platform/functions/",
+    "https://www.netlify.com/platform/database/",
+    "https://www.netlify.com/platform/observability/",
+    "https://www.netlify.com/security/",
+    "https://www.netlify.com/platform/core/edge/",
+    "https://www.netlify.com/customers/",
+    "https://www.netlify.com/enterprise/",
+    "https://www.netlify.com/agency-directory/",
+    "https://www.netlify.com/agent-experience/",
+    "https://www.netlify.com/solutions/prototypes/",
+    "https://www.netlify.com/solutions/internal-apps/",
+    "https://www.netlify.com/solutions/code-agents/",
+    "https://www.netlify.com/solutions/ecommerce/",
+    "https://www.netlify.com/solutions/marketing-sites/",
+    "https://www.netlify.com/for/web-applications/",
+    "https://www.netlify.com/enterprise/contact/?attr=homepage&ref=&id=nav-solutions-chat-with-netlify-expert",
+    "https://docs.netlify.com/",
+    "https://developers.netlify.com/",
+    "https://www.netlify.com/integrations/templates/",
+    "https://www.netlify.com/integrations/",
+    "https://docs.netlify.com/welcome/build-with-ai/overview/",
+    "https://www.netlify.com/with/claude/",
+    "https://www.netlify.com/with/codex/",
+    "https://cursor.com/marketplace/netlify",
+    "https://docs.netlify.com/frameworks/astro/",
+    "https://docs.netlify.com/frameworks/tanstack-start/",
+    "https://www.netlify.com/with/nextjs/",
+    "https://www.netlify.com/with/wordpress/",
+    "https://www.netlify.com/with/react/",
+    "https://www.netlify.com/integrations/frameworks/",
+    "https://www.netlify.com/blog/",
+    "https://www.netlify.com/changelog/",
+    "https://www.netlify.com/knowledge-base/",
+    "https://www.netlify.com/community/",
+    "https://www.netlify.com/events/",
+    "https://www.netlify.com/resources/",
+    "https://www.netlify.com/pricing/",
+    "https://www.netlify.com/contact/?attr=homepage&ref=contact&id=main-nav-contact",
+    "https://app.netlify.com/signup",
+    "https://app.netlify.com/",
+    "https://answers.netlify.com/",
+    "https://www.netlify.com/support/",
+    "https://www.netlify.com/contact/sales/?attr=homepage&ref=request-a-demo&id=",
+    "https://www.netlify.com/contact/sales?attr=homepage&ref=request-a-demo&id=cta-hero-contact-sales",
+    "https://app.netlify.com/start",
+    "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/",
+    "https://app.netlify.com/drop",
+    "https://www.netlify.com/docs/ai-gateway",
+    "https://www.netlify.com/docs/primitives",
+    "https://github.com/netlify",
+    "https://www.linkedin.com/company/netlify",
+    "https://bsky.app/profile/netlify.com",
+    "https://twitter.com/netlify",
+    "https://www.youtube.com/@NetlifyApp",
+    "https://discord.gg/netlify",
+    "https://netlifystatus.com/",
+    "https://www.netlify.com/about/",
+    "https://www.netlify.com/open-source/",
+    "https://www.netlify.com/partners/",
+    "https://www.netlify.com/careers/",
+    "https://www.netlify.com/press/",
+    "https://www.netlify.com/contact/sales?attr=homepage&ref=sales&id=cta-footer-sales",
+    "https://www.netlify.com/trust-center/",
+    "https://www.netlify.com/privacy/",
+    "https://www.netlify.com/gdpr-ccpa/",
+    "mailto:fraud@netlify.com?subject=Abuse%20report&body=Please%20include%20the%20site%20URL%20and%20reason%20for%20your%20report%2C%20and%20we%20will%20reply%20promptly."
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.netlify.com/images/home/logos/meta-black.svg",
+        "alt": "Meta",
+        "w": 120,
+        "h": 24
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/mighty-black.svg",
+        "alt": "Mighty",
+        "w": 104,
+        "h": 32
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/finn-black.svg",
+        "alt": "Finn",
+        "w": 75,
+        "h": 26
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/autodesk-black.svg",
+        "alt": "Autodesk",
+        "w": 175,
+        "h": 18
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/zscaler-black.svg",
+        "alt": "Zscaler",
+        "w": 140,
+        "h": 32
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/servicetitan-black.svg",
+        "alt": "ServiceTitan",
+        "w": 170,
+        "h": 32
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/stack-overflow.svg",
+        "alt": "Stack Overflow",
+        "w": 187,
+        "h": 37
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/riot-games.svg",
+        "alt": "Riot Games",
+        "w": 101,
+        "h": 29
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/kubernetes.svg",
+        "alt": "Kubernetes",
+        "w": 181,
+        "h": 33
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/figma.svg",
+        "alt": "Figma",
+        "w": 93,
+        "h": 35
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/meta-black.svg",
+        "alt": "Meta",
+        "w": 120,
+        "h": 24
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/mighty-black.svg",
+        "alt": "Mighty",
+        "w": 104,
+        "h": 32
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/finn-black.svg",
+        "alt": "Finn",
+        "w": 75,
+        "h": 26
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/autodesk-black.svg",
+        "alt": "Autodesk",
+        "w": 175,
+        "h": 18
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/zscaler-black.svg",
+        "alt": "Zscaler",
+        "w": 140,
+        "h": 32
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/servicetitan-black.svg",
+        "alt": "ServiceTitan",
+        "w": 170,
+        "h": 32
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/stack-overflow.svg",
+        "alt": "Stack Overflow",
+        "w": 187,
+        "h": 37
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/riot-games.svg",
+        "alt": "Riot Games",
+        "w": 101,
+        "h": 29
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/kubernetes.svg",
+        "alt": "Kubernetes",
+        "w": 181,
+        "h": 33
+      },
+      {
+        "src": "https://www.netlify.com/images/home/logos/figma.svg",
+        "alt": "Figma",
+        "w": 93,
+        "h": 35
+      },
+      {
+        "src": "https://www.netlify.com/images/home/switchback-1.svg",
+        "alt": "Line drawing illustration of a code editor with HTML tags, multiple lines of code, and surrounding icons including for various AI tools and frameworks.",
+        "w": 476,
+        "h": 394
+      },
+      {
+        "src": "https://www.netlify.com/images/home/switchback-2.svg",
+        "alt": "Line drawing illustration of a browser window containing connected elements - a chart showing upward trending data, a security lock icon, a progress bar with checkmark, and a power plug.",
+        "w": 551,
+        "h": 332
+      },
+      {
+        "src": "https://www.netlify.com/images/home/switchback-3.svg",
+        "alt": "Line drawing illustration showing two overlapping circles with decorative clouds, one representing a rollback and the other a meter increasing.",
+        "w": 439,
+        "h": 364
+      }
+    ],
+    "allImgCount": 25,
+    "cssBackgrounds": [
+      "https://www.netlify.com/images/home/what-is-netlify-thumbnail.png"
+    ],
+    "modals": [
+      "Search;Clear;Ask Netlify AIGet instant answers, powered by AI; Help ;Go to docs; ;Go to support forums; ;Contact support; ;Request a demo; Actions;Toggle theme;Escto closeTabor↑↓to navigate"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-size-display-2xl": "clamp(2.5rem, 1.8864rem + 2.7273vw, 4rem)",
+    "--ntl-active-switcher-tab-bg-color": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117 / .047058823529411764)",
+    "--ntl-badge-bg-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-badge-border-color": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--ntl-badge-text-color": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--ntl-blockquote-accent-color": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-blue-000": "color(srgb .9294117647058824 .9568627450980393 1)",
+    "--ntl-blue-100": "color(srgb .803921568627451 .8862745098039215 1)",
+    "--ntl-blue-200": "color(srgb .7098039215686275 .8235294117647058 .984313725490196)",
+    "--ntl-blue-300": "color(srgb .611764705882353 .7450980392156863 .9647058823529412)",
+    "--ntl-blue-400": "color(srgb .5019607843137255 .6705882352941176 .9803921568627451)",
+    "--ntl-blue-500": "color(srgb .36470588235294116 .5529411764705883 .9607843137254902)",
+    "--ntl-blue-600": "color(srgb .19215686274509805 .4196078431372549 .9568627450980393)",
+    "--ntl-blue-700": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-blue-800": "color(srgb .12549019607843137 .21176470588235294 .6313725490196078)",
+    "--ntl-blue-900": "color(srgb .10588235294117647 .12549019607843137 .3568627450980392)",
+    "--ntl-border-width-base": "1.5px",
+    "--ntl-border-width-heavy": "3px",
+    "--ntl-border-width-thick": "2px",
+    "--ntl-border-width-thin": "1px",
+    "--ntl-button-outline-bg-color": "color(srgb 0 0 0 / 0)",
+    "--ntl-button-outline-bg-color-hover": "color(srgb .8392156862745098 .9803921568627451 .9764705882352941)",
+    "--ntl-button-outline-stroke-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--ntl-button-outline-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--ntl-button-primary-bg-color": "color(srgb .19607843137254902 .9019607843137255 .8862745098039215)",
+    "--ntl-button-primary-bg-color-hover": "color(srgb .5568627450980392 .984313725490196 .9686274509803922)",
+    "--ntl-button-primary-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--ntl-button-secondary-bg-color": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117 / .09803921568627451)",
+    "--ntl-button-secondary-bg-color-hover": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117 / .14901960784313725)",
+    "--ntl-button-secondary-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--ntl-card-bg-color": "color(srgb 1 1 1)",
+    "--ntl-card-border-color": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--ntl-card-border-color-hover": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--ntl-code-bg-color": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117)",
+    "--ntl-color-bg": "color(srgb 1 1 1)",
+    "--ntl-color-bg-2": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-color-bg-3": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--ntl-color-bg-inverse": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--ntl-color-bg-translucent": "color(srgb 1 1 1 / .9019607843137255)",
+    "--ntl-color-border-default": "color(srgb 0 0 0 / .14901960784313725)",
+    "--ntl-color-border-strong": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--ntl-color-border-subtle": "color(srgb 0 0 0 / .06274509803921569)",
+    "--ntl-color-brand-primary": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-color-brand-primary-hover": "color(srgb .12549019607843137 .21176470588235294 .6313725490196078)",
+    "--ntl-color-brand-secondary": "color(srgb .0784313725490196 .8470588235294118 .8313725490196079)",
+    "--ntl-color-brand-secondary-hover": "color(srgb .00392156862745098 .2823529411764706 .2784313725490196)",
+    "--ntl-color-disabled-bg": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--ntl-color-disabled-border": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--ntl-color-disabled-text": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--ntl-color-highlight-bg": "color(srgb .8862745098039215 .8509803921568627 .9686274509803922)",
+    "--ntl-color-highlight-border": "color(srgb .4666666666666667 .3607843137254902 .9058823529411765)",
+    "--ntl-color-highlight-text": "color(srgb .4666666666666667 .3607843137254902 .9058823529411765)",
+    "--ntl-color-icon": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-color-info-bg": "color(srgb .803921568627451 .8862745098039215 1)",
+    "--ntl-color-info-border": "color(srgb .19215686274509805 .4196078431372549 .9568627450980393)",
+    "--ntl-color-info-text": "color(srgb .19215686274509805 .4196078431372549 .9568627450980393)",
+    "--ntl-color-invalid-bg": "color(srgb .984313725490196 .8274509803921568 .8156862745098039)",
+    "--ntl-color-invalid-border": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--ntl-color-invalid-text": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--ntl-color-link": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-color-link-default": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-color-link-hover": "color(srgb .12549019607843137 .21176470588235294 .6313725490196078)",
+    "--ntl-color-link-inverse": "color(srgb .5019607843137255 .6705882352941176 .9803921568627451)",
+    "--ntl-color-logo-inactive": "color(srgb .7019607843137254 .7019607843137254 .7019607843137254)",
+    "--ntl-color-logo-spark": "color(srgb .0196078431372549 .7411764705882353 .7294117647058823)",
+    "--ntl-color-logo-type": "color(srgb .00392156862745098 .2823529411764706 .2784313725490196)",
+    "--ntl-color-stroke": "color(srgb 0 0 0 / .14901960784313725)",
+    "--ntl-color-success-bg": "color(srgb .7450980392156863 .9764705882352941 .7764705882352941)",
+    "--ntl-color-success-border": "color(srgb .39215686274509803 .8470588235294118 .4980392156862745)",
+    "--ntl-color-success-text": "color(srgb .058823529411764705 .2901960784313726 .12941176470588237)",
+    "--ntl-color-text": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--ntl-color-text-accent": "color(srgb .0784313725490196 .8470588235294118 .8313725490196079)",
+    "--ntl-color-text-default": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--ntl-color-text-inverse": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-color-text-weak": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--ntl-color-text-weaker": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--ntl-color-warning-bg": "color(srgb .9647058823529412 .8784313725490196 .6470588235294118)",
+    "--ntl-color-warning-border": "color(srgb .984313725490196 .6941176470588235 .23921568627450981)",
+    "--ntl-color-warning-text": "color(srgb .3764705882352941 .20392156862745098 .03137254901960784)",
+    "--ntl-eyebrow-text-color": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-focus-outline-offset": "0",
+    "--ntl-focus-outline-width": "5px",
+    "--ntl-font-family-display": "\"Figtree\", system-ui, \"Helvetica\", sans-serif",
+    "--ntl-font-family-mono": "\"Martian Mono\", ui-monospace, \"Cascadia Code\", \"Source Code Pro\", \"Menlo\", \"Consolas\", \"DejaVu Sans Mono\", monospace",
+    "--ntl-font-family-text": "\"Instrument Sans\", system-ui, \"Helvetica\", sans-serif",
+    "--ntl-font-size-display-2xl": "clamp(2.5rem, 1.8864rem + 2.7273vw, 4rem)",
+    "--ntl-font-size-display-2xs": "clamp(1.125rem, 1.0739rem + .2273vw, 1.25rem)",
+    "--ntl-font-size-display-3xl": "clamp(2.75rem, 2.0341rem + 3.1818vw, 4.5rem)",
+    "--ntl-font-size-display-4xl": "clamp(3rem, 2.1818rem + 3.6364vw, 5rem)",
+    "--ntl-font-size-display-lg": "clamp(2rem, 1.5909rem + 1.8182vw, 3rem)",
+    "--ntl-font-size-display-md": "clamp(1.75rem, 1.4432rem + 1.3636vw, 2.5rem)",
+    "--ntl-font-size-display-sm": "clamp(1.5rem, 1.2955rem + .9091vw, 2rem)",
+    "--ntl-font-size-display-xl": "clamp(2.25rem, 1.7386rem + 2.2727vw, 3.5rem)",
+    "--ntl-font-size-display-xs": "clamp(1.25rem, 1.1477rem + .4545vw, 1.5rem)",
+    "--ntl-font-size-text-lg": "1.125rem",
+    "--ntl-font-size-text-md": "1rem",
+    "--ntl-font-size-text-sm": ".875rem",
+    "--ntl-font-size-text-xl": "1.375rem",
+    "--ntl-font-size-text-xs": ".75rem",
+    "--ntl-font-weight-bold": "700",
+    "--ntl-font-weight-extrabold": "800",
+    "--ntl-font-weight-medium": "500",
+    "--ntl-font-weight-regular": "400",
+    "--ntl-font-weight-semibold": "600",
+    "--ntl-gold-000": "color(srgb .9921568627450981 .9607843137254902 .8470588235294118)",
+    "--ntl-gold-100": "color(srgb .9647058823529412 .8784313725490196 .6470588235294118)",
+    "--ntl-gold-200": "color(srgb .9803921568627451 .803921568627451 .43529411764705883)",
+    "--ntl-gold-300": "color(srgb .984313725490196 .6941176470588235 .23921568627450981)",
+    "--ntl-gold-400": "color(srgb .9764705882352941 .5568627450980392 .12941176470588237)",
+    "--ntl-gold-500": "color(srgb .8352941176470589 .4666666666666667 .10196078431372549)",
+    "--ntl-gold-600": "color(srgb .6588235294117647 .36470588235294116 .07450980392156863)",
+    "--ntl-gold-700": "color(srgb .5490196078431373 .2980392156862745 .050980392156862744)",
+    "--ntl-gold-800": "color(srgb .3764705882352941 .20392156862745098 .03137254901960784)",
+    "--ntl-gold-900": "color(srgb .2 .13333333333333333 .07450980392156863)",
+    "--ntl-green-000": "color(srgb .9058823529411765 .9882352941176471 .9137254901960784)",
+    "--ntl-green-100": "color(srgb .7450980392156863 .9764705882352941 .7764705882352941)",
+    "--ntl-green-200": "color(srgb .5764705882352941 .9607843137254902 .6470588235294118)",
+    "--ntl-green-300": "color(srgb .39215686274509803 .8470588235294118 .4980392156862745)",
+    "--ntl-green-400": "color(srgb .22745098039215686 .7647058823529411 .39215686274509803)",
+    "--ntl-green-500": "color(srgb .19215686274509805 .6588235294117647 .3333333333333333)",
+    "--ntl-green-600": "color(srgb .13333333333333333 .5098039215686274 .25098039215686274)",
+    "--ntl-green-700": "color(srgb .10196078431372549 .4196078431372549 .20392156862745098)",
+    "--ntl-green-800": "color(srgb .058823529411764705 .2901960784313726 .12941176470588237)",
+    "--ntl-green-900": "color(srgb .08235294117647059 .16470588235294117 .09803921568627451)",
+    "--ntl-heading-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--ntl-line-height-heading": "1.1",
+    "--ntl-line-height-loose": "2",
+    "--ntl-line-height-none": "1",
+    "--ntl-line-height-relaxed": "1.65",
+    "--ntl-line-height-snug": "1.35",
+    "--ntl-line-height-text": "1.5",
+    "--ntl-line-height-tight": "1.2",
+    "--ntl-motion-duration-base": ".2s",
+    "--ntl-motion-duration-fast": ".1s",
+    "--ntl-motion-duration-slow": ".3s",
+    "--ntl-motion-duration-slower": ".5s",
+    "--ntl-motion-easing-default": "ease",
+    "--ntl-motion-easing-in": "ease-in",
+    "--ntl-motion-easing-out": "ease-out",
+    "--ntl-motion-easing-spring": "cubic-bezier(.34, 1.56, .64, 1)",
+    "--ntl-neutral-000": "color(srgb 1 1 1)",
+    "--ntl-neutral-100": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-neutral-200": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--ntl-neutral-300": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--ntl-neutral-400": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--ntl-neutral-500": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--ntl-neutral-600": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451)",
+    "--ntl-neutral-700": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--ntl-neutral-800": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--ntl-neutral-900": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--ntl-neutral-dark-000": "color(srgb 1 1 1)",
+    "--ntl-neutral-dark-100": "color(srgb .9019607843137255 .9254901960784314 .9490196078431372)",
+    "--ntl-neutral-dark-200": "color(srgb .6705882352941176 .7098039215686275 .7490196078431373)",
+    "--ntl-neutral-dark-300": "color(srgb .49411764705882355 .5294117647058824 .5725490196078431)",
+    "--ntl-neutral-dark-400": "color(srgb .30196078431372547 .33725490196078434 .37254901960784315)",
+    "--ntl-neutral-dark-500": "color(srgb .23137254901960785 .2627450980392157 .2980392156862745)",
+    "--ntl-neutral-dark-600": "color(srgb .15294117647058825 .1843137254901961 .2196078431372549)",
+    "--ntl-neutral-dark-700": "color(srgb .11764705882352941 .1411764705882353 .17254901960784313)",
+    "--ntl-neutral-dark-800": "color(srgb .07058823529411765 .09411764705882353 .12156862745098039)",
+    "--ntl-neutral-dark-900": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--ntl-neutral-light-000": "color(srgb 1 1 1)",
+    "--ntl-neutral-light-100": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-neutral-light-200": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--ntl-neutral-light-300": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--ntl-neutral-light-400": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--ntl-neutral-light-500": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--ntl-neutral-light-600": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451)",
+    "--ntl-neutral-light-700": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--ntl-neutral-light-800": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--ntl-neutral-light-900": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--ntl-page-content-max-width": "80rem",
+    "--ntl-page-gutter": "2rem",
+    "--ntl-pink-000": "color(srgb .9882352941176471 .9411764705882353 .984313725490196)",
+    "--ntl-pink-100": "color(srgb .9647058823529412 .8235294117647058 .9490196078431372)",
+    "--ntl-pink-200": "color(srgb .9686274509803922 .7372549019607844 .9529411764705882)",
+    "--ntl-pink-300": "color(srgb .9529411764705882 .6588235294117647 .9333333333333333)",
+    "--ntl-pink-400": "color(srgb .9372549019607843 .4980392156862745 .9215686274509803)",
+    "--ntl-pink-500": "color(srgb .8745098039215686 .35294117647058826 .8627450980392157)",
+    "--ntl-pink-600": "color(srgb .7254901960784313 .2196078431372549 .7215686274509804)",
+    "--ntl-pink-700": "color(srgb .6039215686274509 .17647058823529413 .6)",
+    "--ntl-pink-800": "color(srgb .4235294117647059 .11372549019607843 .4196078431372549)",
+    "--ntl-pink-900": "color(srgb .2196078431372549 .10588235294117647 .21568627450980393)",
+    "--ntl-purple-000": "color(srgb .9607843137254902 .9490196078431372 .9882352941176471)",
+    "--ntl-purple-100": "color(srgb .8862745098039215 .8509803921568627 .9686274509803922)",
+    "--ntl-purple-200": "color(srgb .8470588235294118 .7803921568627451 1)",
+    "--ntl-purple-300": "color(srgb .792156862745098 .7254901960784313 .9568627450980393)",
+    "--ntl-purple-400": "color(srgb .7058823529411765 .615686274509804 .9450980392156862)",
+    "--ntl-purple-500": "color(srgb .6078431372549019 .5019607843137255 .9294117647058824)",
+    "--ntl-purple-600": "color(srgb .4666666666666667 .3607843137254902 .9058823529411765)",
+    "--ntl-purple-700": "color(srgb .3803921568627451 .2901960784313726 .792156862745098)",
+    "--ntl-purple-800": "color(srgb .2196078431372549 .16470588235294117 .6431372549019608)",
+    "--ntl-purple-900": "color(srgb .1607843137254902 .12941176470588237 .25882352941176473)",
+    "--ntl-radius-2xl": "1.875rem",
+    "--ntl-radius-l": ".75rem",
+    "--ntl-radius-m": ".375rem",
+    "--ntl-radius-pill": "360px",
+    "--ntl-radius-s": ".25rem",
+    "--ntl-radius-xl": "1rem",
+    "--ntl-radius-xs": ".125rem",
+    "--ntl-red-000": "color(srgb .984313725490196 .9333333333333333 .9294117647058824)",
+    "--ntl-red-100": "color(srgb .984313725490196 .8274509803921568 .8156862745098039)",
+    "--ntl-red-200": "color(srgb 1 .7411764705882353 .7294117647058823)",
+    "--ntl-red-300": "color(srgb 1 .6784313725490196 .6627450980392157)",
+    "--ntl-red-400": "color(srgb .996078431372549 .5137254901960784 .5098039215686274)",
+    "--ntl-red-500": "color(srgb .996078431372549 .3058823529411765 .3607843137254902)",
+    "--ntl-red-600": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--ntl-red-700": "color(srgb .6862745098039216 .1450980392156863 .21176470588235294)",
+    "--ntl-red-800": "color(srgb .5019607843137255 .0392156862745098 .12549019607843137)",
+    "--ntl-red-900": "color(srgb .23921568627450981 .10980392156862745 .10588235294117647)",
+    "--ntl-search-answer-message-color": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--ntl-search-back-btn-bg-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-search-bg-color": "color(srgb 1 1 1)",
+    "--ntl-search-highlight-color": "color(srgb .8705882352941177 1 .996078431372549)",
+    "--ntl-search-icon-color": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--ntl-search-input-bg-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-search-loading-color": "color(srgb .00392156862745098 .4117647058823529 .40784313725490196)",
+    "--ntl-search-source-list-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--ntl-search-submit-btn-bg-color": "color(srgb .19607843137254902 .9019607843137255 .8862745098039215)",
+    "--ntl-search-user-message-color": "color(srgb .8705882352941177 1 .996078431372549)",
+    "--ntl-shadow-deep": "0 16px 24px 0 color(srgb 0 0 0 / .07), 0 6px 30px 0 color(srgb 0 0 0 / .06), 0 8px 10px 0 color(srgb 0 0 0 / .1)",
+    "--ntl-shadow-heavy": "-10px 10px 80px 0 color(srgb 0 0 0 / .1)",
+    "--ntl-shadow-hover": "0 4px 12px 0 color(srgb 0 0 0 / .25)",
+    "--ntl-shadow-light": "0 2px 4px 0 color(srgb .2 .21568627450980393 .23137254901960785 / .08), 0 1px 10px 0 color(srgb .2 .21568627450980393 .23137254901960785 / .06)",
+    "--ntl-space-0": "0",
+    "--ntl-space-2xl": "4rem",
+    "--ntl-space-2xs": ".5rem",
+    "--ntl-space-3xl": "6rem",
+    "--ntl-space-3xs": ".25rem",
+    "--ntl-space-4xl": "10rem",
+    "--ntl-space-l": "2rem",
+    "--ntl-space-m": "1.5rem",
+    "--ntl-space-s": "1rem",
+    "--ntl-space-xl": "3rem",
+    "--ntl-space-xs": ".75rem",
+    "--ntl-tabbed-content-bg-color": "color(srgb 1 1 1)",
+    "--ntl-tabbed-content-bg-color-active": "color(srgb 1 1 1)",
+    "--ntl-tabbed-content-border-color": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-tabbed-content-code-bg-color": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--ntl-tabbed-content-tab-text-color-active": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--ntl-teal-000": "color(srgb .8705882352941177 1 .996078431372549)",
+    "--ntl-teal-100": "color(srgb .5568627450980392 .984313725490196 .9686274509803922)",
+    "--ntl-teal-200": "color(srgb .19607843137254902 .9019607843137255 .8862745098039215)",
+    "--ntl-teal-300": "color(srgb .0784313725490196 .8470588235294118 .8313725490196079)",
+    "--ntl-teal-400": "color(srgb .0196078431372549 .7411764705882353 .7294117647058823)",
+    "--ntl-teal-500": "color(srgb .01568627450980392 .6352941176470588 .6235294117647059)",
+    "--ntl-teal-600": "color(srgb .00784313725490196 .5019607843137255 .49019607843137253)",
+    "--ntl-teal-700": "color(srgb .00392156862745098 .4117647058823529 .40784313725490196)",
+    "--ntl-teal-800": "color(srgb .00392156862745098 .2823529411764706 .2784313725490196)",
+    "--ntl-teal-900": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117)",
+    "--ntl-testimonial-logo-hover-color": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--ntl-testimonial-logo-inactive-color": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--ntl-text-underline-offset": ".125em",
+    "--ntl-title-text-color": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451 / .7490196078431373)",
+    "--ntl-tracking-tight": "-.02em",
+    "--ntl-z-index-base": "0",
+    "--ntl-z-index-modal": "300",
+    "--ntl-z-index-overlay": "200",
+    "--ntl-z-index-raised": "10",
+    "--ntl-z-index-sticky": "100",
+    "--ntl-z-index-toast": "400",
+    "--ntl-z-index-tooltip": "500",
+    "--active-switcher-tab-bg-color": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117 / .047058823529411764)",
+    "--badge-bg-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--badge-border-color": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--badge-text-color": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--blockquote-accent-color": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--blue-000": "color(srgb .9294117647058824 .9568627450980393 1)",
+    "--blue-100": "color(srgb .803921568627451 .8862745098039215 1)",
+    "--blue-200": "color(srgb .7098039215686275 .8235294117647058 .984313725490196)",
+    "--blue-300": "color(srgb .611764705882353 .7450980392156863 .9647058823529412)",
+    "--blue-400": "color(srgb .5019607843137255 .6705882352941176 .9803921568627451)",
+    "--blue-500": "color(srgb .36470588235294116 .5529411764705883 .9607843137254902)",
+    "--blue-600": "color(srgb .19215686274509805 .4196078431372549 .9568627450980393)",
+    "--blue-700": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--blue-800": "color(srgb .12549019607843137 .21176470588235294 .6313725490196078)",
+    "--blue-900": "color(srgb .10588235294117647 .12549019607843137 .3568627450980392)",
+    "--border-width-base": "1.5px",
+    "--border-width-heavy": "3px",
+    "--border-width-thick": "2px",
+    "--border-width-thin": "1px",
+    "--button-outline-bg-color": "color(srgb 0 0 0 / 0)",
+    "--button-outline-bg-color-hover": "color(srgb .8392156862745098 .9803921568627451 .9764705882352941)",
+    "--button-outline-stroke-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--button-outline-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--button-primary-bg-color": "color(srgb .19607843137254902 .9019607843137255 .8862745098039215)",
+    "--button-primary-bg-color-hover": "color(srgb .5568627450980392 .984313725490196 .9686274509803922)",
+    "--button-primary-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--button-secondary-bg-color": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117 / .09803921568627451)",
+    "--button-secondary-bg-color-hover": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117 / .14901960784313725)",
+    "--button-secondary-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--card-bg-color": "color(srgb 1 1 1)",
+    "--card-border-color": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--card-border-color-hover": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--code-bg-color": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117)",
+    "--color-bg": "color(srgb 1 1 1)",
+    "--color-bg-2": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--color-bg-3": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--color-bg-inverse": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--color-bg-translucent": "color(srgb 1 1 1 / .9019607843137255)",
+    "--color-border-default": "color(srgb 0 0 0 / .14901960784313725)",
+    "--color-border-strong": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--color-border-subtle": "color(srgb 0 0 0 / .06274509803921569)",
+    "--color-brand-primary": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--color-brand-primary-hover": "color(srgb .12549019607843137 .21176470588235294 .6313725490196078)",
+    "--color-brand-secondary": "color(srgb .0784313725490196 .8470588235294118 .8313725490196079)",
+    "--color-brand-secondary-hover": "color(srgb .00392156862745098 .2823529411764706 .2784313725490196)",
+    "--color-disabled-bg": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--color-disabled-border": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--color-disabled-text": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--color-highlight-bg": "color(srgb .8862745098039215 .8509803921568627 .9686274509803922)",
+    "--color-highlight-border": "color(srgb .4666666666666667 .3607843137254902 .9058823529411765)",
+    "--color-highlight-text": "color(srgb .4666666666666667 .3607843137254902 .9058823529411765)",
+    "--color-icon": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--color-info-bg": "color(srgb .803921568627451 .8862745098039215 1)",
+    "--color-info-border": "color(srgb .19215686274509805 .4196078431372549 .9568627450980393)",
+    "--color-info-text": "color(srgb .19215686274509805 .4196078431372549 .9568627450980393)",
+    "--color-invalid-bg": "color(srgb .984313725490196 .8274509803921568 .8156862745098039)",
+    "--color-invalid-border": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--color-invalid-text": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--color-link": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--color-link-default": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--color-link-hover": "color(srgb .12549019607843137 .21176470588235294 .6313725490196078)",
+    "--color-link-inverse": "color(srgb .5019607843137255 .6705882352941176 .9803921568627451)",
+    "--color-logo-inactive": "color(srgb .7019607843137254 .7019607843137254 .7019607843137254)",
+    "--color-logo-spark": "color(srgb .0196078431372549 .7411764705882353 .7294117647058823)",
+    "--color-logo-type": "color(srgb .00392156862745098 .2823529411764706 .2784313725490196)",
+    "--color-stroke": "color(srgb 0 0 0 / .14901960784313725)",
+    "--color-success-bg": "color(srgb .7450980392156863 .9764705882352941 .7764705882352941)",
+    "--color-success-border": "color(srgb .39215686274509803 .8470588235294118 .4980392156862745)",
+    "--color-success-text": "color(srgb .058823529411764705 .2901960784313726 .12941176470588237)",
+    "--color-text": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--color-text-accent": "color(srgb .0784313725490196 .8470588235294118 .8313725490196079)",
+    "--color-text-default": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--color-text-inverse": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--color-text-weak": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--color-text-weaker": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--color-warning-bg": "color(srgb .9647058823529412 .8784313725490196 .6470588235294118)",
+    "--color-warning-border": "color(srgb .984313725490196 .6941176470588235 .23921568627450981)",
+    "--color-warning-text": "color(srgb .3764705882352941 .20392156862745098 .03137254901960784)",
+    "--eyebrow-text-color": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--focus-outline-offset": "0",
+    "--focus-outline-width": "5px",
+    "--font-family-display": "\"Figtree\", system-ui, \"Helvetica\", sans-serif",
+    "--font-family-mono": "\"Martian Mono\", ui-monospace, \"Cascadia Code\", \"Source Code Pro\", \"Menlo\", \"Consolas\", \"DejaVu Sans Mono\", monospace",
+    "--font-family-text": "\"Instrument Sans\", system-ui, \"Helvetica\", sans-serif",
+    "--font-size-display-2xs": "clamp(1.125rem, 1.0739rem + .2273vw, 1.25rem)",
+    "--font-size-display-3xl": "clamp(2.75rem, 2.0341rem + 3.1818vw, 4.5rem)",
+    "--font-size-display-4xl": "clamp(3rem, 2.1818rem + 3.6364vw, 5rem)",
+    "--font-size-display-lg": "clamp(2rem, 1.5909rem + 1.8182vw, 3rem)",
+    "--font-size-display-md": "clamp(1.75rem, 1.4432rem + 1.3636vw, 2.5rem)",
+    "--font-size-display-sm": "clamp(1.5rem, 1.2955rem + .9091vw, 2rem)",
+    "--font-size-display-xl": "clamp(2.25rem, 1.7386rem + 2.2727vw, 3.5rem)",
+    "--font-size-display-xs": "clamp(1.25rem, 1.1477rem + .4545vw, 1.5rem)",
+    "--font-size-text-lg": "1.125rem",
+    "--font-size-text-md": "1rem",
+    "--font-size-text-sm": ".875rem",
+    "--font-size-text-xl": "1.375rem",
+    "--font-size-text-xs": ".75rem",
+    "--font-weight-bold": "700",
+    "--font-weight-extrabold": "800",
+    "--font-weight-medium": "500",
+    "--font-weight-regular": "400",
+    "--font-weight-semibold": "600",
+    "--gold-000": "color(srgb .9921568627450981 .9607843137254902 .8470588235294118)",
+    "--gold-100": "color(srgb .9647058823529412 .8784313725490196 .6470588235294118)",
+    "--gold-200": "color(srgb .9803921568627451 .803921568627451 .43529411764705883)",
+    "--gold-300": "color(srgb .984313725490196 .6941176470588235 .23921568627450981)",
+    "--gold-400": "color(srgb .9764705882352941 .5568627450980392 .12941176470588237)",
+    "--gold-500": "color(srgb .8352941176470589 .4666666666666667 .10196078431372549)",
+    "--gold-600": "color(srgb .6588235294117647 .36470588235294116 .07450980392156863)",
+    "--gold-700": "color(srgb .5490196078431373 .2980392156862745 .050980392156862744)",
+    "--gold-800": "color(srgb .3764705882352941 .20392156862745098 .03137254901960784)",
+    "--gold-900": "color(srgb .2 .13333333333333333 .07450980392156863)",
+    "--green-000": "color(srgb .9058823529411765 .9882352941176471 .9137254901960784)",
+    "--green-100": "color(srgb .7450980392156863 .9764705882352941 .7764705882352941)",
+    "--green-200": "color(srgb .5764705882352941 .9607843137254902 .6470588235294118)",
+    "--green-300": "color(srgb .39215686274509803 .8470588235294118 .4980392156862745)",
+    "--green-400": "color(srgb .22745098039215686 .7647058823529411 .39215686274509803)",
+    "--green-500": "color(srgb .19215686274509805 .6588235294117647 .3333333333333333)",
+    "--green-600": "color(srgb .13333333333333333 .5098039215686274 .25098039215686274)",
+    "--green-700": "color(srgb .10196078431372549 .4196078431372549 .20392156862745098)",
+    "--green-800": "color(srgb .058823529411764705 .2901960784313726 .12941176470588237)",
+    "--green-900": "color(srgb .08235294117647059 .16470588235294117 .09803921568627451)",
+    "--heading-text-color": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--line-height-heading": "1.1",
+    "--line-height-loose": "2",
+    "--line-height-none": "1",
+    "--line-height-relaxed": "1.65",
+    "--line-height-snug": "1.35",
+    "--line-height-text": "1.5",
+    "--line-height-tight": "1.2",
+    "--motion-duration-base": ".2s",
+    "--motion-duration-fast": ".1s",
+    "--motion-duration-slow": ".3s",
+    "--motion-duration-slower": ".5s",
+    "--motion-easing-default": "ease",
+    "--motion-easing-in": "ease-in",
+    "--motion-easing-out": "ease-out",
+    "--motion-easing-spring": "cubic-bezier(.34, 1.56, .64, 1)",
+    "--neutral-000": "color(srgb 1 1 1)",
+    "--neutral-100": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--neutral-200": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--neutral-300": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--neutral-400": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--neutral-500": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--neutral-600": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451)",
+    "--neutral-700": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--neutral-800": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--neutral-900": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--neutral-dark-000": "color(srgb 1 1 1)",
+    "--neutral-dark-100": "color(srgb .9019607843137255 .9254901960784314 .9490196078431372)",
+    "--neutral-dark-200": "color(srgb .6705882352941176 .7098039215686275 .7490196078431373)",
+    "--neutral-dark-300": "color(srgb .49411764705882355 .5294117647058824 .5725490196078431)",
+    "--neutral-dark-400": "color(srgb .30196078431372547 .33725490196078434 .37254901960784315)",
+    "--neutral-dark-500": "color(srgb .23137254901960785 .2627450980392157 .2980392156862745)",
+    "--neutral-dark-600": "color(srgb .15294117647058825 .1843137254901961 .2196078431372549)",
+    "--neutral-dark-700": "color(srgb .11764705882352941 .1411764705882353 .17254901960784313)",
+    "--neutral-dark-800": "color(srgb .07058823529411765 .09411764705882353 .12156862745098039)",
+    "--neutral-dark-900": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--neutral-light-000": "color(srgb 1 1 1)",
+    "--neutral-light-100": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--neutral-light-200": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--neutral-light-300": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--neutral-light-400": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--neutral-light-500": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--neutral-light-600": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451)",
+    "--neutral-light-700": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--neutral-light-800": "color(srgb .09411764705882353 .10196078431372549 .10980392156862745)",
+    "--neutral-light-900": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--page-content-max-width": "80rem",
+    "--page-gutter": "2rem",
+    "--pink-000": "color(srgb .9882352941176471 .9411764705882353 .984313725490196)",
+    "--pink-100": "color(srgb .9647058823529412 .8235294117647058 .9490196078431372)",
+    "--pink-200": "color(srgb .9686274509803922 .7372549019607844 .9529411764705882)",
+    "--pink-300": "color(srgb .9529411764705882 .6588235294117647 .9333333333333333)",
+    "--pink-400": "color(srgb .9372549019607843 .4980392156862745 .9215686274509803)",
+    "--pink-500": "color(srgb .8745098039215686 .35294117647058826 .8627450980392157)",
+    "--pink-600": "color(srgb .7254901960784313 .2196078431372549 .7215686274509804)",
+    "--pink-700": "color(srgb .6039215686274509 .17647058823529413 .6)",
+    "--pink-800": "color(srgb .4235294117647059 .11372549019607843 .4196078431372549)",
+    "--pink-900": "color(srgb .2196078431372549 .10588235294117647 .21568627450980393)",
+    "--purple-000": "color(srgb .9607843137254902 .9490196078431372 .9882352941176471)",
+    "--purple-100": "color(srgb .8862745098039215 .8509803921568627 .9686274509803922)",
+    "--purple-200": "color(srgb .8470588235294118 .7803921568627451 1)",
+    "--purple-300": "color(srgb .792156862745098 .7254901960784313 .9568627450980393)",
+    "--purple-400": "color(srgb .7058823529411765 .615686274509804 .9450980392156862)",
+    "--purple-500": "color(srgb .6078431372549019 .5019607843137255 .9294117647058824)",
+    "--purple-600": "color(srgb .4666666666666667 .3607843137254902 .9058823529411765)",
+    "--purple-700": "color(srgb .3803921568627451 .2901960784313726 .792156862745098)",
+    "--purple-800": "color(srgb .2196078431372549 .16470588235294117 .6431372549019608)",
+    "--purple-900": "color(srgb .1607843137254902 .12941176470588237 .25882352941176473)",
+    "--radius-2xl": "1.875rem",
+    "--radius-l": ".75rem",
+    "--radius-m": ".375rem",
+    "--radius-pill": "360px",
+    "--radius-s": ".25rem",
+    "--radius-xl": "1rem",
+    "--radius-xs": ".125rem",
+    "--red-000": "color(srgb .984313725490196 .9333333333333333 .9294117647058824)",
+    "--red-100": "color(srgb .984313725490196 .8274509803921568 .8156862745098039)",
+    "--red-200": "color(srgb 1 .7411764705882353 .7294117647058823)",
+    "--red-300": "color(srgb 1 .6784313725490196 .6627450980392157)",
+    "--red-400": "color(srgb .996078431372549 .5137254901960784 .5098039215686274)",
+    "--red-500": "color(srgb .996078431372549 .3058823529411765 .3607843137254902)",
+    "--red-600": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--red-700": "color(srgb .6862745098039216 .1450980392156863 .21176470588235294)",
+    "--red-800": "color(srgb .5019607843137255 .0392156862745098 .12549019607843137)",
+    "--red-900": "color(srgb .23921568627450981 .10980392156862745 .10588235294117647)",
+    "--search-answer-message-color": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--search-back-btn-bg-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--search-bg-color": "color(srgb 1 1 1)",
+    "--search-highlight-color": "color(srgb .8705882352941177 1 .996078431372549)",
+    "--search-icon-color": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--search-input-bg-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--search-loading-color": "color(srgb .00392156862745098 .4117647058823529 .40784313725490196)",
+    "--search-source-list-color": "color(srgb .9647058823529412 .9647058823529412 .9686274509803922)",
+    "--search-submit-btn-bg-color": "color(srgb .19607843137254902 .9019607843137255 .8862745098039215)",
+    "--search-user-message-color": "color(srgb .8705882352941177 1 .996078431372549)",
+    "--shadow-deep": "0 16px 24px 0 color(srgb 0 0 0 / .07), 0 6px 30px 0 color(srgb 0 0 0 / .06), 0 8px 10px 0 color(srgb 0 0 0 / .1)",
+    "--shadow-heavy": "-10px 10px 80px 0 color(srgb 0 0 0 / .1)",
+    "--shadow-hover": "0 4px 12px 0 color(srgb 0 0 0 / .25)",
+    "--shadow-light": "0 2px 4px 0 color(srgb .2 .21568627450980393 .23137254901960785 / .08), 0 1px 10px 0 color(srgb .2 .21568627450980393 .23137254901960785 / .06)",
+    "--space-0": "0",
+    "--space-2xl": "4rem",
+    "--space-2xs": ".5rem",
+    "--space-3xl": "6rem",
+    "--space-3xs": ".25rem",
+    "--space-4xl": "10rem",
+    "--space-l": "2rem",
+    "--space-m": "1.5rem",
+    "--space-s": "1rem",
+    "--space-xl": "3rem",
+    "--space-xs": ".75rem",
+    "--tabbed-content-bg-color": "color(srgb 1 1 1)",
+    "--tabbed-content-bg-color-active": "color(srgb 1 1 1)",
+    "--tabbed-content-border-color": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--tabbed-content-code-bg-color": "color(srgb .023529411764705882 .043137254901960784 .06274509803921569)",
+    "--tabbed-content-tab-text-color-active": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--teal-000": "color(srgb .8705882352941177 1 .996078431372549)",
+    "--teal-100": "color(srgb .5568627450980392 .984313725490196 .9686274509803922)",
+    "--teal-200": "color(srgb .19607843137254902 .9019607843137255 .8862745098039215)",
+    "--teal-300": "color(srgb .0784313725490196 .8470588235294118 .8313725490196079)",
+    "--teal-400": "color(srgb .0196078431372549 .7411764705882353 .7294117647058823)",
+    "--teal-500": "color(srgb .01568627450980392 .6352941176470588 .6235294117647059)",
+    "--teal-600": "color(srgb .00784313725490196 .5019607843137255 .49019607843137253)",
+    "--teal-700": "color(srgb .00392156862745098 .4117647058823529 .40784313725490196)",
+    "--teal-800": "color(srgb .00392156862745098 .2823529411764706 .2784313725490196)",
+    "--teal-900": "color(srgb .047058823529411764 .16470588235294117 .16470588235294117)",
+    "--testimonial-logo-hover-color": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--testimonial-logo-inactive-color": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--text-underline-offset": ".125em",
+    "--title-text-color": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451 / .7490196078431373)",
+    "--tracking-tight": "-.02em",
+    "--z-index-base": "0",
+    "--z-index-modal": "300",
+    "--z-index-overlay": "200",
+    "--z-index-raised": "10",
+    "--z-index-sticky": "100",
+    "--z-index-toast": "400",
+    "--z-index-tooltip": "500",
+    "--color-brand-1": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--color-brand-2": "color(srgb .0784313725490196 .8470588235294118 .8313725490196079)",
+    "--color-brand-logo-spark": "color(srgb .0196078431372549 .7411764705882353 .7294117647058823)",
+    "--color-brand-logo-text": "color(srgb .00392156862745098 .2823529411764706 .2784313725490196)",
+    "--color-bg-1": "color(srgb 1 1 1)",
+    "--color-bg-1-inverse": "color(srgb .8196078431372549 .8352941176470589 .8549019607843137)",
+    "--color-text-1": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--color-text-2": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451)",
+    "--color-text-3": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--color-link-1": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--color-link-1-hover": "color(srgb .1803921568627451 .3176470588235294 .9294117647058824)",
+    "--color-bg-success": "color(srgb .7450980392156863 .9764705882352941 .7764705882352941)",
+    "--color-border-success": "color(srgb .39215686274509803 .8470588235294118 .4980392156862745)",
+    "--color-text-success": "color(srgb .058823529411764705 .2901960784313726 .12941176470588237)",
+    "--color-bg-warning": "color(srgb .9647058823529412 .8784313725490196 .6470588235294118)",
+    "--color-border-warning": "color(srgb .984313725490196 .6941176470588235 .23921568627450981)",
+    "--color-text-warning": "color(srgb .3764705882352941 .20392156862745098 .03137254901960784)",
+    "--color-bg-invalid": "color(srgb .984313725490196 .8274509803921568 .8156862745098039)",
+    "--color-border-invalid": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--color-text-invalid": "color(srgb .8392156862745098 .15294117647058825 .25098039215686274)",
+    "--color-bg-disabled": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--color-border-disabled": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--color-text-disabled": "color(srgb .615686274509804 .6549019607843137 .6980392156862745)",
+    "--color-border": "1px solid color(srgb 0 0 0 / .14901960784313725)",
+    "--color-brand-1-hover": "color(srgb .12549019607843137 .21176470588235294 .6313725490196078)",
+    "--color-brand-2-hover": "color(srgb .5568627450980392 .984313725490196 .9686274509803922)",
+    "--color-brand-support": "color(srgb .9294117647058824 .9568627450980393 1)",
+    "--color-light-gradient-bg": "linear-gradient( 0deg, color(srgb .9294117647058824 .9568627450980393 1) 0%, color(srgb 1 1 1) 100% )",
+    "--color-bg-shadow": "rgba(0, 0, 0, .1)",
+    "--color-link-inverse-hover": "color(srgb .611764705882353 .7450980392156863 .9647058823529412)",
+    "--color-card-bg": "color(srgb 1 1 1)",
+    "--color-guide-toc-bg": "color(srgb .8705882352941177 1 .996078431372549)",
+    "--color-guide-img-bg": "color(srgb 1 1 1)",
+    "--icon-chevron": "url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cGF0aCBmaWxsPSIjMTgxYTFjIiBkPSJNMjMzLjQgNDA2LjZjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBsMTkyLTE5MmMxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM3MtMzIuOC0xMi41LTQ1LjMgMEwyNTYgMzM4LjcgODYuNiAxNjkuNGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBzLTEyLjUgMzIuOCAwIDQ1LjNsMTkyIDE5MnoiLz4KPC9zdmc+)",
+    "--icon-check-circle": "url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBmaWxsPSIjMTgxYTFjIiBkPSJNMCA4QzAuMDIwODMzMyA2LjUgMC4zODU0MTcgNS4xNTYyNSAxLjA5Mzc1IDMuOTY4NzVDMS44MDIwOCAyLjc2MDQyIDIuNzYwNDIgMS44MDIwOCAzLjk2ODc1IDEuMDkzNzVDNS4xNTYyNSAwLjM4NTQxNyA2LjUgMC4wMjA4MzMzIDggMEM5LjUgMC4wMjA4MzMzIDEwLjg0MzggMC4zODU0MTcgMTIuMDMxMiAxLjA5Mzc1QzEzLjIzOTYgMS44MDIwOCAxNC4xOTc5IDIuNzYwNDIgMTQuOTA2MiAzLjk2ODc1QzE1LjYxNDYgNS4xNTYyNSAxNS45NzkyIDYuNSAxNiA4QzE1Ljk3OTIgOS41IDE1LjYxNDYgMTAuODQzOCAxNC45MDYyIDEyLjAzMTJDMTQuMTk3OSAxMy4yMzk2IDEzLjIzOTYgMTQuMTk3OSAxMi4wMzEyIDE0LjkwNjJDMTAuODQzOCAxNS42MTQ2IDkuNSAxNS45NzkyIDggMTZDNi41IDE1Ljk3OTIgNS4xNTYyNSAxNS42MTQ2IDMuOTY4NzUgMTQuOTA2MkMyLjc2MDQyIDE0LjE5NzkgMS44MDIwOCAxMy4yMzk2IDEuMDkzNzUgMTIuMDMxMkMwLjM4NTQxNyAxMC44NDM4IDAuMDIwODMzMyA5LjUgMCA4Wk0xMS42MjUgNi42MjVDMTEuNzkxNyA2LjQzNzUgMTEuODc1IDYuMjI5MTcgMTEuODc1IDZDMTEuODc1IDUuNzcwODMgMTEuNzkxNyA1LjU2MjUgMTEuNjI1IDUuMzc1QzExLjQzNzUgNS4yMDgzMyAxMS4yMjkyIDUuMTI1IDExIDUuMTI1QzEwLjc3MDggNS4xMjUgMTAuNTYyNSA1LjIwODMzIDEwLjM3NSA1LjM3NUw3IDguNzVMNS42MjUgNy4zNzVDNS40Mzc1IDcuMjA4MzMgNS4yMjkxNyA3LjEyNSA1IDcuMTI1QzQuNzcwODMgNy4xMjUgNC41NjI1IDcuMjA4MzMgNC4zNzUgNy4zNzVDNC4yMDgzMyA3LjU2MjUgNC4xMjUgNy43NzA4MyA0LjEyNSA4QzQuMTI1IDguMjI5MTcgNC4yMDgzMyA4LjQzNzUgNC4zNzUgOC42MjVMNi4zNzUgMTAuNjI1QzYuNTYyNSAxMC43OTE3IDYuNzcwODMgMTAuODc1IDcgMTAuODc1QzcuMjI5MTcgMTAuODc1IDcuNDM3NSAxMC43OTE3IDcuNjI1IDEwLjYyNUwxMS42MjUgNi42MjVaIiAvPgo8L3N2Zz4K)",
+    "--color-metrics-img-filter": "none",
+    "--color-about-hero-bg": "linear-gradient(to top, color(srgb .9294117647058824 .9568627450980393 1), color(srgb 1 1 1))",
+    "--color-blog-cta-card-bg": "color(srgb .9294117647058824 .9568627450980393 1)",
+    "--color-blog-cta-card-border": "color(srgb .9137254901960784 .9215686274509803 .9294117647058824)",
+    "--input-color-text": "color(srgb .20784313725490197 .22745098039215686 .24313725490196078)",
+    "--input-bg": "color(srgb 1 1 1)",
+    "--input-border-color": "color(srgb .4666666666666667 .5019607843137255 .5372549019607843)",
+    "--input-color-placeholder": "color(srgb .32941176470588235 .35294117647058826 .3803921568627451)",
+    "--badge-size-small": ".25rem .625rem",
+    "--badge-size-default": ".375rem .75rem",
+    "--card-title-size-tiny": "1.125rem",
+    "--card-title-size-small": "1.5rem",
+    "--card-title-size-medium": "1.75rem",
+    "--card-title-size-large": "clamp(2rem, 1.5909rem + 1.8182vw, 3rem)",
+    "--site-header-height": "73.796875px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 16,
+    "mainTextLen": 15405,
+    "realImageCount": 23,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.netlify.com",
+        "path": "/pagefind/pagefind-entry.json",
+        "query": [
+          "ts"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 174,
+        "hits": 1,
+        "example": "https://www.netlify.com/pagefind/pagefind-entry.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.netlify.com",
+        "path": "/pagefind/pagefind.en_12efb6c454.pf_meta",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "status": 200,
+        "bytes": 13917,
+        "hits": 1,
+        "example": "https://www.netlify.com/pagefind/pagefind.en_12efb6c454.pf_meta",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.netlify.com",
+        "path": "/pagefind/wasm.en.pagefind",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "status": 200,
+        "bytes": 72209,
+        "hits": 1,
+        "example": "https://www.netlify.com/pagefind/wasm.en.pagefind",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "docs.netlify.com",
+        "path": "/pagefind/pagefind-entry.json",
+        "query": [
+          "ts"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://docs.netlify.com/pagefind/pagefind-entry.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/5dec0507-5e89-4bb4-8f2d-0872be7dd9dd/019be7c0-c17c-7b38-86db-9637cd518176/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "docs.netlify.com",
+        "path": "/pagefind/pagefind.en_d9663937a2.pf_meta",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "status": 200,
+        "bytes": 3789,
+        "hits": 1,
+        "example": "https://docs.netlify.com/pagefind/pagefind.en_d9663937a2.pf_meta",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202311.1.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2644,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otFloatingRounded.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202311.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 12700,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202311.1.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202311.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202311.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "developers.netlify.com",
+        "path": "/pagefind/pagefind-entry.json",
+        "query": [
+          "ts"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 173,
+        "hits": 1,
+        "example": "https://developers.netlify.com/pagefind/pagefind-entry.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "developers.netlify.com",
+        "path": "/pagefind/pagefind.en_45c5bbe766.pf_meta",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "status": 200,
+        "bytes": 1199,
+        "hits": 1,
+        "example": "https://developers.netlify.com/pagefind/pagefind.en_45c5bbe766.pf_meta",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api.hubapi.com",
+        "path": "/hs-script-loader-public/v2/config/pixels-and-events/json",
+        "query": [
+          "portalId"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "rum.browser-intake-datadoghq.com",
+        "path": "/api/v2/rum",
+        "query": [
+          "batch_time",
+          "dd-api-key",
+          "dd-evp-origin",
+          "dd-evp-origin-version",
+          "dd-request-id",
+          "ddsource",
+          "ddtags"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 202,
+        "bytes": 53,
+        "hits": 7,
+        "example": "https://rum.browser-intake-datadoghq.com/api/v2/rum",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cta-service-cms2.hubspot.com",
+        "path": "/web-interactives/public/v1/embed/combinedConfigs",
+        "query": [
+          "currentUrl",
+          "portalId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "join.netlify.com",
+        "path": "/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://join.netlify.com/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "partnerlinks.io",
+        "path": "/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://partnerlinks.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "grsm.io",
+        "path": "/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://grsm.io/pr/grc/pk_F7MBXU66eGsOfaL4aSFGnB5bV0RuxRDj",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "did",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "ep.optanonAction",
+          "ep.optanonCategory",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.segment.com",
+        "path": "/v1/projects/7f8W9mAxost9lRWyMuVR8xaMv9kHxBsy/settings",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.segment.com/v1/projects/7f8W9mAxost9lRWyMuVR8xaMv9kHxBsy/settings",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "forms.hsforms.com",
+        "path": "/embed/v3/form/{n}/{uuid}/json",
+        "query": [
+          "X-HubSpot-Static-App-Info",
+          "hs_static_app",
+          "hs_static_app_version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1290,
+        "hits": 1,
+        "example": "https://forms.hsforms.com/embed/v3/form/7477936/52611e5e-cc55-4960-bf4a-a2adb36291f6/json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "api.segment.io",
+        "path": "/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 21,
+        "hits": 1,
+        "example": "https://api.segment.io/v1/p",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.segment.com",
+        "count": 5
+      },
+      {
+        "host": "www.google.com",
+        "count": 4
+      },
+      {
+        "host": "www.gstatic.com",
+        "count": 4
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 2
+      },
+      {
+        "host": "js.hs-scripts.com",
+        "count": 1
+      },
+      {
+        "host": "js.hsforms.net",
+        "count": 1
+      },
+      {
+        "host": "js.hsadspixel.net",
+        "count": 1
+      },
+      {
+        "host": "js.hs-analytics.net",
+        "count": 1
+      },
+      {
+        "host": "js.hs-banner.com",
+        "count": 1
+      },
+      {
+        "host": "js.hubspot.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "astro",
+      "hubspot-forms"
+    ],
+    "forms": [
+      {
+        "action": "https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/7477936/52611e5e-cc55-4960-bf4a-a2adb36291f6",
+        "hasAction": true,
+        "method": "post",
+        "sameOrigin": false,
+        "fieldCount": 2,
+        "fieldNames": [
+          "email",
+          "g-recaptcha-response"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 8,
+      "thirdPartyEndpoints": 19,
+      "thirdPartyScriptHosts": 13,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

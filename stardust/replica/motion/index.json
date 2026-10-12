@@ -1,0 +1,681 @@
+{
+  "url": "https://www.netlify.com/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 5585,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4085,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "sticky",
+      "height": "73.7969px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[role=tab]:nth-of-type(2)",
+      "frames": [
+        {
+          "t": 21828.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22039.699999999953,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22244.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22450.800000000047,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".has-submenu .submenu-toggle",
+      "frames": [
+        {
+          "t": 23479.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23684.300000000047,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23889.199999999953,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24094.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".n-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "color(srgb 0.207843 0.227451 0.243137)",
+          "background": "color(srgb 1 1 1)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "div.n-card-icon",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "none",
+            "color": "color(srgb 0.180392 0.317647 0.929412)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.n-action-link.n-card-link",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "div.n-action-arrow",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "color(srgb 0.207843 0.227451 0.243137)",
+          "background": "color(srgb 1 1 1)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "div.n-card-icon",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "none",
+            "color": "color(srgb 0.180392 0.317647 0.929412)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.n-action-link.n-card-link",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "div.n-action-arrow",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".button",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "color(srgb 0.0941176 0.101961 0.109804)",
+          "background": "color(srgb 0.196078 0.901961 0.886275)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.2s cubic-bezier(0.33, 1, 0.68, 1), border-color 0.2s cubic-bezier(0.33, 1, 0.68, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "color(srgb 0.0941176 0.101961 0.109804)",
+          "background": "color(srgb 0.556863 0.984314 0.968627)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.2s cubic-bezier(0.33, 1, 0.68, 1), border-color 0.2s cubic-bezier(0.33, 1, 0.68, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".n-action-link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "color(srgb 0.207843 0.227451 0.243137)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "div.n-action-arrow",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "color(srgb 0.207843 0.227451 0.243137)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "div.n-action-arrow",
+            "transform": "none",
+            "color": "color(srgb 0.207843 0.227451 0.243137)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "scroll-shadow",
+        "el": "html > body > header.site-header",
+        "txt": "(function () {\n    const storageUrl = localStorage",
+        "y": 30
+      },
+      {
+        "name": "n-action-link-hover",
+        "el": "div.n-grid > div.n-card.ntl-flow > a.n-action-link.n-card-link > div.n-action-arrow > svg",
+        "txt": "",
+        "y": 2439
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "visibility",
+        "el": "div.n-tabbed-content-wrapper.n-tabbed-content-wrapper-split > div.n-tabbed-content-code > div.code-block.no-frame.show-copy-on-hover > div.code-block-content > button.copy-button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.n-tabbed-content-wrapper.n-tabbed-content-wrapper-split > div.n-tabbed-content-code > div.code-block.no-frame.show-copy-on-hover > div.code-block-content > button.copy-button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "main > section.n-page-section.ntl-breakout > n-tabs.n-tabbed-content > div > button",
+        "y": 5429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.menu > li.has-submenu > submenu-utils > button.submenu-toggle > svg",
+        "y": 2497,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "translate",
+        "el": "ul.menu > li.has-submenu > submenu-utils > button.submenu-toggle > svg",
+        "y": 2497,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "opacity",
+        "el": "nav.site-navigation > ul.menu > li.has-submenu > submenu-utils > div.submenu",
+        "y": 2412,
+        "dur": "0s, 0s, 0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.site-navigation > ul.menu > li.has-submenu > submenu-utils > div.submenu",
+        "y": 2412,
+        "dur": "0s, 0s, 0.3s, 0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "nav.site-navigation > ul.menu > li.has-submenu > submenu-utils > div.submenu",
+        "y": 2412,
+        "dur": "0s, 0s, 0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "nav.site-navigation > ul.menu > li.has-submenu > submenu-utils > div.submenu",
+        "y": 2370,
+        "dur": "0s, 0s, 0.15s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.site-navigation > ul.menu > li.has-submenu > submenu-utils > div.submenu",
+        "y": 2001,
+        "dur": "0s, 0s, 0.15s, 0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "nav.site-navigation > ul.menu > li.has-submenu > submenu-utils > div.submenu",
+        "y": 1961,
+        "dur": "0s, 0s, 0.15s, 0.3s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > header.site-header > section.wrapper.l-breakout > nav.site-navigation > a.button",
+        "y": 1957,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": []
+  }
+}

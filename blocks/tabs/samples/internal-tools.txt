@@ -1,0 +1,18 @@
+<span class="c1">export</span><span class="c1"> default</span><span class="c4"> async</span><span class="c1"> (</span><span class="c5">req</span><span class="c4">:</span><span class="c6"> Request</span><span class="c1">)</span><span class="c4"> =&gt;</span><span class="c1"> {</span>
+<span class="c4">  const</span><span class="c1"> {</span> query <span class="c1">}</span><span class="c4"> =</span><span class="c1"> await</span> req<span class="c1">.</span><span class="c7">json</span>()<span class="c1">;</span>
+
+<span class="c4">  const</span> res <span class="c4">=</span><span class="c1"> await</span><span class="c7"> fetch</span>(Netlify<span class="c1">.</span>env<span class="c1">.</span><span class="c7">get</span>(<span class="c1">"</span><span class="c3">INTERNAL_API</span><span class="c1">"</span>)<span class="c1">,</span><span class="c1"> {</span>
+    method<span class="c1">:</span><span class="c1"> "</span><span class="c3">POST</span><span class="c1">"</span><span class="c1">,</span>
+    headers<span class="c1">:</span><span class="c1"> {</span>
+      Authorization<span class="c1">:</span><span class="c1"> `</span><span class="c3">Bearer </span><span class="c1">${</span>Netlify<span class="c1">.</span>env<span class="c1">.</span><span class="c7">get</span><span class="c3">(</span><span class="c1">"</span><span class="c3">INTERNAL_TOKEN</span><span class="c1">"</span><span class="c3">)</span><span class="c1">}`</span><span class="c1">,</span>
+<span class="c1">      "</span><span class="c3">Content-Type</span><span class="c1">"</span><span class="c1">:</span><span class="c1"> "</span><span class="c3">application/json</span><span class="c1">"</span><span class="c1">,</span>
+<span class="c1">    },</span>
+    body<span class="c1">:</span> JSON<span class="c1">.</span><span class="c7">stringify</span>(<span class="c1">{</span> query <span class="c1">}</span>)<span class="c1">,</span>
+<span class="c1">  }</span>)<span class="c1">;</span>
+
+<span class="c1">  return</span><span class="c4"> new</span><span class="c7"> Response</span>(res<span class="c1">.</span>body<span class="c1">,</span><span class="c1"> {</span>
+    headers<span class="c1">:</span><span class="c1"> {</span><span class="c1"> "</span><span class="c3">Content-Type</span><span class="c1">"</span><span class="c1">:</span><span class="c1"> "</span><span class="c3">application/json</span><span class="c1">"</span><span class="c1"> },</span>
+<span class="c1">  }</span>)<span class="c1">;</span>
+<span class="c1">};</span>
+
+<span class="c1">export</span><span class="c4"> const</span> config <span class="c4">=</span><span class="c1"> {</span> path<span class="c1">:</span><span class="c1"> "</span><span class="c3">/api/internal</span><span class="c1">"</span><span class="c1"> };</span>

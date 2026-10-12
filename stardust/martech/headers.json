@@ -1,0 +1,8 @@
+{
+ "cache-control": "public,max-age=0,must-revalidate",
+ "permissions-policy": "browsing-topics=()",
+ "server": "Netlify",
+ "server-timing": "cr;desc=\"hit-fresh\", ds;dur=3, dc;desc=\"aws-sfo\", cg;desc=\"global-production\", cl;dur=111472, dist;dur=565, tls;desc=\"reused\"",
+ "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+ "x-nf-request-id": "01M4NTVJ16EQ0VB6PDS07Z83DQ"
+}

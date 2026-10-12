@@ -1,58 +1,404 @@
-.tabs .tabs-list {
+/* tabs — values lifted from the gated prototype (bottom.css § primitives) */
+.tabs .n-page-section {
+  --local-space: var(--ntl-space-3xl);
+
+  color: var(--ntl-page-section-text-color, var(--ntl-color-text));
+  background: var(--ntl-page-section-bg-color, var(--ntl-color-bg));
+  padding-block: var(--ntl-page-section-space-top, var(--local-space)) var(--ntl-page-section-space-bottom, var(--local-space));
+}
+
+.tabs .n-page-section > * + * {
+  margin-block-start: var(--ntl-page-section-item-space, var(--ntl-space-2xl));
+}
+
+/* section head: wrappers carry the type, authored nodes inherit it (EW2) */
+.tabs .eyebrow {
+  font-size: var(--ntl-font-size-text-sm);
+  font-family: var(--ntl-font-family-mono);
+  line-height: var(--ntl-line-height-heading);
+  color: var(--ntl-eyebrow-text-color);
+  text-transform: uppercase;
+}
+
+.tabs .n-heading-block-heading {
+  font-family: var(--font-family-display);
+  font-size: var(--ntl-heading-block-heading-font-size, var(--ntl-font-size-display-2xl));
+  inline-size: min(100%, var(--ntl-heading-block-heading-max-width, 50rem));
+  text-wrap: balance;
+  color: var(--ntl-heading-text-color);
+}
+
+.tabs .n-heading-block-text {
+  font-size: var(--ntl-heading-block-text-font-size, var(--ntl-font-size-text-lg));
+  inline-size: min(100%, var(--ntl-heading-block-text-max-width, 35rem));
+  text-wrap: pretty;
+}
+
+.tabs .n-tabbed-content-title {
+  /* source h3.h4: the composition h3 size (--step-3) beats .h4's; .h4 weight */
+  font-family: var(--font-family-display);
+  font-size: var(--step-3);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+}
+
+.tabs :is(.n-heading-block-heading, .n-tabbed-content-title) :is(h2, h3, h4),
+.tabs :is(.eyebrow, .n-heading-block-text, .tab-label, .n-tabbed-content-code-heading) p,
+.tabs :is(.n-stat-row-value, .n-stat-row-label) p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+/* tab set */
+.tabs .n-tabbed-content {
+  --local-border-size: 1px;
+  --local-border-style: solid;
+  --local-border-color-inactive: var(--ntl-color-bg-3);
+  --local-border-color-active: var(--ntl-color-icon);
+
+  display: block;
+  isolation: isolate;
+}
+
+.tabs [role='tablist'] {
+  position: relative;
   display: flex;
-  gap: 0.5ch;
-  max-width: 100%;
-  font-size: var(--body-font-size-xs);
-  overflow-x: auto;
+  border: none;
+  overflow: hidden;
 }
 
-@media (width >= 600px) {
-  .tabs .tabs-list {
-    font-size: var(--body-font-size-s);
-  }
-}
-
-@media (width >= 900px) {
-  .tabs .tabs-list {
-    font-size: var(--body-font-size-m);
-  }
-}
-
-.tabs .tabs-list button {
-  flex: 0 0 max-content;
+.tabs [role='tab'] {
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ntl-space-xs);
+  text-wrap: nowrap;
+  outline-offset: -1px;
   margin: 0;
-  border: 1px solid #dadada;
+  padding: var(--ntl-space-xs) var(--ntl-space-s);
+  font-family: var(--ntl-font-family-display);
+  font-size: var(--ntl-font-size-text-lg);
+  font-weight: var(--ntl-font-weight-semibold);
+  line-height: var(--ntl-line-height-heading);
+  text-align: center;
+  color: inherit;
+  background: var(--ntl-tabbed-content-bg-color);
+  border: var(--local-border-size) var(--local-border-style) var(--local-border-color-inactive);
   border-radius: 0;
-  padding: 0.5em;
-  background-color: var(--light-color);
-  color: initial;
-  font-weight: bold;
-  line-height: unset;
-  text-align: initial;
-  text-overflow: unset;
-  overflow: unset;
-  white-space: unset;
-  transition: background-color 0.2s;
+  border-block-end: unset;
 }
 
-.tabs .tabs-list button p {
+.tabs [role='tab'] > svg {
+  flex-shrink: 0;
+  width: 1em;
+  height: auto;
+}
+
+.tabs [role='tab'][aria-selected='true'] {
+  --local-radius: var(--ntl-radius-s);
+
+  color: var(--ntl-tabbed-content-tab-text-color-active);
+  border-top-left-radius: var(--local-radius);
+  border-top-right-radius: var(--local-radius);
+  border-color: var(--local-border-color-active);
+  background: var(--ntl-tabbed-content-bg-color-active);
+  z-index: 1;
+}
+
+.tabs [role='tab'] + [role='tab'] {
+  margin-inline-start: -1px;
+}
+
+.tabs .n-tabpanel-group {
+  --local-radius: var(--ntl-radius-m);
+
+  background-color: var(--ntl-tabbed-content-bg-color-active);
+  border: var(--local-border-size) var(--local-border-style) var(--local-border-color-active);
+  border-bottom-left-radius: var(--local-radius);
+  border-bottom-right-radius: var(--local-radius);
+  overflow: clip;
+}
+
+.tabs .n-tabpanel-group-uniform-height [role='tabpanel'][hidden] {
+  display: block;
+  visibility: hidden;
+}
+
+.tabs .n-tabbed-content-panel {
+  container-type: inline-size;
+  height: 100%;
+}
+
+.tabs .n-tabbed-content-wrapper-split {
+  display: grid;
+  gap: var(--local-border-size);
+  height: 100%;
+  background-color: var(--ntl-color-icon);
+}
+
+@container (width > 55rem) {
+  .tabs .n-tabbed-content-wrapper-split {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.tabs .n-tabbed-content-body {
+  padding: var(--ntl-space-xl);
+  background-color: var(--ntl-card-bg-color);
+}
+
+/* checklist (source data-list-variant="checklist") */
+.tabs .n-tabbed-content-list :is(ul, ol) {
   margin: 0;
+  padding-inline-start: 1.35em;
+  list-style: none;
 }
 
-
-.tabs .tabs-list button[aria-selected='true'] {
-  border-bottom: 1px solid var(--background-color);
-  background-color: var(--background-color);
-  cursor: initial;
+.tabs .n-tabbed-content-list li {
+  position: relative;
 }
 
-.tabs .tabs-panel {
-  margin-top: -1px;
-  padding: 24px;
-  border: 1px solid #dadada;
+.tabs .n-tabbed-content-list li + li {
+  margin-block-start: var(--space-s);
+}
+
+.tabs .n-tabbed-content-list li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: calc(100% + var(--space-3xs));
+  top: 0.3em;
+  width: 1em;
+  height: 1em;
+  background-color: var(--color-icon);
+  mask-image: url("/icons/checklist-check.svg");
+  mask-repeat: no-repeat;
+}
+
+.tabs .n-tabbed-content-ctas {
+  display: grid;
+  gap: var(--ntl-space-s);
+}
+
+@media (width >= 30rem) {
+  .tabs .n-tabbed-content-ctas {
+    justify-items: start;
+  }
+}
+
+.tabs .n-tabbed-content-code {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: var(--local-border-size);
+  background-color: var(--ntl-tabbed-content-code-bg-color);
+  min-width: 0;
+}
+
+.tabs .n-tabbed-content-code-heading {
+  display: flex;
+  gap: var(--ntl-space-xs);
+  align-items: center;
+  padding: var(--ntl-space-xs);
+  font-family: var(--ntl-font-family-mono);
+  font-size: var(--ntl-font-size-text-md);
+  text-transform: uppercase;
+  color: var(--neutral-light-400);
+  background-color: var(--ntl-tabbed-content-code-bg-color);
+  border-block-end: var(--local-border-size) var(--local-border-style) var(--local-border-color-active);
+}
+
+.tabs .n-tabbed-content-code-block {
+  flex-grow: 1;
+}
+
+/* code block (source .code-block component) */
+.tabs .code-block {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  line-height: 1.5;
+  border: var(--n-code-block-border, 1px solid var(--neutral-700));
+  border-radius: var(--n-code-block-radius, var(--radius-m));
+  background-color: var(--n-code-block-bg-color, var(--neutral-900));
+}
+
+.tabs .code-block .code-block-content {
+  display: grid;
+  position: relative;
   overflow: auto;
+  margin: 0;
+  height: 100%;
 }
 
-.tabs .tabs-panel[aria-hidden='true'] {
+.tabs .code-block pre {
+  margin: 0;
+  border: 0;
+  padding-block: var(--space-m);
+  padding-inline: var(--space-s);
+  outline-offset: -2px;
+  overflow-x: auto;
+  color: #e4f0fb;
+  background-color: transparent;
+}
+
+.tabs .code-block :where(pre, code) {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-text-md);
+  font-weight: var(--font-weight-regular);
+}
+
+.tabs .code-block code {
+  padding: 0;
+  color: inherit;
+  background: none;
+}
+
+/* poimandres token colours, as rendered by the source highlighter */
+.tabs .poimandres .c1 { color: #89ddff; }
+.tabs .poimandres .c3 { color: #add7ff; }
+.tabs .poimandres .c4 { color: #c792ea; }
+.tabs .poimandres .c5 { color: #5de4c7; }
+.tabs .poimandres .c6 { color: #7fdbca; }
+.tabs .poimandres .c7 { color: #5fb3ff; }
+
+.tabs .poimandres .c8 {
+  color: #a6accd;
+  font-style: italic;
+}
+
+.tabs .poimandres .c9 {
+  color: #7fdbca;
+  font-style: italic;
+}
+
+.tabs .code-block .copy-button {
+  appearance: none;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--neutral-700);
+  border-radius: 4px;
+  background-color: var(--neutral-800);
+  color: var(--neutral-400);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tabs .code-block .copy-button:hover,
+.tabs .code-block .copy-button:focus-visible {
+  background-color: var(--neutral-900);
+  color: var(--neutral-200);
+}
+
+.tabs .code-block .copy-button svg {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  color: inherit;
+  fill: currentcolor;
+}
+
+.tabs .code-block .copy-button .check-icon {
   display: none;
+}
+
+.tabs .code-block .copy-button.copied .copy-icon {
+  display: none;
+}
+
+.tabs .code-block .copy-button.copied .check-icon {
+  display: block;
+}
+
+.tabs .code-block .copy-button::before,
+.tabs .code-block .copy-button::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s ease, visibility 0s 0.2s ease;
+}
+
+.tabs .code-block .copy-button::before {
+  content: attr(data-tooltip);
+  right: calc(100% + 10px);
+  padding: 0.15em 0.5em;
+  border-radius: 2px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+.tabs .code-block .copy-button::after {
+  content: "";
+  right: 100%;
+  border: 5px solid transparent;
+  border-left-color: var(--color-bg);
+}
+
+.tabs .code-block .copy-button:is(:hover, :focus)::before,
+.tabs .code-block .copy-button:is(:hover, :focus)::after {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease;
+}
+
+.tabs .code-block .copy-button.error::before {
+  background-color: var(--red-500);
+}
+
+.tabs .code-block .copy-button.error::after {
+  border-left-color: var(--red-500);
+}
+
+.tabs .code-block.show-copy-on-hover .copy-button {
+  opacity: 0;
+}
+
+.tabs .code-block.show-copy-on-hover:hover .copy-button,
+.tabs .code-block.show-copy-on-hover .copy-button:focus {
+  opacity: 1;
+}
+
+/* stat row */
+.tabs .n-stat-row {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+.tabs .n-stat-row-item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2xs);
+}
+
+.tabs .n-stat-row-value {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-display-sm);
+  line-height: 1;
+  color: var(--heading-text-color);
+}
+
+.tabs .n-stat-row-label {
+  color: var(--body-text-color);
 }

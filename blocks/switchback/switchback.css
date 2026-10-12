@@ -1,0 +1,172 @@
+/* switchback — values lifted from the gated prototype (bottom.css § switchbacks) */
+.switchback .n-page-section {
+  --local-space: var(--ntl-space-3xl);
+
+  color: var(--ntl-page-section-text-color, var(--ntl-color-text));
+  background: var(--ntl-page-section-bg-color, var(--ntl-color-bg));
+  padding-block: var(--ntl-page-section-space-top, var(--local-space)) var(--ntl-page-section-space-bottom, var(--local-space));
+}
+
+.switchback .n-switchback-group > * + * {
+  margin-block-start: var(--n-switchback-group-space, var(--ntl-space-xl));
+}
+
+.switchback .n-switchback {
+  --ntl-sidebar-size: 28.75rem;
+  --ntl-sidebar-min: 50%;
+  --ntl-sidebar-gap: 0;
+
+  overflow: hidden;
+  color: var(--ntl-neutral-000);
+  background:
+    linear-gradient(
+      var(--ntl-switchback-gradient-angle, 101deg),
+      color-mix(in srgb, var(--ntl-teal-900) 42%, var(--ntl-neutral-900)) 8.17%,
+      var(--ntl-teal-900) 56.72%
+    );
+  border: 1px solid color-mix(in srgb, var(--ntl-teal-000) 20%, transparent);
+  border-radius: var(--ntl-radius-m);
+}
+
+.switchback .n-switchback-reversed {
+  --ntl-switchback-gradient-angle: 248deg;
+
+  flex-direction: row-reverse;
+}
+
+.switchback .n-switchback-content {
+  padding: var(--ntl-space-l);
+}
+
+/* authored nodes inherit the wrapper type (EW2) */
+.switchback .eyebrow {
+  font-size: var(--ntl-font-size-text-sm);
+  font-family: var(--ntl-font-family-mono);
+  line-height: var(--ntl-line-height-heading);
+  color: var(--ntl-eyebrow-text-color);
+  text-transform: uppercase;
+}
+
+.switchback .n-switchback-heading {
+  /* source h3.h5: the composition h3 size (--step-3) beats .h5's; .h5 weight */
+  font-family: var(--font-family-display);
+  font-size: var(--step-3);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+  color: var(--ntl-neutral-000);
+}
+
+.switchback :is(.eyebrow, .text, .n-switchback-cta) p,
+.switchback .n-switchback-heading :is(h2, h3, h4) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+/* contained list (source data-list-variant="contained") */
+.switchback .n-switchback-list {
+  width: 100%;
+}
+
+.switchback .n-switchback-list :is(ul, ol) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.switchback .n-switchback-list li {
+  padding: var(--space-s);
+  border-radius: var(--radius-s);
+  border: 1px solid rgb(255 255 255 / 20%);
+  background: #e9ebed1a;
+}
+
+.switchback .n-switchback-list li + li {
+  margin-block-start: var(--space-2xs);
+}
+
+.switchback .n-switchback-media {
+  display: grid;
+  place-items: center;
+  padding: var(--ntl-space-xl);
+  min-height: 10rem;
+  background: transparent;
+}
+
+.switchback .n-switchback-media p {
+  margin: 0;
+}
+
+.switchback .n-switchback-media img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* action link (authored <p><a>, generated arrow) */
+.switchback .n-switchback-cta a:any-link {
+  display: inline-block;
+  font-weight: var(--ntl-font-weight-medium);
+  font-size: var(--ntl-font-size-text-md);
+  text-wrap: pretty;
+  text-decoration: underline;
+  text-decoration-color: var(--ntl-color-link);
+  text-underline-offset: 0.1em;
+  color: var(--ntl-color-text);
+}
+
+.switchback .n-action-arrow {
+  display: inline-flex;
+  overflow: hidden;
+  margin-inline-start: 0.1em;
+}
+
+.switchback .n-action-arrow svg {
+  color: var(--ntl-color-icon);
+  transition: translate 0.1s ease-out;
+}
+
+@media (any-hover: hover) {
+  .switchback .n-switchback-cta a:where(:hover, :focus-visible) .n-action-arrow svg {
+    --local-offset: 100%;
+
+    animation: n-action-link-hover 0.35s cubic-bezier(0.85, 0, 0.15, 1) forwards;
+  }
+}
+
+@keyframes n-action-link-hover {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  30% {
+    translate: calc(var(--local-offset) * 2) calc(var(--local-offset) * -2);
+  }
+
+  31% {
+    translate: calc(var(--local-offset) * -1) var(--local-offset);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .switchback .n-action-arrow svg {
+    animation: none !important;
+  }
+}
+
+/* every link in the copy column (the source rule comes last and wins) */
+.switchback .n-switchback-content a:any-link {
+  color: inherit;
+  font-weight: 700;
+  text-decoration-color: var(--ntl-teal-300);
+  text-underline-offset: 0.18em;
+}
+
+.switchback .n-switchback-content a:focus-visible {
+  outline: 2px solid var(--ntl-teal-200);
+  outline-offset: 0.2rem;
+  border-radius: 0.15rem;
+}

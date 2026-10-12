@@ -1,0 +1,23 @@
+{
+  "landing": {
+    "archetype": "index",
+    "liveUrl": "https://www.netlify.com/",
+    "prototype": "stardust/prototypes/index-proposed.html",
+    "contentRoot": "#main",
+    "iterations": { "1440": 3, "360": 3 },
+    "gates": {
+      "1440": { "pixel": 0.10, "heightDelta": 0, "structuralRed": 1, "structuralRedJustified": ["ROLE SWAP [header] 'Help': live renders <h2><astro-slot>Help</astro-slot></h2> (measured h2, same computed style) — #87 granularity false-red"], "visualFlags": 0, "chromeParity": "quiet", "clipped": 0, "overflow": "ok", "crop": { "header": "100%", "footer": "100%" }, "verdict": "PASS" },
+      "360":  { "pixel": 4.27, "heightDelta": 5, "structuralRed": 1, "structuralRedJustified": ["same 'Help' false-red"], "visualFlags": 0, "chromeParity": "quiet", "clipped": 0, "overflow": "ok", "crop": { "header": "100%", "footer": "100% (y-b offset 5)" }, "verdict": "PASS" }
+    },
+    "capProbe": { "verdict": "PASS (justified)", "rows": "7/7 module caps 1280=1280; wrapper row ✗ is the text-share heuristic only — measure.mjs at 2560: n-tabs.n-tabbed-content, tabpanel group, panels Δ0 on all boxes", "evidence": "stardust/replica/gates/index-2560/cap-iter.json" },
+    "residuals": [
+      "360 height Δ5px: live stitched capture is 10783px while live DOM (anchor.mjs) is 10778px = build; offset-contaminated bands 1000+ at 1–8.6% (ticker frame + live sticky header painted in stitch chunks)",
+      "logo ticker: prototype honours prefers-reduced-motion on .n-ticker-content; source's reduced-motion rule targets a non-existent .ticker-content and never pauses (motion parity unaffected; gate freezes animations)"
+    ],
+    "captureState": [
+      { "what": "logo ticker marquee (#section-logos .n-ticker-content, CSS animation, infinite)", "restoreAtDelivery": true }
+    ],
+    "motion": { "observed": "stardust/replica/motion/index.json", "build": "stardust/replica/motion/index-build.json", "compare": "13 parity, 0 missing, 0 extra", "implemented": ["ticker marquee", "button hover bg 200ms", "action-link hover", "header scroll-shadow", "submenu open/close", "tabs", "copy buttons", "lite-youtube click-to-load", "search dialog", "announcement close", "mobile drawer"], "dead": ["header scroll-morph", "tab track motion", "card hover", "n-action-link hover box"] },
+    "approvedBy": "hands-off"
+  }
+}

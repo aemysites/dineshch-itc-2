@@ -1,0 +1,79 @@
+/* logo-ticker — values lifted from the gated prototype (top.css § logo ticker) */
+.logo-ticker .n-page-section {
+  --local-space: var(--ntl-space-3xl);
+  --ntl-page-section-space-top: var(--space-l);
+  --ntl-page-section-space-bottom: 0;
+
+  color: var(--ntl-page-section-text-color, var(--ntl-color-text));
+  background: var(--ntl-page-section-bg-color, var(--ntl-color-bg));
+  padding-block: var(--ntl-page-section-space-top, var(--local-space)) var(--ntl-page-section-space-bottom, var(--local-space));
+}
+
+.logo-ticker .n-ticker {
+  --n-ticker-gap: var(--ntl-space-2xl);
+  --n-ticker-duration: 50s;
+  --local-gap: var(--n-ticker-gap, var(--ntl-space-s));
+
+  display: flex;
+  flex-direction: var(--n-ticker-direction, row);
+  overflow: hidden;
+  user-select: none;
+  gap: var(--local-gap);
+  max-width: 100%;
+  mask-image:
+    linear-gradient(
+      var(--n-ticker-mask-direction, to right),
+      rgb(0 0 0 / 0%) 0%,
+      rgb(0 0 0 / 100%) 15%,
+      rgb(0 0 0 / 100%) 85%,
+      rgb(0 0 0 / 0%) 100%
+    );
+}
+
+.logo-ticker .n-ticker-content {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: var(--n-ticker-direction, row);
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--local-gap);
+  animation-name: var(--n-ticker-animation, scroll-x);
+  animation-duration: var(--n-ticker-duration, 30s);
+  animation-play-state: var(--n-ticker-play-state, running);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.logo-ticker .n-ticker:hover .n-ticker-content {
+  animation-play-state: var(--n-ticker-hover-play-state, running);
+}
+
+@keyframes scroll-x {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(calc(-100% - var(--local-gap)));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-ticker .n-ticker-content {
+    animation-play-state: paused !important;
+  }
+}
+
+.logo-ticker .n-trust-bar-ticker-item {
+  display: flex;
+  align-items: center;
+  gap: var(--ntl-space-xs);
+}
+
+.logo-ticker .n-trust-bar-ticker-item-content :where(img, svg) {
+  width: 100%;
+  height: auto;
+  max-height: 4rem;
+  object-fit: contain;
+  filter: var(--ntl-filter-invert);
+}

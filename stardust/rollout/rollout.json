@@ -1,0 +1,36 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-11T16:24:06.487Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.netlify.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "928837cf",
+      "ref": "main"
+    },
+    "liveHost": "main--928837cf--aemcoder.aem.live",
+    "site": "928837cf"
+  },
+  "lastRun": {
+    "at": "2026-10-11T18:44:05.797Z",
+    "pages": {
+      "total": 1,
+      "verified": 1,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 7,
+      "converted": 7,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

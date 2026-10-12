@@ -1,0 +1,181 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1280px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1280px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1280,
+          "via": "fixed",
+          "selector": "#section-primitives > n-tabs.n-tabbed-content",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1280,
+          "via": "fixed",
+          "selector": "#main > section.n-page-section.ntl-breakout > div.n-page-hero-graphic-container.ntl-flex-grid",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 800,
+          "via": "fixed",
+          "selector": "#section-get-started > div.n-heading-block.ntl-flow > h2.n-heading-block-heading.h1",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 666,
+          "via": "fixed",
+          "selector": "section.n-page-section.ntl-breakout > div.n-page-hero-graphic-container.ntl-flex-grid > astro-island > div.n-dropzone.is-bare",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 630,
+          "via": "fixed",
+          "selector": "div.n-page-hero-graphic-container.ntl-flex-grid > astro-island > div.n-dropzone.is-bare > div.n-dropzone-content",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 582,
+          "via": "fixed",
+          "selector": "#main > section.n-page-section.ntl-breakout > div.n-page-hero-graphic-container.ntl-flex-grid > div.n-heading-block.ntl-flow",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 560,
+          "via": "fixed",
+          "selector": "section.n-page-section.ntl-breakout > div.n-page-hero-graphic-container.ntl-flex-grid > div.n-heading-block.ntl-flow > p.n-heading-block-text",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 511,
+          "via": "fixed",
+          "selector": "#section-start-your-way > div.n-grid > div.n-card.ntl-flow > div.n-card-paragraph",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 461,
+          "via": "fixed",
+          "selector": "#section-start-your-way > div.n-heading-block.ntl-flow",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 411,
+          "via": "fixed",
+          "selector": "#section-get-started > div.n-step-group > div.n-step-item",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 380,
+          "via": "fixed",
+          "selector": "div.n-switchback-group > div.n-switchback.ntl-sidebar-left > div.n-switchback-content.ntl-flow > h3.n-switchback-heading.h5",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 307,
+          "via": "fixed",
+          "selector": "section.n-page-section.ntl-breakout > div.n-page-hero-graphic-container.ntl-flex-grid > div.n-heading-block.ntl-flow > div.n-heading-block-ctas.ntl-cluster",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 264,
+          "via": "fixed",
+          "selector": "div.n-grid > div.n-card.ntl-flow > div.n-cli-copy > code",
+          "pages": [
+            "https://www.netlify.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.netlify.com/",
+          "section": 0,
+          "selector": "#main > section.n-page-section.ntl-breakout",
+          "px": 1280
+        },
+        {
+          "url": "https://www.netlify.com/",
+          "section": 1,
+          "selector": "#section-logos",
+          "px": 1280
+        },
+        {
+          "url": "https://www.netlify.com/",
+          "section": 2,
+          "selector": "#section-get-started",
+          "px": 1280
+        },
+        {
+          "url": "https://www.netlify.com/",
+          "section": 3,
+          "selector": "#section-start-your-way",
+          "px": 1280
+        },
+        {
+          "url": "https://www.netlify.com/",
+          "section": 4,
+          "selector": "#section-platform",
+          "px": 1280
+        },
+        {
+          "url": "https://www.netlify.com/",
+          "section": 5,
+          "selector": "#section-testimonial",
+          "px": 1280
+        },
+        {
+          "url": "https://www.netlify.com/",
+          "section": 6,
+          "selector": "#section-primitives",
+          "px": 1280
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-11T15:54:46.360Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.netlify.com/"
+        ]
+      }
+    }
+  }
+}

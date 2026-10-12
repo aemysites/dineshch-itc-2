@@ -1,0 +1,80 @@
+/* testimonial — values lifted from the gated prototype (bottom.css § testimonial) */
+.testimonial .n-page-section {
+  --local-space: var(--ntl-space-3xl);
+
+  color: var(--ntl-page-section-text-color, var(--ntl-color-text));
+  background: var(--ntl-page-section-bg-color, var(--ntl-color-bg));
+  padding-block: var(--ntl-page-section-space-top, var(--local-space)) var(--ntl-page-section-space-bottom, var(--local-space));
+}
+
+.testimonial figure {
+  --local-gap: var(--ntl-space-s);
+
+  display: grid;
+  gap: var(--local-gap);
+  margin: 0;
+  padding-inline-start: var(--local-gap);
+  border-inline-start: 3px solid var(--ntl-color-icon);
+  font-family: var(--ntl-font-family-display);
+  line-height: var(--ntl-line-height-heading);
+}
+
+.testimonial figure[data-blockquote-variant='testimonial'] {
+  border-inline-start: none;
+  font-size: var(--ntl-font-size-display-lg);
+  font-weight: var(--ntl-font-weight-bold);
+  line-height: var(--ntl-line-height-heading);
+}
+
+.testimonial blockquote {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  margin: 0;
+  text-indent: -0.45em;
+  text-wrap: pretty;
+  color: var(--heading-text-color);
+}
+
+.testimonial blockquote::before {
+  content: open-quote;
+  color: var(--ntl-blockquote-accent-color);
+}
+
+.testimonial blockquote::after {
+  content: close-quote;
+  color: var(--ntl-blockquote-accent-color);
+}
+
+/* the authored quote paragraph flows inline between the generated marks */
+.testimonial blockquote p {
+  display: inline;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.testimonial figcaption {
+  display: flex;
+  align-items: center;
+  gap: var(--local-gap);
+}
+
+.testimonial .n-blockquote-author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  font-family: var(--ntl-font-family-mono);
+  font-size: var(--ntl-font-size-text-sm);
+  font-weight: var(--ntl-font-weight-regular);
+  line-height: var(--ntl-line-height-heading);
+  text-transform: uppercase;
+}
+
+.testimonial .n-blockquote-author-info p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.testimonial .n-blockquote-title {
+  color: var(--ntl-color-text-weak);
+}

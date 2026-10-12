@@ -1,0 +1,19 @@
+<span class="c1">import</span><span class="c1"> {</span> getStore <span class="c1">}</span><span class="c1"> from</span><span class="c1"> "</span><span class="c3">@netlify/blobs</span><span class="c1">"</span><span class="c1">;</span>
+<span class="c1">import</span><span class="c1"> type</span><span class="c1"> {</span> Context <span class="c1">}</span><span class="c1"> from</span><span class="c1"> "</span><span class="c3">@netlify/functions</span><span class="c1">"</span><span class="c1">;</span>
+<span class="c1">import</span><span class="c1"> {</span> v4 <span class="c1">as</span> uuid <span class="c1">}</span><span class="c1"> from</span><span class="c1"> "</span><span class="c3">uuid</span><span class="c1">"</span><span class="c1">;</span>
+
+<span class="c1">export</span><span class="c1"> default</span><span class="c4"> async</span><span class="c1"> (</span><span class="c5">req</span><span class="c4">:</span><span class="c6"> Request</span><span class="c1">,</span><span class="c5"> context</span><span class="c4">:</span><span class="c6"> Context</span><span class="c1">)</span><span class="c4"> =&gt;</span><span class="c1"> {</span>
+<span class="c8">  // Accessing the request as `multipart/form-data`.</span>
+<span class="c4">  const</span> form <span class="c4">=</span><span class="c1"> await</span> req<span class="c1">.</span><span class="c7">formData</span>()<span class="c1">;</span>
+<span class="c4">  const</span> file <span class="c4">=</span> form<span class="c1">.</span><span class="c7">get</span>(<span class="c1">"</span><span class="c3">file</span><span class="c1">"</span>) <span class="c1">as</span><span class="c6"> File</span><span class="c1">;</span>
+
+<span class="c8">  // Generating a unique key for the entry.</span>
+<span class="c4">  const</span> key <span class="c4">=</span><span class="c7"> uuid</span>()<span class="c1">;</span>
+
+<span class="c4">  const</span> uploads <span class="c4">=</span><span class="c7"> getStore</span>(<span class="c1">"</span><span class="c3">file-uploads</span><span class="c1">"</span>)<span class="c1">;</span>
+<span class="c1">  await</span> uploads<span class="c1">.</span><span class="c7">set</span>(key<span class="c1">,</span> file<span class="c1">,</span><span class="c1"> {</span>
+    metadata<span class="c1">:</span><span class="c1"> {</span> country<span class="c1">:</span> context<span class="c1">.</span>geo<span class="c1">.</span>country<span class="c1">.</span>name <span class="c1">}</span>
+<span class="c1">  }</span>)<span class="c1">;</span>
+
+<span class="c1">  return</span><span class="c4"> new</span><span class="c7"> Response</span>(<span class="c1">"</span><span class="c3">Submission saved</span><span class="c1">"</span>)<span class="c1">;</span>
+<span class="c1">};</span>
